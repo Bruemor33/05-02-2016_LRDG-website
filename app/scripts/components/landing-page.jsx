@@ -11,7 +11,7 @@ var LandingPage = React.createClass({
 
   render: function(){
     return(
-      <div className="container-fluid">
+      <div id="imagehere" className="container-fluid">
         <div className="background-image">
 
         </div>
