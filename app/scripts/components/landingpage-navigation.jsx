@@ -14,11 +14,12 @@ var LandingNav = React.createClass({
       <div className="container-fluid">
         <nav className="row">
           <div className="landing-navigation col-md-12">
-            <a href="#overview">Overview</a>
-            <a href="#projects">Projects</a>
-            <a href="#people">People</a>
-            <a href="#contact">Contact Us</a>
-            <a href="#index">Land Resource Design Group</a>
+            <img src="./images/small-lrdg-logo.png" className="landing-logo" />
+            <a href="#overview" className="landing-overview">Overview</a>
+            <a href="#projects" className="landing-projects">Projects</a>
+            <a href="#people" className="landing-people">Studio</a>
+            <a href="#contact" className="landing-contact">Contact</a>
+            <a href="#index" className="landing-company-name">Land Resource Design Group</a>
           </div>
         </nav>
       </div>
