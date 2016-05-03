@@ -1,0 +1,58 @@
+.landing-navigation {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 550px;
+
+  height: 55px;
+
+  a {
+    text-decoration: none;
+    color: #FADCAE;
+    font-size: 25px;
+  }
+}
+
+.landing-logo {
+  height: 95px;
+}
+
+.landing-overview {
+  margin-left: 60px;
+
+}
+.landing-overview:hover {
+  color: #000;
+  background-color: #AFB38A;
+  background-size: contain;
+  height: 55px;
+}
+
+.landing-projects {
+
+}
+.landing-projects:hover {
+  color: #000;
+  background-color: #E1D6CC;
+}
+
+
+.landing-people {
+  
+}
+.landing-people:hover {
+  color: #000;
+  background-color: #A76459;
+}
+
+.landing-contact {
+
+}
+.landing-contact:hover {
+  color: #000;
+  background-color: #FADCAE;
+}
+
+.landing-company-name {
+  float: right;
+  margin-right: 40px;
+}

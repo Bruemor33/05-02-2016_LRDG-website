@@ -1,0 +1,88 @@
+@media(max-width: 2560px){
+  .landing-navigation {
+    position: absolute;
+    top: 300px;
+    padding-top: 8px;
+    height: 75px;
+  }
+  .landing-logo {
+    height: 95px;
+    position: relative;
+    bottom: 9px;
+    margin-left: 40px;
+  }
+  .landing-overview {
+    position: relative;
+    bottom: 12px;
+  }
+  .landing-projects {
+    position: relative;
+    bottom: 12px;
+  }
+  .landing-people {
+    position: relative;
+    bottom: 12px;
+  }
+  .landing-contact {
+    position: relative;
+    bottom: 12px;
+  }
+  .landing-company-name {
+    margin-right: 60px;
+    position: relative;
+    top: 11px;
+  }
+}
+
+@media(max-width: 1440px){
+  .landing-navigation {
+    position: absolute;
+    top: -35px;
+    padding-top: 8px;
+    height: 55px;
+  }
+  .landing-navigation a {
+    font-size: 18px;
+  }
+  .landing-logo {
+    height: 75px;
+    position: relative;
+    top: -12px;
+  }
+  .landing-overview {
+    position: relative;
+    top: -15px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+  .landing-projects {
+    position: relative;
+    top: -15px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+  .landing-people {
+    position: relative;
+    top: -15px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+  .landing-contact {
+    position: relative;
+    top: -15px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+  .landing-company-name {
+    position: relative;
+    top: 7px;
+  }
+}
