@@ -14,7 +14,7 @@ var Router = Backbone.Router.extend({
     "projects": "projects",
     "overview": "overview",
     "people": "people",
-    "contact": "contant",
+    "contact": "contact",
     "images": "images",
     "*notfound": "notfound"
   },
