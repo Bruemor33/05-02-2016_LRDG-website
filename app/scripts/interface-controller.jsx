@@ -10,7 +10,9 @@ require('Backbone-React-Component');
 
 //Local component imports here
 var LandingNav = require('./components/landingpage-navigation.jsx').LandingNav;
+var ProjectsNav = require('./components/projects-nav.jsx').ProjectsNav;
 var LandingPage = require('./components/landing-page.jsx').LandingPage;
+var ProjectsComponent = require('./components/projects.jsx').ProjectsComponent;
 
 
 //kick off controller
@@ -34,18 +36,19 @@ var InterfaceComponent = React.createClass({
   render: function(){
     var body;
     var navigation;
+    var siteNavigation;
 
     if(this.state.router.current == "index"){
       navigation = (<LandingNav />)
       body = (<LandingPage/>)
     }
     if(this.state.router.current == "overview"){
-      navigation = (<LandingNav />)
+      siteNavigation = (<LandingNav />)
       body = (<h1>Overview</h1>)
     }
     if(this.state.router.current == "projects"){
-      navigation = (<LandingNav />)
-      body = (<h1>Projects</h1>)
+      siteNavigation = (<ProjectsNav />)
+      body = (<ProjectsComponent />)
     }
     if(this.state.router.current == "people"){
       navigation = (<LandingNav />)
@@ -58,6 +61,7 @@ var InterfaceComponent = React.createClass({
 
     return(
       <div>
+        {siteNavigation}
         {body}
         {navigation}
       </div>
