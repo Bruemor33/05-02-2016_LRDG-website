@@ -1,32 +1,89 @@
-.project-one-container {
+
+
+/***********************************************************************************************
+Projects Page
+***********************************************************************************************/
+
+
+
+
+body {
   background-color: #A1A89A;
-  height: 400px;
+  height: 100%;
   padding: 0px;
   margin: 0px;
 }
 
 .kindred-writeup {
-  height: 400px;
   width: 400px;
+  height: 200px;
+  background-image: url('../images/seaisle-signage.jpg');
+  background-size: cover;
   display: inline-block;
   margin-right: 0px;
-  border: 1px solid #000;
+  color: #fff;
 }
 
-.kindred-photo-slideshow {
+.transparent-background {
+  height: 200px;
+  width: 400px;
+  background-color: rgba( 0, 0, 0, 0.4);
+  position: relative;
+  bottom: 20px;
+  right: 15px;
+}
+
+.kindred-writeup h3 {
+  font-family: 'Poppins', serif;
+}
+
+.waterleigh-landing {
+  width: 400px;
+  height: 200px;
+  background-image: url('../images/seaisle-signage.jpg');
+  background-size: cover;
   display: inline-block;
+  margin-right: 0px;
+  color: #fff;
 }
 
-.kindred-photo-slideshow img {
-  height: 400px;
-  vertical-align: inherit;
+.nonapark-landing {
+  width: 400px;
+  height: 200px;
+  background-image: url('../images/seaisle-signage.jpg');
+  background-size: cover;
+  display: inline-block;
+  margin-right: 0px;
+  color: #fff;
 }
 
-.project-two-container {
-  background-color: #E1D6CC;
+.seaisle-landing {
+  width: 400px;
+  height: 200px;
+  background-image: url('../images/seaisle-signage.jpg');
+  background-size: cover;
+  color: #fff;
 }
 
-.waterleigh-writeup {
-  height: 400px;
-  border: 1px solid #000;
+.altis-landing {
+  width: 400px;
+  height: 200px;
+  background-image: url('../images/seaisle-signage.jpg');
+  background-size: cover;
+  color: #fff;
 }
+
+.dwell-landing {
+  width: 400px;
+  height: 200px;
+  background-image: url('../images/seaisle-signage.jpg');
+  background-size: cover;
+  color: #fff;
+}
+
+
+
+
+/***********************************************************************************************
+Projects Page Media Queries
+***********************************************************************************************/
