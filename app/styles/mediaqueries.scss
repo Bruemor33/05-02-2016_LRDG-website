@@ -14,23 +14,45 @@
   .landing-overview {
     position: relative;
     bottom: 12px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-right: 8px;
+    padding-left: 8px;
   }
   .landing-projects {
     position: relative;
     bottom: 12px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-right: 8px;
+    padding-left: 8px;
   }
   .landing-people {
     position: relative;
     bottom: 12px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-right: 8px;
+    padding-left: 8px;
   }
   .landing-contact {
     position: relative;
     bottom: 12px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-right: 8px;
+    padding-left: 8px;
   }
   .landing-company-name {
     margin-right: 60px;
     position: relative;
     top: 11px;
+  }
+
+  .cd-slideshow li div h3 {
+    text-align: center;
+    position: relative;
+    bottom: 300px;
   }
 }
 
@@ -84,5 +106,10 @@
   .landing-company-name {
     position: relative;
     top: 7px;
+  }
+  .cd-slideshow li div h3 {
+    text-align: center;
+    position: relative;
+    bottom: 100px;
   }
 }
