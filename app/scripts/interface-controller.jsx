@@ -58,8 +58,8 @@ var InterfaceComponent = React.createClass({
 
     return(
       <div>
-        {navigation}
         {body}
+        {navigation}
       </div>
     )
   }
