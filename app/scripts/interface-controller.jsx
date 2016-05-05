@@ -13,6 +13,7 @@ var LandingNav = require('./components/landingpage-navigation.jsx').LandingNav;
 var ProjectsNav = require('./components/projects-nav.jsx').ProjectsNav;
 var LandingPage = require('./components/landing-page.jsx').LandingPage;
 var ProjectsComponent = require('./components/projects.jsx').ProjectsComponent;
+var SeaIsleComponent = require('./components/projects/sea-isle.jsx').SeaIsleComponent;
 
 
 //kick off controller
@@ -64,7 +65,7 @@ var InterfaceComponent = React.createClass({
     }
     if(this.state.router.current == "seaisle"){
       siteNavigation = (<ProjectsNav />)
-      body = (<h1>Sea Isle</h1>)
+      body = (<SeaIsleComponent />)
     }
     if(this.state.router.current == "altis"){
       siteNavigation = (<ProjectsNav />)
