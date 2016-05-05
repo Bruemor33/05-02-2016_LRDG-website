@@ -19,15 +19,43 @@ Sea Isle Styling
   position: fixed;
   top: 20px;
   width: 400px;
-  height: 400px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  height: 85px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: -5px;
   background-color: rgba(0, 0, 0, 0.5);
   color: #E1D6CC;
   font-family: 'Poppins', serif;
+  font-weight: 300;
+}
+.sea-isle-writeup h2 {
+  margin-top: 10px;
+}
+.sea-isle-writeup p {
+  display: inline;
+}
+.info {
+  display: inline-block;
+  margin-left: 146px;
+}
+.glyphicon {
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  margin-left: 10px;
+}
 
+.sea-isle-summary {
+  display: none;
+  position: fixed;
+  top: 105px;
+  width: 400px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #E1D6CC;
+  font-family: 'Poppins', serif;
+  font-weight: 300;
 }
 
 
