@@ -17,6 +17,12 @@ var SeaIsleComponent = React.createClass({
         <div classNme="col-md-12">
           <div className="sea-isle-writeup">
             <h2>Sea Isle</h2>
+            <p>Orange County, FL</p>
+            <p className="info">Project Info<span className="glyphicon glyphicon-chevron-down" aria-hidden="true" /></p>
+          </div>
+          <div className="sea-isle-summary">
+            <p><span>Project Type:</span>Single-Family Community Development</p>
+            <p><span>Client:</span>DR Horton, Inc.</p>
             <p>
               Located within the Sea World Orlando Design Corridor, Sea Isle is a coastal inspired, multi-family community with sand, landscape, bold colored accents, and rich textures used to create a unique, resort-style sense of place.  Amenities near the clubhouse were designed on axis with different clubhouse architectural elements to maximize space efficacy, views, and use.  In addition to the 356 units, the design program includes a resort style swimming pool, dog park, outdoor fireplace, grill stations, dining area, gated entrance feature, custom columns, decorative paving, and lush landscaping.
             </p>
