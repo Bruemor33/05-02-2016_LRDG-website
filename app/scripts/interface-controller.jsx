@@ -50,6 +50,30 @@ var InterfaceComponent = React.createClass({
       siteNavigation = (<ProjectsNav />)
       body = (<ProjectsComponent />)
     }
+    if(this.state.router.current == "kindred"){
+      siteNavigation = (<ProjectsNav />)
+      body = (<h1>Kindred</h1>)
+    }
+    if(this.state.router.current == "waterleigh"){
+      siteNavigation = (<ProjectsNav />)
+      body = (<h1>Waterleigh</h1>)
+    }
+    if(this.state.router.current == "nonapark"){
+      siteNavigation = (<ProjectsNav />)
+      body = (<h1>Nona Park</h1>)
+    }
+    if(this.state.router.current == "seaisle"){
+      siteNavigation = (<ProjectsNav />)
+      body = (<h1>Sea Isle</h1>)
+    }
+    if(this.state.router.current == "altis"){
+      siteNavigation = (<ProjectsNav />)
+      body = (<h1>Altis at Sandlake</h1>)
+    }
+    if(this.state.router.current == "dwell"){
+      siteNavigation = (<ProjectsNav />)
+      body = (<h1>Dwell at Nona Place</h1>)
+    }
     if(this.state.router.current == "people"){
       navigation = (<LandingNav />)
       body = (<h1>People</h1>)

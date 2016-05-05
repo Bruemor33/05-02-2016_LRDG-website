@@ -12,6 +12,12 @@ var Router = Backbone.Router.extend({
   routes: {
     "": "index",
     "projects": "projects",
+    "kindred": "kindred",
+    "waterleigh": "waterleigh",
+    "nonapark": "nonapark",
+    "seaisle": "seaisle",
+    "altis": "altis",
+    "dwell": "dwell",
     "overview": "overview",
     "people": "people",
     "contact": "contact",
@@ -26,6 +32,24 @@ var Router = Backbone.Router.extend({
   },
   projects: function(){
     this.current = "projects"
+  },
+  kindred: function(){
+    this.current = "kindred"
+  },
+  waterleigh: function(){
+    this.current = "waterleigh"
+  },
+  nonapark: function(){
+    this.current = "nonapark"
+  },
+  seaisle: function(){
+    this.current = "seaisle"
+  },
+  altis: function(){
+    this.current = "altis"
+  },
+  dwell: function(){
+    this.current = "dwell"
   },
   overview: function(){
     this.current = "overview"
