@@ -19,7 +19,7 @@ var ProjectsNav = React.createClass({
             <a href="#projects" className="landing-projects">Projects</a>
             <a href="#people" className="landing-people">Studio</a>
             <a href="#contact" className="landing-contact">Contact</a>
-            <a href="#index" className="landing-company-name">Land Resource Design Group</a>
+            <a href="#" className="landing-company-name">Land Resource Design Group</a>
           </div>
         </nav>
       </div>
