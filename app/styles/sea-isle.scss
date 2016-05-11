@@ -4,15 +4,64 @@
 Sea Isle Styling
 ***************************************************************************************/
 
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+.col-md-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.row {
+  margin-left: 0;
+}
 
 
 
 #sea-isle-background {
+  
+}
+.project-title {
+  display: inline-block;
+  margin-right: 30px;
+}
+.image-item {
+  display: inline-block;
+  margin-left: 20px;
+  height: 20px;
+  width: 20px;
+}
+#image-one {
   background-image: url('../images/1-sea-isle.jpg');
-  background-position: center;
+  background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 620px;
+  height: 680px;
+  width: 100%;
+}
+#image-two {
+  background-image: url('../images/2-sea-isle.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 680px;
+  width: 100%;
+}
+#image-three {
+  background-image: url('../images/3-sea-isle.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 680px;
+  width: 100%;
+}
+#image-four {
+  background-image: url('../images/4-sea-isle.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 680px;
+  width: 100%;
 }
 
 .sea-isle-writeup {
@@ -67,6 +116,8 @@ Sea Isle Styling
 .client-type {
   margin-bottom: 15px;
 }
+
+
 
 
 
