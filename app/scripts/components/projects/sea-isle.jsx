@@ -14,6 +14,34 @@ var SeaIsleComponent = React.createClass({
     $('#sea-isle-summary').toggle('slow');
 
   },
+  handleScroll: function(){
+    $(document).ready(function(){
+      //Background click actions
+      $('.image-nav').on('click', function(event){
+        event.preventDefault();
+        var sectionID = $(this).attr("data-id");
+        scrollToID('#' + sectionID, 750);
+      });
+      //Scroll to top
+      $('.image-one').on('click', function(event){
+        event.preventDefault();
+        $('hrml,body').animate({scrollTop:0}, 'slow')
+      });
+
+    });
+
+    //scroll function
+    function scrollToID(id, speed){
+      var offSet = 50;
+      var targetOffset = $(id).offset().top - offSet;
+      var mainNav = $('#main-nav');
+      $('html,body').animate({scrollTop:targetOffset}, speed);
+      if(mainNav.hasClass("open")){
+        mainNav.css("height", "0px").removeClass("in").addClass("collapse");
+        mainNav.removeClass("open");
+      }
+    };
+  },
 
   render: function(){
 
@@ -21,11 +49,19 @@ var SeaIsleComponent = React.createClass({
     return(
       <div id="sea-isle-background" className="container-fluid">
         <div classNme="col-md-12">
-          <div className="sea-isle-writeup">
-            <h2>Sea Isle</h2>
-            <div className="image-one"></div>
-            <div className="image-two"></div>
-            <div className="image-three"></div>
+          <div id="main-nav" className="sea-isle-writeup">
+            <div className="project-nav">
+              <h2 className="project-title">Sea Isle</h2>
+              <div className="image-item" onClick={this.handleScroll}>
+                <a roll="button" className="image-nav" data-id=""><i class="fa fa-circle-o" aria-hidden="true"></i></a>
+              </div>
+              <div className="image-item" onClick={this.handleScroll}>
+                <a roll="button" className="image-nav" data-id=""><i class="fa fa-circle-o" aria-hidden="true"></i></a>
+              </div>
+              <div className="image-item" onClick={this.handleScroll}>
+                <a roll="button" className="image-nav" data-id=""><i class="fa fa-circle-o" aria-hidden="true"></i></a>
+              </div>
+            </div>
             <p>Orange County, FL</p>
             <p id="summary" onClick={this.handleClick} className="info-click-event" role="button">
               Project Info<span className="glyphicon glyphicon-chevron-down" />
@@ -39,6 +75,10 @@ var SeaIsleComponent = React.createClass({
             </div>
           </div>
         </div>
+        <div id="image-one"></div>
+        <div id="image-two"></div>
+        <div id="image-three"></div>
+        <div id="image-four"></div>
       </div>
     )
   }
