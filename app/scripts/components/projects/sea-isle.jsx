@@ -4,7 +4,13 @@ var Backbone = require('backbone');
 var React = require('react');
 var ReactDOM = require('react-dom');
 require('Backbone-React-Component');
+var Scroll = require('react-scroll');
 
+//Scroll Variables
+var Link = Scroll.Link;
+var Element = Scroll.Element;
+var Events = Scroll.Events;
+var scroll = Scroll.animateScroll;
 
 
 var SeaIsleComponent = React.createClass({
@@ -14,34 +20,31 @@ var SeaIsleComponent = React.createClass({
     $('#sea-isle-summary').toggle('slow');
 
   },
-  handleScroll: function(){
-    $(document).ready(function(){
-      //Background click actions
-      $('.image-nav').on('click', function(event){
-        event.preventDefault();
-        var sectionID = $(this).attr("data-id");
-        scrollToID('#' + sectionID, 1000);
-      });
-      //Scroll to top
-      $('.image-item-one').on('click', function(event){
-        event.preventDefault();
-        $('html,body').animate({scrollTop:0}, 'slow');
-      });
-
+  componentDidMount: function(){
+    Events.scrollEvent.register('begin', function(to, element){
+      console.log("begin", arguments);
     });
-
-    //scroll function
-    function scrollToID(id, speed){
-      var offSet = 50;
-      var targetOffset = $(id).offset().top - offSet;
-      var mainNav = $('#main-nav');
-      $('html,body').animate({scrollTop:targetOffset}, speed);
-      if(mainNav.hasClass("open")){
-        mainNav.css("height", "0px").removeClass("in").addClass("collapse");
-        mainNav.removeClass("open");
-      }
-    };
+    Events.scrollEvent.register('end', function(to, element){
+      console.log("end", arguments);
+    });
   },
+  componentWillUnmount: function(){
+    Events.scrollEvent.remove('begin');
+    Events.scrollEvent.remove('end');
+  },
+  scrollToTop: function(){
+    scroll.scrollToTop();
+  },
+  scrollToBottom: function(){
+    scroll.scrollToBottom();
+  },
+  scrollTo: function(){
+    scroll.scrollTo(100);
+  },
+  scrollMore: function(){
+    scroll.scrollMore(100);
+  },
+
 
   render: function(){
 
@@ -52,18 +55,14 @@ var SeaIsleComponent = React.createClass({
           <div id="main-nav" className="sea-isle-writeup">
             <div className="project-nav">
               <h2 className="project-title">Sea Isle</h2>
-              <div className="image-item-one" onClick={this.handleScroll}>
-                <button roll="button" className="image-nav" data-id="image-one"></button>
-              </div>
-              <div className="image-item" onClick={this.handleScroll}>
-                <button roll="button" className="image-nav" data-id="image-two"></button>
-              </div>
-              <div className="image-item" onClick={this.handleScroll}>
-                <button roll="button" className="image-nav" data-id="image-three"></button>
-              </div>
-              <div className="image-item" onClick={this.handleScroll}>
-                <button roll="button" className="image-nav" data-id="image-four"></button>
-              </div>
+              <ul className="image-links">
+                <li className="image-list-item"><Link activeClass="active" className="image-two" to="image-two" spy={true} smooth={true} duration={500}></Link></li>
+                <li className="image-list-item"><Link activeClass="active" className="image-three" to="image-three" spy={true} smooth={true} duration={500}></Link></li>
+                <li className="image-list-item"><Link activeClass="active" className="image-four" to="image-four" spy={true} smooth={true} duration={500}></Link></li>
+                <li className="image-list-item"><Link activeClass="active" className="image-one" to="image-one" spy={true} smooth={true} duration={500}></Link></li>
+                <li><a onClick={() => scroll.scrollTo(100)}></a></li>
+                <li><a onClick={() => scroll.scrollMore(500)}></a></li>
+              </ul>
             </div>
             <p>Orange County, FL</p>
             <p id="summary" onClick={this.handleClick} className="info-click-event" role="button">
