@@ -20,12 +20,12 @@ var SeaIsleComponent = React.createClass({
       $('.image-nav').on('click', function(event){
         event.preventDefault();
         var sectionID = $(this).attr("data-id");
-        scrollToID('#' + sectionID, 750);
+        scrollToID('#' + sectionID, 1000);
       });
       //Scroll to top
-      $('.image-one').on('click', function(event){
+      $('.image-item-one').on('click', function(event){
         event.preventDefault();
-        $('hrml,body').animate({scrollTop:0}, 'slow')
+        $('html,body').animate({scrollTop:0}, 'slow');
       });
 
     });
@@ -52,14 +52,17 @@ var SeaIsleComponent = React.createClass({
           <div id="main-nav" className="sea-isle-writeup">
             <div className="project-nav">
               <h2 className="project-title">Sea Isle</h2>
-              <div className="image-item" onClick={this.handleScroll}>
-                <a roll="button" className="image-nav" data-id=""><i class="fa fa-circle-o" aria-hidden="true"></i></a>
+              <div className="image-item-one" onClick={this.handleScroll}>
+                <button roll="button" className="image-nav" data-id="image-one"></button>
               </div>
               <div className="image-item" onClick={this.handleScroll}>
-                <a roll="button" className="image-nav" data-id=""><i class="fa fa-circle-o" aria-hidden="true"></i></a>
+                <button roll="button" className="image-nav" data-id="image-two"></button>
               </div>
               <div className="image-item" onClick={this.handleScroll}>
-                <a roll="button" className="image-nav" data-id=""><i class="fa fa-circle-o" aria-hidden="true"></i></a>
+                <button roll="button" className="image-nav" data-id="image-three"></button>
+              </div>
+              <div className="image-item" onClick={this.handleScroll}>
+                <button roll="button" className="image-nav" data-id="image-four"></button>
               </div>
             </div>
             <p>Orange County, FL</p>
