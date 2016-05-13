@@ -52,27 +52,27 @@ var InterfaceComponent = React.createClass({
       body = (<ProjectsComponent />)
     }
     if(this.state.router.current == "kindred"){
-      siteNavigation = (<ProjectsNav />)
+      siteNavigation = (<LandingNav />)
       body = (<h1>Kindred</h1>)
     }
     if(this.state.router.current == "waterleigh"){
-      siteNavigation = (<ProjectsNav />)
+      siteNavigation = (<LandingNav />)
       body = (<h1>Waterleigh</h1>)
     }
     if(this.state.router.current == "nonapark"){
-      siteNavigation = (<ProjectsNav />)
+      siteNavigation = (<LandingNav />)
       body = (<h1>Nona Park</h1>)
     }
     if(this.state.router.current == "seaisle"){
-      siteNavigation = (<ProjectsNav />)
+      siteNavigation = (<LandingNav />)
       body = (<SeaIsleComponent />)
     }
     if(this.state.router.current == "altis"){
-      siteNavigation = (<ProjectsNav />)
+      siteNavigation = (<LandingNav />)
       body = (<h1>Altis at Sandlake</h1>)
     }
     if(this.state.router.current == "dwell"){
-      siteNavigation = (<ProjectsNav />)
+      siteNavigation = (<LandingNav />)
       body = (<h1>Dwell at Nona Place</h1>)
     }
     if(this.state.router.current == "people"){
