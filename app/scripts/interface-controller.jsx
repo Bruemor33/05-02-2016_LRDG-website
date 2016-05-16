@@ -14,6 +14,9 @@ var ProjectsNav = require('./components/projects-nav.jsx').ProjectsNav;
 var LandingPage = require('./components/landing-page.jsx').LandingPage;
 var ProjectsComponent = require('./components/projects.jsx').ProjectsComponent;
 var SeaIsleComponent = require('./components/projects/sea-isle.jsx').SeaIsleComponent;
+var KindredComponent = require('./components/projects/kindred.jsx').KindredComponent;
+var WaterleighComponent = require('./components/projects/waterleigh.jsx').WaterleighComponent;
+var SandlakeComponent = require('./components/projects/sandlake.jsx').SandlakeComponent;
 
 
 //kick off controller
@@ -53,11 +56,11 @@ var InterfaceComponent = React.createClass({
     }
     if(this.state.router.current == "kindred"){
       siteNavigation = (<LandingNav />)
-      body = (<h1>Kindred</h1>)
+      body = (<KindredComponent />)
     }
     if(this.state.router.current == "waterleigh"){
       siteNavigation = (<LandingNav />)
-      body = (<h1>Waterleigh</h1>)
+      body = (<WaterleighComponent />)
     }
     if(this.state.router.current == "nonapark"){
       siteNavigation = (<LandingNav />)
@@ -69,7 +72,7 @@ var InterfaceComponent = React.createClass({
     }
     if(this.state.router.current == "altis"){
       siteNavigation = (<LandingNav />)
-      body = (<h1>Altis at Sandlake</h1>)
+      body = (<SandlakeComponent />)
     }
     if(this.state.router.current == "dwell"){
       siteNavigation = (<LandingNav />)
