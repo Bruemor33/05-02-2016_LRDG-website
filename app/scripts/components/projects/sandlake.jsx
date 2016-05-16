@@ -52,9 +52,9 @@ var SandlakeComponent = React.createClass({
     return(
       <div id="sea-isle-background" className="container-fluid">
         <div classNme="col-md-12">
-          <div id="main-nav" className="sea-isle-writeup">
+          <div id="main-nav" className="writeup">
             <div className="project-nav">
-              <h2 className="project-title">Altis at Sandlake</h2>
+              <h2 className="altis-title">Altis at Sandlake</h2>
               <ul className="image-links">
                 <li className="image-list-item"><Link activeClass="active" className="image-two" to="image-two" spy={true} smooth={true} duration={500}></Link></li>
                 <li className="image-list-item"><Link activeClass="active" className="image-three" to="image-three" spy={true} smooth={true} duration={500}></Link></li>
