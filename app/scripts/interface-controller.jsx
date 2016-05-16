@@ -17,6 +17,8 @@ var SeaIsleComponent = require('./components/projects/sea-isle.jsx').SeaIsleComp
 var KindredComponent = require('./components/projects/kindred.jsx').KindredComponent;
 var WaterleighComponent = require('./components/projects/waterleigh.jsx').WaterleighComponent;
 var SandlakeComponent = require('./components/projects/sandlake.jsx').SandlakeComponent;
+var NonaParkComponent =require('./components/projects/nona-park.jsx').NonaParkComponent;
+var DwellNonaPlaceComponent = require('./components/projects/dwell-nonaplace.jsx').DwellNonaPlaceComponent;
 
 
 //kick off controller
@@ -55,28 +57,28 @@ var InterfaceComponent = React.createClass({
       body = (<ProjectsComponent />)
     }
     if(this.state.router.current == "kindred"){
-      siteNavigation = (<LandingNav />)
+      siteNavigation = (<ProjectsNav />)
       body = (<KindredComponent />)
     }
     if(this.state.router.current == "waterleigh"){
-      siteNavigation = (<LandingNav />)
+      siteNavigation = (<ProjectsNav />)
       body = (<WaterleighComponent />)
     }
     if(this.state.router.current == "nonapark"){
-      siteNavigation = (<LandingNav />)
-      body = (<h1>Nona Park</h1>)
+      siteNavigation = (<ProjectsNav />)
+      body = (<NonaParkComponent />)
     }
     if(this.state.router.current == "seaisle"){
-      siteNavigation = (<LandingNav />)
+      siteNavigation = (<ProjectsNav />)
       body = (<SeaIsleComponent />)
     }
     if(this.state.router.current == "altis"){
-      siteNavigation = (<LandingNav />)
+      siteNavigation = (<ProjectsNav />)
       body = (<SandlakeComponent />)
     }
     if(this.state.router.current == "dwell"){
-      siteNavigation = (<LandingNav />)
-      body = (<h1>Dwell at Nona Place</h1>)
+      siteNavigation = (<ProjectsNav />)
+      body = (<DwellNonaPlaceComponent />)
     }
     if(this.state.router.current == "people"){
       navigation = (<LandingNav />)
