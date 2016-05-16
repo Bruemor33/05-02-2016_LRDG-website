@@ -21,6 +21,7 @@ Sea Isle Styling
 #sea-isle-background {
 
 }
+/** Project Title **/
 .project-title {
   display: inline-block;
   margin-right: 40px;
@@ -64,6 +65,8 @@ Sea Isle Styling
   width: 20px;
   border: 1px solid #fff;
 }
+
+/** Project Background Images **/
 #image-one {
   background-image: url('../images/1-sea-isle.jpg');
   background-position: 50% 50%;
@@ -97,6 +100,8 @@ Sea Isle Styling
   width: 100%;
 }
 
+
+/** Project Write Up Section **/
 .sea-isle-writeup {
   position: fixed;
   top: 20px;
