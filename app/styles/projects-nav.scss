@@ -22,3 +22,70 @@
     font-weight: 300;
   }
 }
+
+.projects-overview {
+  margin-left: 60px;
+}
+.projects-overview:hover {
+  color: #000;
+  background-color: #AFB38A;
+  background-size: contain;
+  height: 55px;
+}
+.projects-projects {
+
+}
+
+
+@media(max-width: 1440px){
+  .landing-navigation {
+    position: absolute;
+    top: -35px;
+    padding-top: 8px;
+    height: 55px;
+  }
+  .landing-navigation a {
+    font-size: 18px;
+  }
+  .landing-logo {
+    height: 75px;
+    position: relative;
+    top: -12px;
+  }
+  .projects-overview {
+    position: relative;
+    top: -15px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+  .projects-projects {
+    position: relative;
+    top: -15px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+  .projects-people {
+    position: relative;
+    top: -15px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+  .projects-contact {
+    position: relative;
+    top: -15px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+  .landing-company-name {
+    position: relative;
+    top: 7px;
+  }
+}
