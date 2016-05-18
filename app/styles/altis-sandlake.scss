@@ -13,7 +13,7 @@ Altis at Sandlake page styling
 /** Project Title **/
 .altis-title {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 92px;
 }
 .project-nav {
   height: 50px;
@@ -24,35 +24,56 @@ Altis at Sandlake page styling
 .altis-list-item {
   display: inline-block;
   margin-left: 10px;
+  cursor: pointer;
 }
 .image-one {
   display: inline-block;
-  border: 1px solid #fff;
+  border: 1px solid #E1D6CC;
   height: 20px;
   width: 20px;
+}
+.image-one:hover {
+  height: 20px;
+  width: 20px;
+  background-color: #FADCAE;
 }
 .image-two {
   display: inline-block;
-  border: 1px solid #fff;
+  border: 1px solid #E1D6CC;
   height: 20px;
   width: 20px;
+}
+.image-two:hover {
+  height: 20px;
+  width: 20px;
+  background-color: #AFB38A;
 }
 .image-three {
   display: inline-block;
-  border: 1px solid #fff;
+  border: 1px solid #E1D6CC;
   height: 20px;
   width: 20px;
 }
-.image-four {
-  display: inline-block;
-  border: 1px solid #fff;
+.image-three:hover {
   height: 20px;
   width: 20px;
+  background-color: #E1D6CC;
+}
+.image-four {
+  display: inline-block;
+  border: 1px solid #E1D6CC;
+  height: 20px;
+  width: 20px;
+}
+.image-four:hover {
+  height: 20px;
+  width: 20px;
+  background-color: #A76459;
 }
 .image-nav {
   height: 20px;
   width: 20px;
-  border: 1px solid #fff;
+  border: 1px solid #E1D6CC;
 }
 
 
@@ -91,9 +112,9 @@ Altis at Sandlake page styling
   margin-left: 10px;
 }
 
-#sea-isle-summary {
+#altis-summary {
   display: none;
-  width: 400px;
+  width: 500px;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15px;
