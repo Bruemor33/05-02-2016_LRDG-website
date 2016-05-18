@@ -17,7 +17,7 @@ var DwellNonaPlaceComponent = React.createClass({
 
   handleClick: function(){
 
-    $('#sea-isle-summary').toggle('slow');
+    $('#dwell-summary').toggle('slow');
 
   },
   componentDidMount: function(){
