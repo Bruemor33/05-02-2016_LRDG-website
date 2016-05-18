@@ -17,7 +17,7 @@ var SandlakeComponent = React.createClass({
 
   handleClick: function(){
 
-    $('#sea-isle-summary').toggle('slow');
+    $('#altis-summary').toggle('slow');
 
   },
   componentDidMount: function(){
@@ -68,7 +68,7 @@ var SandlakeComponent = React.createClass({
             <p id="summary" onClick={this.handleClick} className="altis-click-event" role="button">
               Project Info<span className="glyphicon glyphicon-chevron-down" />
             </p>
-            <div id="sea-isle-summary" className="dropdown-menu">
+            <div id="altis-summary" className="dropdown-menu">
               <div className="project-type"><p><span>Project Type:</span>Multi-family Residential</p><br/></div>
               <div className="client-type"><p><span>Client:</span>Altman Development Corporation</p><br/></div>
               <div className="project-summary"><p>

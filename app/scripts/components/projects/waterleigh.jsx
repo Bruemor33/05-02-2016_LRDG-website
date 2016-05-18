@@ -17,7 +17,7 @@ var WaterleighComponent = React.createClass({
 
   handleClick: function(){
 
-    $('#sea-isle-summary').toggle('slow');
+    $('#waterleigh-summary').toggle('slow');
 
   },
   componentDidMount: function(){
@@ -52,23 +52,23 @@ var WaterleighComponent = React.createClass({
     return(
       <div id="sea-isle-background" className="container-fluid">
         <div classNme="col-md-12">
-          <div id="main-nav" className="sea-isle-writeup">
+          <div id="main-nav" className="writeup">
             <div className="project-nav">
-              <h2 className="project-title">Waterleigh</h2>
+              <h2 className="waterleigh-title">Waterleigh</h2>
               <ul className="image-links">
-                <li className="image-list-item"><Link activeClass="active" className="image-two" to="image-two" spy={true} smooth={true} duration={500}></Link></li>
-                <li className="image-list-item"><Link activeClass="active" className="image-three" to="image-three" spy={true} smooth={true} duration={500}></Link></li>
-                <li className="image-list-item"><Link activeClass="active" className="image-four" to="image-four" spy={true} smooth={true} duration={500}></Link></li>
-                <li className="image-list-item"><Link activeClass="active" className="image-one" to="image-one" spy={true} smooth={true} duration={500}></Link></li>
+                <li className="waterleigh-list-item"><Link activeClass="active" className="image-two" to="image-two" spy={true} smooth={true} duration={500}></Link></li>
+                <li className="waterleigh-list-item"><Link activeClass="active" className="image-three" to="image-three" spy={true} smooth={true} duration={500}></Link></li>
+                <li className="waterleigh-list-item"><Link activeClass="active" className="image-four" to="image-four" spy={true} smooth={true} duration={500}></Link></li>
+                <li className="waterleigh-list-item"><Link activeClass="active" className="image-one" to="image-one" spy={true} smooth={true} duration={500}></Link></li>
                 <li><a onClick={() => scroll.scrollTo(100)}></a></li>
                 <li><a onClick={() => scroll.scrollMore(500)}></a></li>
               </ul>
             </div>
             <p>Orange County, FL</p>
-            <p id="summary" onClick={this.handleClick} className="info-click-event" role="button">
+            <p id="summary" onClick={this.handleClick} className="waterleigh-click-event" role="button">
               Project Info<span className="glyphicon glyphicon-chevron-down" />
             </p>
-            <div id="sea-isle-summary" className="dropdown-menu">
+            <div id="waterleigh-summary" className="dropdown-menu">
               <div className="project-type"><p><span>Project Type:</span>Single-Family Community Development</p><br/></div>
               <div className="client-type"><p><span>Client:</span>DR Horton, Inc.</p><br/></div>
               <div className="project-summary"><p>
