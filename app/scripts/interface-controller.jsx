@@ -19,6 +19,9 @@ var WaterleighComponent = require('./components/projects/waterleigh.jsx').Waterl
 var SandlakeComponent = require('./components/projects/sandlake.jsx').SandlakeComponent;
 var NonaParkComponent =require('./components/projects/nona-park.jsx').NonaParkComponent;
 var DwellNonaPlaceComponent = require('./components/projects/dwell-nonaplace.jsx').DwellNonaPlaceComponent;
+var OverviewComponent = require('./components/overview.jsx').OverviewComponent;
+var StudioPageComponent = require('./components/studio.jsx').StudioPageComponent;
+var ContactPageComponent = require('./components/contact-page.jsx').ContactPageComponent;
 
 
 //kick off controller
