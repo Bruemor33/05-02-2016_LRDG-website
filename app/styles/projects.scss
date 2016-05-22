@@ -19,6 +19,11 @@ body {
   margin-left: 10px;
 }
 
+
+/*************************************************************
+Kindred
+*************************************************************/
+
 .kindred-writeup {
   width: 400px;
   height: 200px;
@@ -57,6 +62,11 @@ body {
   padding-left: 10px;
 }
 
+
+/*************************************************************
+Waterleigh
+*************************************************************/
+
 .waterleigh-landing {
   width: 400px;
   height: 200px;
@@ -80,6 +90,11 @@ body {
   font-family: 'Poppins', serif;
   padding-left: 10px;
 }
+
+
+/*************************************************************
+Nona Park Landing
+*************************************************************/
 
 .nonapark-landing {
   width: 400px;
@@ -105,6 +120,11 @@ body {
   padding-left: 10px;
 }
 
+
+/*************************************************************
+Sea Isle
+*************************************************************/
+
 .seaisle-landing {
   width: 400px;
   height: 200px;
@@ -126,6 +146,11 @@ body {
   font-family: 'Poppins', serif;
   padding-left: 10px;
 }
+
+
+/*************************************************************
+Altis at Sandlake
+*************************************************************/
 
 .altis-landing {
   width: 400px;
@@ -149,6 +174,11 @@ body {
   padding-left: 10px;
 }
 
+
+/*************************************************************
+Dwell at Nona Place
+*************************************************************/
+
 .dwell-landing {
   width: 400px;
   height: 200px;
@@ -166,6 +196,32 @@ body {
   padding-left: 10px;
 }
 .dwell-landing p {
+  font-family: 'Poppins', serif;
+  padding-left: 10px;
+}
+
+
+/*************************************************************
+Plaza at University
+*************************************************************/
+
+.plaza-landing {
+  width: 400px;
+  height: 200px;
+  background-image: url('../images/seaisle-signage.jpg');
+  background-size: cover;
+  color: #fff;
+}
+.plaza-landing a {
+  text-decoration: none;
+  color: #fff;
+}
+.plaza-landing h3 {
+  font-family: 'Poppins', serif;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.plaza-landing p {
   font-family: 'Poppins', serif;
   padding-left: 10px;
 }
