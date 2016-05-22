@@ -19,6 +19,7 @@ var WaterleighComponent = require('./components/projects/waterleigh.jsx').Waterl
 var SandlakeComponent = require('./components/projects/sandlake.jsx').SandlakeComponent;
 var NonaParkComponent =require('./components/projects/nona-park.jsx').NonaParkComponent;
 var DwellNonaPlaceComponent = require('./components/projects/dwell-nonaplace.jsx').DwellNonaPlaceComponent;
+var PlazaUniversityComponent = require('./components/projects/plaza-university.jsx').PlazaUniversityComponent;
 var OverviewComponent = require('./components/overview.jsx').OverviewComponent;
 var StudioPageComponent = require('./components/studio.jsx').StudioPageComponent;
 var ContactPageComponent = require('./components/contact-page.jsx').ContactPageComponent;
@@ -82,6 +83,10 @@ var InterfaceComponent = React.createClass({
     if(this.state.router.current == "dwell"){
       siteNavigation = (<ProjectsNav />)
       body = (<DwellNonaPlaceComponent />)
+    }
+    if(this.state.router.current == "plazaUniversity"){
+      siteNavigation = (<ProjectsNav />)
+      body = (<PlazaUniversityComponent />)
     }
     if(this.state.router.current == "people"){
       navigation = (<LandingNav />)
