@@ -76,6 +76,16 @@ var ProjectsComponent = React.createClass({
               </a>
             </div>
 
+            <div cassName="plaza-landing col-md-4">
+              <a href="#plazaUniversity">
+                <div className="transparent-background">
+                  <h3>Plaza at University</h3>
+                  <p>location here</p>
+                  <p>Size: values here</p>
+                </div>
+              </a>
+            </div>
+
           </div>
         </div>
       </div>
