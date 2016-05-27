@@ -17,7 +17,7 @@ var NonaParkComponent = React.createClass({
 
   handleClick: function(){
 
-    $('#sea-isle-summary').toggle('slow');
+    $('#nona-park-summary').toggle('slow');
 
   },
   componentDidMount: function(){
@@ -68,7 +68,7 @@ var NonaParkComponent = React.createClass({
             <p id="summary" onClick={this.handleClick} className="nona-click-event" role="button">
               Project Info<span className="glyphicon glyphicon-chevron-down" />
             </p>
-            <div id="sea-isle-summary" className="dropdown-menu">
+            <div id="nona-park-summary" className="dropdown-menu">
               <div className="project-type"><p><span>Project Type:</span>Multi-Family Community</p><br/></div>
               <div className="client-type"><p><span>Client:</span>Epoch Properties</p><br/></div>
               <div className="project-summary"><p>
