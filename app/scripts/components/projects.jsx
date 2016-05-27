@@ -12,11 +12,11 @@ var ProjectsComponent = React.createClass({
   render: function(){
 
     return(
-      <div className="container-fluid">
+      <div className="container">
         <div className="row">
           <div className="project-one-container col-md-12">
 
-            <div className="kindred-writeup col-md-4">
+            <div className="kindred-writeup col-md-3">
               <a href={"#kindred"}>
                 <div className="transparent-background">
                   <h3>Kindred</h3>
@@ -26,7 +26,7 @@ var ProjectsComponent = React.createClass({
               </a>
             </div>
 
-            <div className="waterleigh-landing col-md-4">
+            <div className="waterleigh-landing col-md-3">
               <a href={"#waterleigh"}>
                 <div className="transparent-background">
                   <h3>Waterleigh</h3>
@@ -36,7 +36,7 @@ var ProjectsComponent = React.createClass({
               </a>
             </div>
 
-            <div className="nonapark-landing col-md-4">
+            <div className="nonapark-landing col-md-3">
               <a href="#nonapark">
                 <div className="transparent-background">
                   <h3>Nona Park</h3>
@@ -46,7 +46,7 @@ var ProjectsComponent = React.createClass({
               </a>
             </div>
 
-            <div className="seaisle-landing col-md-4">
+            <div className="seaisle-landing col-md-3">
               <a href="#seaisle">
                 <div className="transparent-background">
                   <h3>Sea Isle</h3>
@@ -56,7 +56,7 @@ var ProjectsComponent = React.createClass({
               </a>
             </div>
 
-            <div className="altis-landing col-md-4">
+            <div className="altis-landing col-md-3">
               <a href="#altis">
                 <div className="transparent-background">
                   <h3>Altis at Sandlake</h3>
@@ -66,7 +66,7 @@ var ProjectsComponent = React.createClass({
               </a>
             </div>
 
-            <div className="dwell-landing col-md-4">
+            <div className="dwell-landing col-md-3">
               <a href="#dwell">
                 <div className="transparent-background">
                   <h3>Dwell at Nona Place</h3>
@@ -76,7 +76,7 @@ var ProjectsComponent = React.createClass({
               </a>
             </div>
 
-            <div cassName="plaza-landing col-md-4">
+            <div className="plaza-landing col-md-3">
               <a href="#plazaUniversity">
                 <div className="transparent-background">
                   <h3>Plaza at University</h3>
