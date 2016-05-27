@@ -53,7 +53,7 @@ var PlazaUniversityComponent = React.createClass({
         <div classNme="col-md-12">
           <div id="main-nav" className="writeup">
             <div className="project-nav">
-              <h2 className="nona-title">Nona Park Village</h2>
+              <h2 className="nona-title">Plaza at University</h2>
               <ul className="image-links">
                 <li className="nona-list-item"><Link activeClass="active" className="image-two" to="image-two" spy={true} smooth={true} duration={500}></Link></li>
                 <li className="nona-list-item"><Link activeClass="active" className="image-three" to="image-three" spy={true} smooth={true} duration={500}></Link></li>
