@@ -57,7 +57,7 @@ var InterfaceComponent = React.createClass({
       body = (<h1>Overview</h1>)
     }
     if(this.state.router.current == "projects"){
-      siteNavigation = (<LandingNav />)
+      siteNavigation = (<ProjectsNav />)
       body = (<ProjectsComponent />)
     }
     if(this.state.router.current == "kindred"){
