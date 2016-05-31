@@ -22,9 +22,9 @@ Plaza at University Styling
 
 }
 /** Project Title **/
-.project-title {
+.plaza-title {
   display: inline-block;
-  margin-right: 230px;
+  margin-right: 70px;
 }
 .project-nav {
   height: 50px;
@@ -32,8 +32,8 @@ Plaza at University Styling
 .image-links {
   display: inline;
 }
-.image-list-item {
-  display: inline-block;
+.plaza-list-item {
+  display: inline;
   margin-left: 10px;
 }
 .image-one {
@@ -68,7 +68,7 @@ Plaza at University Styling
 
 /** Project Background Images **/
 #image-one {
-  background-image: url('../images/1-sea-isle.jpg');
+  background-image: url('../images/1-plaza.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -76,7 +76,7 @@ Plaza at University Styling
   width: 100%;
 }
 #image-two {
-  background-image: url('../images/2-sea-isle.jpg');
+  background-image: url('../images/2-plaza.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -84,7 +84,7 @@ Plaza at University Styling
   width: 100%;
 }
 #image-three {
-  background-image: url('../images/3-sea-isle.jpg');
+  background-image: url('../images/3-plaza.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -92,7 +92,7 @@ Plaza at University Styling
   width: 100%;
 }
 #image-four {
-  background-image: url('../images/4-sea-isle.jpg');
+  background-image: url('../images/4-plaza.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -102,7 +102,7 @@ Plaza at University Styling
 
 
 /** Project Write Up Section **/
-.sea-isle-writeup {
+.plaza-writeup {
   position: fixed;
   top: 20px;
   width: 500px;
@@ -115,15 +115,15 @@ Plaza at University Styling
   font-family: 'Poppins', serif;
   font-weight: 300;
 }
-.sea-isle-writeup h2 {
+.plaza-writeup h2 {
   margin-top: 10px;
 }
-.sea-isle-writeup p {
+.plaza-writeup p {
   display: inline;
 }
-.info-click-event {
+.plaza-click-event {
   display: inline-block;
-  margin-left: 245px;
+  margin-left: 290px;
 }
 .info {
   display: inline-block;
@@ -136,7 +136,7 @@ Plaza at University Styling
   margin-left: 10px;
 }
 
-#sea-isle-summary {
+#plaza-summary {
   display: none;
   width: 500px;
   padding-left: 15px;
