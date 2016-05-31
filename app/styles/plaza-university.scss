@@ -8,7 +8,7 @@ Plaza at University Styling
   padding-left: 0;
   padding-right: 0;
 }
-.col-md-12 {
+.plaza-university-container {
   padding-left: 0;
   padding-right: 0;
 }
@@ -36,25 +36,25 @@ Plaza at University Styling
   display: inline;
   margin-left: 10px;
 }
-.image-one {
+.plaza-one {
   display: inline-block;
   border: 1px solid #fff;
   height: 20px;
   width: 20px;
 }
-.image-two {
+.plaza-two {
   display: inline-block;
   border: 1px solid #fff;
   height: 20px;
   width: 20px;
 }
-.image-three {
+.plaza-three {
   display: inline-block;
   border: 1px solid #fff;
   height: 20px;
   width: 20px;
 }
-.image-four {
+.plaza-four {
   display: inline-block;
   border: 1px solid #fff;
   height: 20px;
@@ -67,7 +67,7 @@ Plaza at University Styling
 }
 
 /** Project Background Images **/
-#image-one {
+#plaza-one {
   background-image: url('../images/1-plaza.jpg');
   background-position: 50% 50%;
   background-size: cover;
@@ -75,7 +75,7 @@ Plaza at University Styling
   height: 630px;
   width: 100%;
 }
-#image-two {
+#plaza-two {
   background-image: url('../images/2-plaza.jpg');
   background-position: 50% 50%;
   background-size: cover;
@@ -83,7 +83,7 @@ Plaza at University Styling
   height: 630px;
   width: 100%;
 }
-#image-three {
+#plaza-three {
   background-image: url('../images/3-plaza.jpg');
   background-position: 50% 50%;
   background-size: cover;
@@ -91,7 +91,7 @@ Plaza at University Styling
   height: 630px;
   width: 100%;
 }
-#image-four {
+#plaza-four {
   background-image: url('../images/4-plaza.jpg');
   background-position: 50% 50%;
   background-size: cover;

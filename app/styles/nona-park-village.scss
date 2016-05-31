@@ -25,25 +25,25 @@ Nona Park Village page styling
   display: inline-block;
   margin-left: 10px;
 }
-.image-one {
+.nona-one {
   display: inline-block;
   border: 1px solid #fff;
   height: 20px;
   width: 20px;
 }
-.image-two {
+.nona-two {
   display: inline-block;
   border: 1px solid #fff;
   height: 20px;
   width: 20px;
 }
-.image-three {
+.nona-three {
   display: inline-block;
   border: 1px solid #fff;
   height: 20px;
   width: 20px;
 }
-.image-four {
+.nona-four {
   display: inline-block;
   border: 1px solid #fff;
   height: 20px;
@@ -111,6 +111,39 @@ Nona Park Village page styling
   margin-bottom: 15px;
 }
 
+/** Project Background Images **/
+#nona-one {
+  background-image: url('../images/1-nona-park-village.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 630px;
+  width: 100%;
+}
+#nona-two {
+  background-image: url('../images/2-nona-park-village.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 630px;
+  width: 100%;
+}
+#nona-three {
+  background-image: url('../images/3-nona-park-village.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 630px;
+  width: 100%;
+}
+#nona-four {
+  background-image: url('../images/4-nona-park-village.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 630px;
+  width: 100%;
+}
 
 
 
