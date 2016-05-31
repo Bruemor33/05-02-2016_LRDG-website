@@ -16,19 +16,187 @@ body {
 
 .project-one-container {
   margin-top: 40px;
-  padding-left: 160px;
-  padding-right: 160px;
+  padding-left: 110px;
+  padding-right: 110px;
 }
 
 .page-background {
-  background-image: url('../images/perspective.jpg');
+  background: linear-gradient(rgba(248, 204, 41, 0.25), rgba(248, 204, 41, 0.25)), url('../images/perspective.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 640px;
+  height: 100%;
   position: fixed;
+  margin-left: -70px;
 }
+
+
+
+/*************************************************************
+Plaza at University
+*************************************************************/
+
+.plaza-landing {
+  // width: 200px;
+  // height: 200px;
+  // background-image: url('../images/1-plaza.jpg');
+  // background-size: cover;
+  // background-position: 50% 50%;
+  // color: #fff;
+  // margin-right: 40px;
+  // margin-bottom: 40px;
+}
+.plaza-landing a {
+  text-decoration: none;
+  color: #fff;
+}
+.plaza-landing h3 {
+  font-family: 'Poppins', serif;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.plaza-landing p {
+  font-family: 'Poppins', serif;
+  padding-left: 10px;
+}
+
+
+.hover-effect-2 {
+  position: relative;
+  width: 250px;
+  height: 200px;
+  overflow: hidden;
+  float: left;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.hover-effect-2 p, .hover-effect-2 h3 {
+  color: #fff;
+  padding: 10px;
+  left: -20px;
+  top: 20px;
+  position: relative;
+}
+.effect img {
+  position:absolute;
+  left:0;
+  bottom:0;
+  cursor:pointer;
+  margin:-12px 0;
+  -webkit-transition:bottom .3s ease-in-out;
+  -moz-transition:bottom .3s ease-in-out;
+  -o-transition:bottom .3s ease-in-out;
+  transition:bottom .3s ease-in-out
+}
+.effect img.top:hover {
+  bottom: -96px;
+  padding-top: 100px;
+}
+h2.zero, p.zero {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/*************************************************************
+Nona Park Landing
+*************************************************************/
+
+.nonapark-landing {
+  width: 200px;
+  height: 200px;
+  // background-image: url('../images/5-nona-park-village.jpg');
+  // background-size: cover;
+  // background-position: 50% 50%;
+  display: inline-block;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  color: #fff;
+}
+.hoover-effect {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+
+}
+.hoover-effect figure{
+  margin: 0;
+  padding: 0;
+  position: relative;
+  cursor: pointer;
+  margin-left: -50px;
+}
+.hoover-effect figure img {
+  display: block;
+  position: relative;
+  z-index: 10;
+  margin: -15px 0;
+}
+.hoover-effect figure figcaption {
+  display: block;
+  position: absolute;
+  z-index: 5;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.hoover-effect figure figcaption {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 29px 44px;
+  background-color: #000;
+  text-align: center;
+  backface-visibility: hidden;
+  -webkit-transform:rotateY(-180deg);
+  -moz-transform:rotateY(-180deg);
+  transform:rotateY(-180deg);
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
+.hoover-effect figure img {
+  backface-visibility:hidden;
+  -webkit-transition:all .5s;
+  -moz-transition:all .5s;
+  transition:all .5s
+}
+.hoover-effect figure:hover img, figure.hover img {
+  -webkit-transform:rotateY(180deg);
+  -moz-transform:rotateY(180deg);
+  transform:rotateY(180deg)
+}
+.hoover-effect figure:hover figcaption, figure.hover figcaption {
+  -webkit-transform:rotateY(0);
+  -moz-transform:rotateY(0);
+  transform:rotateY(0)
+}
+.nonapark-thumbnail {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  position: relative;
+  z-index: 10;
+  margin: -15px 0;
+}
+.nonapark-landing a {
+  text-decoration: none;
+  color: #fff;
+}
+.nonapark-landing h3 {
+  font-family: 'Poppins', serif;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.nonapark-landing p {
+  font-family: 'Poppins', serif;
+  padding-left: 10px;
+}
+
+
 
 
 /*************************************************************
@@ -38,11 +206,11 @@ Kindred
 .kindred-writeup {
   width: 200px;
   height: 200px;
-  background-image: url('../images/seaisle-signage.jpg');
+  background-image: url('../images/emily-concept-1.jpg');
   background-size: cover;
   background-position: 50% 50%;
   display: inline-block;
-  margin-bottom: 15px;
+  margin-bottom: 40px;
   color: #fff;
 
 }
@@ -60,7 +228,7 @@ Kindred
   right: 15px;
   -webkit-box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.75);
-  box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.85);
 }
 
 .kindred-writeup h3 {
@@ -81,12 +249,12 @@ Waterleigh
 .waterleigh-landing {
   width: 200px;
   height: 200px;
-  background-image: url('../images/seaisle-signage.jpg');
+  background-image: url('../images/emily-concept-2.jpg');
   background-size: cover;
   background-position: 50% 50%;
   display: inline-block;
   margin-right: 40px;
-  margin-bottom: 15px;
+  margin-bottom: 40px;
   color: #fff;
 }
 .waterleigh-landing a {
@@ -104,35 +272,6 @@ Waterleigh
 }
 
 
-/*************************************************************
-Nona Park Landing
-*************************************************************/
-
-.nonapark-landing {
-  width: 200px;
-  height: 200px;
-  background-image: url('../images/5-nona-park-village.jpg');
-  background-size: cover;
-  background-position: 50% 50%;
-  display: inline-block;
-  margin-right: 40px;
-  margin-bottom: 15px;
-  color: #fff;
-}
-.nonapark-landing a {
-  text-decoration: none;
-  color: #fff;
-}
-.nonapark-landing h3 {
-  font-family: 'Poppins', serif;
-  padding-top: 10px;
-  padding-left: 10px;
-}
-.nonapark-landing p {
-  font-family: 'Poppins', serif;
-  padding-left: 10px;
-}
-
 
 /*************************************************************
 Sea Isle
@@ -145,7 +284,6 @@ Sea Isle
   background-size: cover;
   background-position: 50% 50%;
   color: #fff;
-  margin-right: 15px;
   margin-right: 40px;
 }
 .seaisle-landing a {
@@ -170,11 +308,10 @@ Altis at Sandlake
 .altis-landing {
   width: 200px;
   height: 200px;
-  background-image: url('../images/seaisle-signage.jpg');
+  background-image: url('../images/emily-concept-3.jpg');
   background-size: cover;
   background-position: 50% 50%;
   color: #fff;
-  margin-right: 15px;
   margin-right: 40px;
 }
 .altis-landing a {
@@ -199,7 +336,7 @@ Dwell at Nona Place
 .dwell-landing {
   width: 200px;
   height: 200px;
-  background-image: url('../images/seaisle-signage.jpg');
+  background-image: url('../images/emily-concept-4.jpg');
   background-size: cover;
   background-position: 50% 50%;
   color: #fff;
@@ -219,33 +356,6 @@ Dwell at Nona Place
   padding-left: 10px;
 }
 
-
-/*************************************************************
-Plaza at University
-*************************************************************/
-
-.plaza-landing {
-  width: 200px;
-  height: 200px;
-  background-image: url('../images/1-plaza.jpg');
-  background-size: cover;
-  background-position: 50% 50%;
-  color: #fff;
-  margin-right: 40px;
-}
-.plaza-landing a {
-  text-decoration: none;
-  color: #fff;
-}
-.plaza-landing h3 {
-  font-family: 'Poppins', serif;
-  padding-top: 10px;
-  padding-left: 10px;
-}
-.plaza-landing p {
-  font-family: 'Poppins', serif;
-  padding-left: 10px;
-}
 
 
 
