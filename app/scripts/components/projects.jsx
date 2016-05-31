@@ -12,24 +12,14 @@ var ProjectsComponent = React.createClass({
   render: function(){
 
     return(
-      <div className="container">
+      <div className="page-background container">
         <div className="row">
           <div className="project-one-container col-md-12">
 
-            <div className="kindred-writeup col-md-3">
-              <a href={"#kindred"}>
+            <div className="plaza-landing col-md-3">
+              <a href="#plazaUniversity">
                 <div className="transparent-background">
-                  <h3>Kindred</h3>
-                  <p>Osceola County, Fl</p>
-                  <p>Size: 1,450 Acres, 3,000 Units</p>
-                </div>
-              </a>
-            </div>
-
-            <div className="waterleigh-landing col-md-3">
-              <a href={"#waterleigh"}>
-                <div className="transparent-background">
-                  <h3>Waterleigh</h3>
+                  <h3>Plaza at University</h3>
                   <p>location here</p>
                   <p>Size: values here</p>
                 </div>
@@ -56,6 +46,26 @@ var ProjectsComponent = React.createClass({
               </a>
             </div>
 
+            <div className="kindred-writeup col-md-3">
+              <a href={"#kindred"}>
+                <div className="transparent-background">
+                  <h3>Kindred</h3>
+                  <p>Osceola County, Fl</p>
+                  <p>Size: 1,450 Acres, 3,000 Units</p>
+                </div>
+              </a>
+            </div>
+
+            <div className="waterleigh-landing col-md-3">
+              <a href={"#waterleigh"}>
+                <div className="transparent-background">
+                  <h3>Waterleigh</h3>
+                  <p>location here</p>
+                  <p>Size: values here</p>
+                </div>
+              </a>
+            </div>
+
             <div className="altis-landing col-md-3">
               <a href="#altis">
                 <div className="transparent-background">
@@ -70,16 +80,6 @@ var ProjectsComponent = React.createClass({
               <a href="#dwell">
                 <div className="transparent-background">
                   <h3>Dwell at Nona Place</h3>
-                  <p>location here</p>
-                  <p>Size: values here</p>
-                </div>
-              </a>
-            </div>
-
-            <div className="plaza-landing col-md-3">
-              <a href="#plazaUniversity">
-                <div className="transparent-background">
-                  <h3>Plaza at University</h3>
                   <p>location here</p>
                   <p>Size: values here</p>
                 </div>
