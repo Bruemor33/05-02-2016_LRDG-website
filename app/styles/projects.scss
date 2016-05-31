@@ -16,7 +16,18 @@ body {
 
 .project-one-container {
   margin-top: 40px;
-  margin-left: 10px;
+  padding-left: 160px;
+  padding-right: 160px;
+}
+
+.page-background {
+  background-image: url('../images/perspective.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 640px;
+  position: fixed;
 }
 
 
@@ -29,8 +40,8 @@ Kindred
   height: 200px;
   background-image: url('../images/seaisle-signage.jpg');
   background-size: cover;
+  background-position: 50% 50%;
   display: inline-block;
-  margin-right: 15px;
   margin-bottom: 15px;
   color: #fff;
 
@@ -72,8 +83,9 @@ Waterleigh
   height: 200px;
   background-image: url('../images/seaisle-signage.jpg');
   background-size: cover;
+  background-position: 50% 50%;
   display: inline-block;
-  margin-right: 15px;
+  margin-right: 40px;
   margin-bottom: 15px;
   color: #fff;
 }
@@ -99,10 +111,11 @@ Nona Park Landing
 .nonapark-landing {
   width: 200px;
   height: 200px;
-  background-image: url('../images/seaisle-signage.jpg');
+  background-image: url('../images/5-nona-park-village.jpg');
   background-size: cover;
+  background-position: 50% 50%;
   display: inline-block;
-  margin-right: 15px;
+  margin-right: 40px;
   margin-bottom: 15px;
   color: #fff;
 }
@@ -128,10 +141,12 @@ Sea Isle
 .seaisle-landing {
   width: 200px;
   height: 200px;
-  background-image: url('../images/seaisle-signage.jpg');
+  background-image: url('../images/tn-sea-isle.jpg');
   background-size: cover;
+  background-position: 50% 50%;
   color: #fff;
   margin-right: 15px;
+  margin-right: 40px;
 }
 .seaisle-landing a {
   text-decoration: none;
@@ -157,8 +172,10 @@ Altis at Sandlake
   height: 200px;
   background-image: url('../images/seaisle-signage.jpg');
   background-size: cover;
+  background-position: 50% 50%;
   color: #fff;
   margin-right: 15px;
+  margin-right: 40px;
 }
 .altis-landing a {
   text-decoration: none;
@@ -184,7 +201,9 @@ Dwell at Nona Place
   height: 200px;
   background-image: url('../images/seaisle-signage.jpg');
   background-size: cover;
+  background-position: 50% 50%;
   color: #fff;
+  margin-right: 40px;
 }
 .dwell-landing a {
   text-decoration: none;
@@ -208,9 +227,11 @@ Plaza at University
 .plaza-landing {
   width: 200px;
   height: 200px;
-  background-image: url('../images/seaisle-signage.jpg');
+  background-image: url('../images/1-plaza.jpg');
   background-size: cover;
+  background-position: 50% 50%;
   color: #fff;
+  margin-right: 40px;
 }
 .plaza-landing a {
   text-decoration: none;
