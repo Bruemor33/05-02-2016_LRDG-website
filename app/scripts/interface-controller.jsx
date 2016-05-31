@@ -11,6 +11,7 @@ require('Backbone-React-Component');
 //Local component imports here
 var LandingNav = require('./components/landingpage-navigation.jsx').LandingNav;
 var ProjectsNav = require('./components/projects-nav.jsx').ProjectsNav;
+var BottomNav = require('./components/top-bottom-navigation.jsx').BottomNav;
 var LandingPage = require('./components/landing-page.jsx').LandingPage;
 var ProjectsComponent = require('./components/projects.jsx').ProjectsComponent;
 var SeaIsleComponent = require('./components/projects/sea-isle.jsx').SeaIsleComponent;
@@ -57,7 +58,7 @@ var InterfaceComponent = React.createClass({
       body = (<h1>Overview</h1>)
     }
     if(this.state.router.current == "projects"){
-      siteNavigation = (<ProjectsNav />)
+      siteNavigation = (<BottomNav />)
       body = (<ProjectsComponent />)
     }
     if(this.state.router.current == "kindred"){
