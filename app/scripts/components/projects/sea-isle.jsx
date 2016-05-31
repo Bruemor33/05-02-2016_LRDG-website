@@ -51,7 +51,7 @@ var SeaIsleComponent = React.createClass({
 
     return(
       <div id="sea-isle-background" className="container-fluid">
-        <div classNme="col-md-12">
+        <div className="sea-isle-container col-md-12">
           <div id="main-nav" className="sea-isle-writeup">
             <div className="project-nav">
               <h2 className="project-title">Sea Isle</h2>

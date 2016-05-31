@@ -50,15 +50,15 @@ var PlazaUniversityComponent = React.createClass({
 
     return(
       <div id="sea-isle-background" className="container-fluid">
-        <div classNme="col-md-12">
+        <div className="plaza-university-container col-md-12">
           <div id="main-nav" className="writeup">
             <div className="project-nav">
               <h2 className="plaza-title">Plaza at University</h2>
               <ul className="image-links">
-                <li className="plaza-list-item"><Link activeClass="active" className="image-two" to="image-two" spy={true} smooth={true} duration={500}></Link></li>
-                <li className="plaza-list-item"><Link activeClass="active" className="image-three" to="image-three" spy={true} smooth={true} duration={500}></Link></li>
-                <li className="plaza-list-item"><Link activeClass="active" className="image-four" to="image-four" spy={true} smooth={true} duration={500}></Link></li>
-                <li className="plaza-list-item"><Link activeClass="active" className="image-one" to="image-one" spy={true} smooth={true} duration={500}></Link></li>
+                <li className="plaza-list-item"><Link activeClass="active" className="plaza-two" to="plaza-two" spy={true} smooth={true} duration={500}></Link></li>
+                <li className="plaza-list-item"><Link activeClass="active" className="plaza-three" to="plaza-three" spy={true} smooth={true} duration={500}></Link></li>
+                <li className="plaza-list-item"><Link activeClass="active" className="plaza-four" to="plaza-four" spy={true} smooth={true} duration={500}></Link></li>
+                <li className="plaza-list-item"><Link activeClass="active" className="plaza-one" to="plaza-one" spy={true} smooth={true} duration={500}></Link></li>
                 <li><a onClick={() => scroll.scrollTo(100)}></a></li>
                 <li><a onClick={() => scroll.scrollMore(500)}></a></li>
               </ul>
@@ -76,10 +76,10 @@ var PlazaUniversityComponent = React.createClass({
             </div>
           </div>
         </div>
-        <div id="image-one"></div>
-        <div id="image-two"></div>
-        <div id="image-three"></div>
-        <div id="image-four"></div>
+        <div id="plaza-one"></div>
+        <div id="plaza-two"></div>
+        <div id="plaza-three"></div>
+        <div id="plaza-four"></div>
       </div>
     )
   }

@@ -56,10 +56,10 @@ var NonaParkComponent = React.createClass({
             <div className="project-nav">
               <h2 className="nona-title">Nona Park Village</h2>
               <ul className="image-links">
-                <li className="nona-list-item"><Link activeClass="active" className="image-two" to="image-two" spy={true} smooth={true} duration={500}></Link></li>
-                <li className="nona-list-item"><Link activeClass="active" className="image-three" to="image-three" spy={true} smooth={true} duration={500}></Link></li>
-                <li className="nona-list-item"><Link activeClass="active" className="image-four" to="image-four" spy={true} smooth={true} duration={500}></Link></li>
-                <li className="nona-list-item"><Link activeClass="active" className="image-one" to="image-one" spy={true} smooth={true} duration={500}></Link></li>
+                <li className="nona-list-item"><Link activeClass="active" className="nona-two" to="nona-two" spy={true} smooth={true} duration={500}></Link></li>
+                <li className="nona-list-item"><Link activeClass="active" className="nona-three" to="nona-three" spy={true} smooth={true} duration={500}></Link></li>
+                <li className="nona-list-item"><Link activeClass="active" className="nona-four" to="nona-four" spy={true} smooth={true} duration={500}></Link></li>
+                <li className="nona-list-item"><Link activeClass="active" className="nona-one" to="nona-one" spy={true} smooth={true} duration={500}></Link></li>
                 <li><a onClick={() => scroll.scrollTo(100)}></a></li>
                 <li><a onClick={() => scroll.scrollMore(500)}></a></li>
               </ul>
@@ -77,10 +77,10 @@ var NonaParkComponent = React.createClass({
             </div>
           </div>
         </div>
-        <div id="image-one"></div>
-        <div id="image-two"></div>
-        <div id="image-three"></div>
-        <div id="image-four"></div>
+        <div id="nona-one"></div>
+        <div id="nona-two"></div>
+        <div id="nona-three"></div>
+        <div id="nona-four"></div>
       </div>
     )
   }
