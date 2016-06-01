@@ -16,8 +16,8 @@ body {
 
 .project-one-container {
   margin-top: 40px;
-  padding-left: 110px;
-  padding-right: 110px;
+  // padding-left: 10px;
+  // padding-right: 10px;
 }
 
 .page-background {
@@ -44,20 +44,25 @@ Plaza at University
   // background-size: cover;
   // background-position: 50% 50%;
   // color: #fff;
-  // margin-right: 40px;
-  // margin-bottom: 40px;
+  // margin-right: 10px;
+  margin-bottom: 40px;
+  // padding: 0;
 }
 .plaza-landing a {
   text-decoration: none;
-  color: #fff;
+  color: #FADCAE;
 }
 .plaza-landing h3 {
   font-family: 'Poppins', serif;
+  font-size: 20px;
+  font-weight: 200;
   padding-top: 10px;
   padding-left: 10px;
 }
 .plaza-landing p {
   font-family: 'Poppins', serif;
+  font-size: 10px;
+  font-weight: 200;
   padding-left: 10px;
 }
 
@@ -65,16 +70,16 @@ Plaza at University
 .hover-effect-2 {
   position: relative;
   width: 250px;
-  height: 200px;
+  height: 167px;
   overflow: hidden;
   float: left;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.75);
 }
 .hover-effect-2 p, .hover-effect-2 h3 {
-  color: #fff;
-  padding: 10px;
+  color: #FADCAE;
+  padding: 2px;
   left: -20px;
-  top: 20px;
+  top: 2px;
   position: relative;
 }
 .effect img {
@@ -82,14 +87,14 @@ Plaza at University
   left:0;
   bottom:0;
   cursor:pointer;
-  margin:-12px 0;
+  // margin:-12px 0;
   -webkit-transition:bottom .3s ease-in-out;
   -moz-transition:bottom .3s ease-in-out;
   -o-transition:bottom .3s ease-in-out;
   transition:bottom .3s ease-in-out
 }
 .effect img.top:hover {
-  bottom: -96px;
+  bottom: -108px;
   padding-top: 100px;
 }
 h2.zero, p.zero {
@@ -104,96 +109,41 @@ Nona Park Landing
 *************************************************************/
 
 .nonapark-landing {
-  width: 200px;
-  height: 200px;
-  // background-image: url('../images/5-nona-park-village.jpg');
-  // background-size: cover;
-  // background-position: 50% 50%;
-  display: inline-block;
-  margin-right: 40px;
+  // width: 200px;
+  // height: 200px;
+  // // background-image: url('../images/5-nona-park-village.jpg');
+  // // background-size: cover;
+  // // background-position: 50% 50%;
+  // display: inline-block;
+  // margin-right: 10px;
   margin-bottom: 40px;
-  color: #fff;
-}
-.hoover-effect {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  overflow: hidden;
-
-}
-.hoover-effect figure{
-  margin: 0;
-  padding: 0;
-  position: relative;
-  cursor: pointer;
-  margin-left: -50px;
-}
-.hoover-effect figure img {
-  display: block;
-  position: relative;
-  z-index: 10;
-  margin: -15px 0;
-}
-.hoover-effect figure figcaption {
-  display: block;
-  position: absolute;
-  z-index: 5;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-.hoover-effect figure figcaption {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  padding: 29px 44px;
-  background-color: #000;
-  text-align: center;
-  backface-visibility: hidden;
-  -webkit-transform:rotateY(-180deg);
-  -moz-transform:rotateY(-180deg);
-  transform:rotateY(-180deg);
-  -webkit-transition: all .5s;
-  -moz-transition: all .5s;
-  transition: all .5s;
-}
-.hoover-effect figure img {
-  backface-visibility:hidden;
-  -webkit-transition:all .5s;
-  -moz-transition:all .5s;
-  transition:all .5s
-}
-.hoover-effect figure:hover img, figure.hover img {
-  -webkit-transform:rotateY(180deg);
-  -moz-transform:rotateY(180deg);
-  transform:rotateY(180deg)
-}
-.hoover-effect figure:hover figcaption, figure.hover figcaption {
-  -webkit-transform:rotateY(0);
-  -moz-transform:rotateY(0);
-  transform:rotateY(0)
+  color: #FADCAE;
 }
 .nonapark-thumbnail {
-  width: 200px;
-  height: 200px;
-  display: inline-block;
-  position: relative;
-  z-index: 10;
-  margin: -15px 0;
+  // width: 200px;
+  // height: 200px;
+  // display: inline-block;
+  // position: relative;
+  // z-index: 10;
+  // margin: -15px 0;
 }
 .nonapark-landing a {
   text-decoration: none;
-  color: #fff;
+  color: #FADCAE;
 }
 .nonapark-landing h3 {
   font-family: 'Poppins', serif;
-  padding-top: 10px;
-  padding-left: 10px;
+  font-size: 20px;
+  font-weight: 200;
+  padding-top: 5px;
+  padding-left: 5px;
 }
 .nonapark-landing p {
   font-family: 'Poppins', serif;
-  padding-left: 10px;
+  font-size: 10px;
+  font-weight: 200;
+  padding-left: 5px;
+  padding-top: -3px;
 }
 
 
@@ -204,19 +154,19 @@ Kindred
 *************************************************************/
 
 .kindred-writeup {
-  width: 200px;
-  height: 200px;
-  background-image: url('../images/emily-concept-1.jpg');
-  background-size: cover;
-  background-position: 50% 50%;
-  display: inline-block;
+  // width: 200px;
+  // height: 200px;
+  // background-image: url('../images/emily-concept-1.jpg');
+  // background-size: cover;
+  // background-position: 50% 50%;
+  // display: inline-block;
   margin-bottom: 40px;
-  color: #fff;
+  color: #FADCAE;
 
 }
 .kindred-writeup a {
   text-decoration: none;
-  color: #fff;
+  color: #FADCAE;
 }
 
 .transparent-background {
@@ -233,12 +183,16 @@ Kindred
 
 .kindred-writeup h3 {
   font-family: 'Poppins', serif;
-  padding-left: 10px;
-  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 200;
+  padding-left: 5px;
+  padding-top: 5px;
 }
 .kindred-writeup p {
   font-family: 'Poppins', serif;
-  padding-left: 10px;
+  font-size: 10px;
+  font-weight: 200;
+  padding-left: 5px;
 }
 
 
@@ -247,28 +201,32 @@ Waterleigh
 *************************************************************/
 
 .waterleigh-landing {
-  width: 200px;
-  height: 200px;
-  background-image: url('../images/emily-concept-2.jpg');
-  background-size: cover;
-  background-position: 50% 50%;
-  display: inline-block;
-  margin-right: 40px;
+  // width: 200px;
+  // height: 200px;
+  // background-image: url('../images/emily-concept-2.jpg');
+  // background-size: cover;
+  // background-position: 50% 50%;
+  // display: inline-block;
+  // margin-right: 40px;
   margin-bottom: 40px;
-  color: #fff;
+  color: #FADCAE;
 }
 .waterleigh-landing a {
   text-decoration: none;
-  color: #fff;
+  color: #FADCAE;
 }
 .waterleigh-landing h3 {
   font-family: 'Poppins', serif;
-  padding-left: 10px;
-  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 200;
+  padding-left: 5px;
+  padding-top: 5px;
 }
 .waterleigh-landing p {
   font-family: 'Poppins', serif;
-  padding-left: 10px;
+  font-size: 10px;
+  font-weight: 200;
+  padding-left: 5px;
 }
 
 
@@ -278,26 +236,30 @@ Sea Isle
 *************************************************************/
 
 .seaisle-landing {
-  width: 200px;
-  height: 200px;
-  background-image: url('../images/tn-sea-isle.jpg');
-  background-size: cover;
-  background-position: 50% 50%;
-  color: #fff;
-  margin-right: 40px;
+  // width: 200px;
+  // height: 200px;
+  // background-image: url('../images/tn-sea-isle.jpg');
+  // background-size: cover;
+  // background-position: 50% 50%;
+  // color: #fff;
+  // margin-right: 10px;
 }
 .seaisle-landing a {
   text-decoration: none;
-  color: #fff;
+  color: #FADCAE;
 }
 .seaisle-landing h3 {
   font-family: 'Poppins', serif;
-  padding-top: 10px;
-  padding-left: 10px;
+  font-size: 20px;
+  font-weight: 200;
+  padding-top: 5px;
+  padding-left: 5px;
 }
 .seaisle-landing p {
   font-family: 'Poppins', serif;
-  padding-left: 10px;
+  font-size: 10px;
+  font-weight: 200;
+  padding-left: 5px;
 }
 
 
@@ -306,26 +268,30 @@ Altis at Sandlake
 *************************************************************/
 
 .altis-landing {
-  width: 200px;
-  height: 200px;
-  background-image: url('../images/emily-concept-3.jpg');
-  background-size: cover;
-  background-position: 50% 50%;
-  color: #fff;
-  margin-right: 40px;
+  // width: 200px;
+  // height: 200px;
+  // background-image: url('../images/emily-concept-3.jpg');
+  // background-size: cover;
+  // background-position: 50% 50%;
+  // color: #fff;
+  // margin-right: 40px;
 }
 .altis-landing a {
   text-decoration: none;
-  color: #fff;
+  color: #FADCAE;
 }
 .altis-landing h3 {
   font-family: 'Poppins', serif;
-  padding-top: 10px;
-  padding-left: 10px;
+  font-size: 20px;
+  font-weight: 200;
+  padding-top: 5px;
+  padding-left: 5px;
 }
 .altis-landing p {
   font-family: 'Poppins', serif;
-  padding-left: 10px;
+  font-size: 10px;
+  font-weight: 200;
+  padding-left: 5px;
 }
 
 
@@ -334,26 +300,30 @@ Dwell at Nona Place
 *************************************************************/
 
 .dwell-landing {
-  width: 200px;
-  height: 200px;
-  background-image: url('../images/emily-concept-4.jpg');
-  background-size: cover;
-  background-position: 50% 50%;
-  color: #fff;
-  margin-right: 40px;
+  // width: 200px;
+  // height: 200px;
+  // background-image: url('../images/emily-concept-4.jpg');
+  // background-size: cover;
+  // background-position: 50% 50%;
+  // color: #fff;
+  // margin-right: 40px;
 }
 .dwell-landing a {
   text-decoration: none;
-  color: #fff;
+  color: #FADCAE;
 }
 .dwell-landing h3 {
   font-family: 'Poppins', serif;
-  padding-top: 10px;
-  padding-left: 10px;
+  font-size: 20px;
+  font-weight: 200;
+  padding-top: 5px;
+  padding-left: 5px;
 }
 .dwell-landing p {
   font-family: 'Poppins', serif;
-  padding-left: 10px;
+  font-size: 10px;
+  font-weight: 200;
+  padding-left: 5px;
 }
 
 

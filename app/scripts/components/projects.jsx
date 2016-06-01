@@ -20,7 +20,7 @@ var ProjectsComponent = React.createClass({
             <div className="plaza-landing col-md-3">
               <ul className="hover-effect-2 effect">
                 <a href="#plazaUniversity">
-                  <li className="transparent-background">
+                  <li className="plaza-background">
                     <h3 className="zero">Plaza at University</h3>
                     <p className="zero">location here</p>
                     <p className="zero">Size: values here</p>
@@ -31,70 +31,81 @@ var ProjectsComponent = React.createClass({
             </div>
 
             <div className="nonapark-landing col-md-3">
-              <ul className="hoover-effect">
-                <li>
-                  <figure>
-                    <a href="#nonapark">
-                      <img className="nonapark-thumbnail" src="images/5-nona-park-village.jpg"/>
-                      <figcaption className="transparent-background">
-                        <h3>Nona Park</h3>
-                        <p>location here</p>
-                        <p>Size: values here</p>
-                      </figcaption>
-                    </a>
-                  </figure>
-                </li>
+              <ul className="hover-effect-2 effect">
+                <a href="#nonapark">
+                  <li className="nona-background">
+                    <h3 className="zero">Nona Park</h3>
+                    <p className="zero">location here</p>
+                    <p className="zero">Size: values here</p>
+                  </li>
+                  <li><img className="top" src="images/5-nona-park-village.jpg"/></li>
+                </a>
               </ul>
             </div>
 
             <div className="seaisle-landing col-md-3">
-              <a href="#seaisle">
-                <div className="transparent-background">
-                  <h3>Sea Isle</h3>
-                  <p>location here</p>
-                  <p>Size: values here</p>
-                </div>
-              </a>
+              <ul className="hover-effect-2 effect">
+                <a href="#seaisle">
+                  <li className="seaisle-background">
+                    <h3 className="zero">Sea Isle</h3>
+                    <p className="zero">location here</p>
+                    <p className="zero">Size: values here</p>
+                  </li>
+                  <li><img className="top" src="images/tn-sea-isle.jpg" /></li>
+                </a>
+              </ul>
             </div>
 
             <div className="kindred-writeup col-md-3">
-              <a href={"#kindred"}>
-                <div className="transparent-background">
-                  <h3>Kindred</h3>
-                  <p>Osceola County, Fl</p>
-                  <p>Size: 1,450 Acres, 3,000 Units</p>
-                </div>
-              </a>
+              <ul className="hover-effect-2 effect">
+                <a href={"#kindred"}>
+                  <li className="kindred-background">
+                    <h3 className="zero">Kindred</h3>
+                    <p className="zero">Osceola County, Fl</p>
+                    <p className="zero">Size: 1,450 Acres, 3,000 Units</p>
+                  </li>
+                  <li><img className="top" src="images/emily-concept-1.jpg" /></li>
+                </a>
+              </ul>
             </div>
 
             <div className="waterleigh-landing col-md-3">
-              <a href={"#waterleigh"}>
-                <div className="transparent-background">
-                  <h3>Waterleigh</h3>
-                  <p>location here</p>
-                  <p>Size: values here</p>
-                </div>
-              </a>
+              <ul className="hover-effect-2 effect">
+                <a href={"#waterleigh"}>
+                  <li className="waterleigh-background">
+                    <h3 className="zero">Waterleigh</h3>
+                    <p className="zero">location here</p>
+                    <p className="zero">Size: values here</p>
+                  </li>
+                  <li><img className="top" src="images/emily-concept-2.jpg" /></li>
+                </a>
+              </ul>
             </div>
 
             <div className="altis-landing col-md-3">
-              <a href="#altis">
-                <div className="transparent-background">
-                  <h3>Altis at Sandlake</h3>
-                  <p>location here</p>
-                  <p>Size: values here</p>
-                </div>
-              </a>
+              <ul className="hover-effect-2 effect">
+                <a href="#altis">
+                  <li className="altis-background">
+                    <h3 className="zero">Altis at Sandlake</h3>
+                    <p className="zero">location here</p>
+                    <p className="zero">Size: values here</p>
+                  </li>
+                  <li><img className="top" src="images/emily-concept-3.jpg" /></li>
+                </a>
+              </ul>
             </div>
 
             <div className="dwell-landing col-md-3">
-              <a href="#dwell">
-                <div className="transparent-background">
-                  <h3>Dwell at Nona Place</h3>
-                  <p>location here</p>
-                  <p>Size: values here</p>
-                </div>
-              </a>
+              <ul className="hover-effect-2 effect">
+                <a href="#dwell">
+                  <li className="dwell-background">
+                    <h3 className="zero">Dwell at Nona Place</h3>
+                    <p className="zero">location here</p>
+                    <p className="zero">Size: values here</p>
+                  </li>
+                  <li><img className="top" src="images/emily-concept-4.jpg" /></li>
+                </a>
+              </ul>
             </div>
 
           </div>
