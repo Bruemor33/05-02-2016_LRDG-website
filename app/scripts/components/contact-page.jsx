@@ -18,18 +18,19 @@ var ContactPageComponent = React.createClass({
 
     return(
       <div className="container">
-        <div className="contact-background"></div>
-        <div className="col-md-12">
+        <div className="contact-background">
           <div className="row">
-            <div className="company-container col-md-8">
-              <div className="company-logo"></div>
-              <h1 className="company-title">Land Resource Design Group</h1>
-              <p className="company-address">Address here</p>
-              <p className="company-emial">Query email here</p>
-            </div>
-            <div className="google-map col-md-4">
-              <p>probably a map here.</p>
-              <p>link to directions</p>
+            <div className="col-md-12">
+              <div className="company-container col-md-8">
+                <div className="company-logo"></div>
+                <h1 className="company-title">Land Resource Design Group</h1>
+                <p className="company-address">Address here</p>
+                <p className="company-emial">Query email here</p>
+              </div>
+              <div className="google-map col-md-4">
+                <p>probably a map here.</p>
+                <p>link to directions</p>
+              </div>
             </div>
           </div>
         </div>
