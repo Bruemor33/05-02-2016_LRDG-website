@@ -95,7 +95,7 @@ var InterfaceComponent = React.createClass({
     }
     if(this.state.router.current == "contact"){
       navigation = (<LandingNav />)
-      body = (<h1>Contact</h1>)
+      body = (<ContactPageComponent />)
     }
 
     return(
