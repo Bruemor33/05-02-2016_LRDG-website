@@ -27,9 +27,29 @@ CONTACT PAGE
   color: #fff;
 }
 
+.company-logo {
+  background-image: url('../images/lrdg-logo.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  margin-top: 50px;
+}
+.company-title {
+  display: inline-block;
+  position: relative;
+  bottom: 45px;
+  font-family: 'Poppins', serif;
+  color: #000;
+}
+
 .google-map {
   display: inline-block;
   color: #fff;
+  padding-top: 80px;
+  padding-left: 70px;
 }
 
 
