@@ -21,6 +21,7 @@ var SandlakeComponent = require('./components/projects/sandlake.jsx').SandlakeCo
 var NonaParkComponent =require('./components/projects/nona-park.jsx').NonaParkComponent;
 var DwellNonaPlaceComponent = require('./components/projects/dwell-nonaplace.jsx').DwellNonaPlaceComponent;
 var PlazaUniversityComponent = require('./components/projects/plaza-university.jsx').PlazaUniversityComponent;
+var LasVentanasComponent = require('./components/projects/las-ventanas.jsx').LasVentanasComponent;
 var OverviewComponent = require('./components/overview.jsx').OverviewComponent;
 var StudioPageComponent = require('./components/studio.jsx').StudioPageComponent;
 var ContactPageComponent = require('./components/contact-page.jsx').ContactPageComponent;
@@ -58,7 +59,7 @@ var InterfaceComponent = React.createClass({
       body = (<OverviewComponent />)
     }
     if(this.state.router.current == "projects"){
-      siteNavigation = (<BottomNav />)
+      siteNavigation = (<ProjectsNav />)
       body = (<ProjectsComponent />)
     }
     if(this.state.router.current == "kindred"){
@@ -88,6 +89,10 @@ var InterfaceComponent = React.createClass({
     if(this.state.router.current == "plazaUniversity"){
       siteNavigation = (<ProjectsNav />)
       body = (<PlazaUniversityComponent />)
+    }
+    if(this.state.router.current == "ventanas"){
+      siteNavigation = (<ProjectsNav />)
+      body = (<LasVentanasComponent />)
     }
     if(this.state.router.current == "people"){
       navigation = (<LandingNav />)
