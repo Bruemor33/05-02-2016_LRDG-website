@@ -108,6 +108,19 @@ var ProjectsComponent = React.createClass({
               </ul>
             </div>
 
+            <div className="ventanas-landing col-md-3">
+              <ul className="hover-effect-2 effect">
+                <a href="#ventanas">
+                  <li className="ventanas-background">
+                    <h3 className="zero">Las Ventanas</h3>
+                    <p className="zero">location here</p>
+                    <p className="zero">Size: value here</p>
+                  </li>
+                  <li><img className="top" src="images/emily-concept-1.jpg" /></li>
+                </a>
+              </ul>
+            </div>
+
           </div>
         </div>
       </div>
