@@ -35,7 +35,26 @@
 .projects-projects {
 
 }
+.projects-projects:hover {
+  color: #000;
+  background-color: #E1D6CC;
+  background-size: auto;
+}
+.projects-people {
 
+}
+.projects-people:hover {
+  color: #000;
+  background-color: #A76459;
+  height: 50px;
+}
+.projects-contact {
+  
+}
+.projects-contact:hover {
+  color: #000;
+  background-color: #FADCAE;
+}
 
 @media(max-width: 1440px){
   .projects-navigation {
@@ -55,32 +74,32 @@
   .projects-overview {
     position: relative;
     top: -15px;
-    padding-top: 17px;
-    padding-bottom: 17px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-right: 8px;
     padding-left: 8px;
   }
   .projects-projects {
     position: relative;
     top: -15px;
-    padding-top: 17px;
-    padding-bottom: 17px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-right: 8px;
     padding-left: 8px;
   }
   .projects-people {
     position: relative;
     top: -15px;
-    padding-top: 17px;
-    padding-bottom: 17px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-right: 8px;
     padding-left: 8px;
   }
   .projects-contact {
     position: relative;
     top: -15px;
-    padding-top: 17px;
-    padding-bottom: 17px;
+    padding-top: 15px;
+    padding-bottom: 14px;
     padding-right: 8px;
     padding-left: 8px;
   }
