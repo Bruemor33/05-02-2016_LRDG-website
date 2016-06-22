@@ -15,7 +15,7 @@ var ProjectsNav = React.createClass({
         <nav id="site-nav" className="row">
           <div className="projects-navigation col-md-12">
             <img src="./images/small-lrdg-logo.png" className="landing-logo" />
-            <a href="#overview" className="projects-overview">Overview</a>
+            <a href="#overview" className="projects-overview">Practice</a>
             <a href="#projects" className="projects-projects">Projects</a>
             <a href="#people" className="projects-people">Studio</a>
             <a href="#contact" className="projects-contact">Contact</a>
