@@ -15,7 +15,7 @@ var LandingNav = React.createClass({
         <nav className="row">
           <div className="landing-navigation col-md-12">
             <img src="./images/small-lrdg-logo.png" className="landing-logo" />
-            <a href="#overview" className="landing-overview">Overview</a>
+            <a href="#overview" className="landing-overview">Practice</a>
             <a href="#projects" className="landing-projects">Projects</a>
             <a href="#people" className="landing-people">Studio</a>
             <a href="#contact" className="landing-contact">Contact</a>
