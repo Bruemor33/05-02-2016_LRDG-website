@@ -26,46 +26,46 @@ Altis at Sandlake page styling
   margin-left: 10px;
   cursor: pointer;
 }
-.image-one {
+.waterleigh-one {
   display: inline-block;
   border: 1px solid #E1D6CC;
   height: 20px;
   width: 20px;
 }
-.image-one:hover {
+.waterleigh-one:hover {
   height: 20px;
   width: 20px;
   background-color: #FADCAE;
 }
-.image-two {
+.waterleigh-two {
   display: inline-block;
   border: 1px solid #E1D6CC;
   height: 20px;
   width: 20px;
 }
-.image-two:hover {
+.waterleigh-two:hover {
   height: 20px;
   width: 20px;
   background-color: #AFB38A;
 }
-.image-three {
+.waterleigh-three {
   display: inline-block;
   border: 1px solid #E1D6CC;
   height: 20px;
   width: 20px;
 }
-.image-three:hover {
+.waterleigh-three:hover {
   height: 20px;
   width: 20px;
   background-color: #E1D6CC;
 }
-.image-four {
+.waterleigh-four {
   display: inline-block;
   border: 1px solid #E1D6CC;
   height: 20px;
   width: 20px;
 }
-.image-four:hover {
+.waterleigh-four:hover {
   height: 20px;
   width: 20px;
   background-color: #A76459;
@@ -74,6 +74,41 @@ Altis at Sandlake page styling
   height: 20px;
   width: 20px;
   border: 1px solid #E1D6CC;
+}
+
+
+
+#waterleigh-one {
+  background-image: url('../images/1-waterleigh.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 630px;
+  width: 100%;
+}
+#waterleigh-two {
+  background-image: url('../images/2-waterleigh.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 630px;
+  width: 100%;
+}
+#waterleigh-three {
+  background-image: url('../images/3-waterleigh.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 630px;
+  width: 100%;
+}
+#waterleigh-four {
+  background-image: url('../images/4-waterleigh.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 630px;
+  width: 100%;
 }
 
 
