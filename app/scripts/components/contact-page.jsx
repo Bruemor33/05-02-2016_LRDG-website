@@ -17,13 +17,15 @@ var ContactPageComponent = React.createClass({
 
 
     return(
-      <div className="container">
+      <div className="container-fluid">
         <div className="contact-background">
           <div className="row">
-            <div className="col-md-12">
+            <div className="contact-container col-md-12">
               <div className="company-container col-md-7">
-                <div className="company-logo"></div>
-                <h1 className="company-title">Land Resource Design Group</h1>
+                <div className="company-name-wrapper">
+                  <div className="company-logo"></div>
+                  <h1 className="company-title">Land Resource Design Group</h1>
+                </div>
                 <p className="company-address">2929 Wadsworth Ave. 32806</p>
                 <p className="company-emial">info@lrdg-inc.com</p>
                 <ul>
