@@ -21,7 +21,7 @@ body {
 }
 
 .page-background {
-  background: linear-gradient(rgba(248, 204, 41, 0.25), rgba(248, 204, 41, 0.25)), url('../images/perspective.jpg');
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('../images/perspective.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -160,6 +160,7 @@ Kindred
   // background-size: cover;
   // background-position: 50% 50%;
   // display: inline-block;
+  border-radius: 15px;
   margin-bottom: 40px;
   color: #FADCAE;
 
@@ -172,6 +173,7 @@ Kindred
 .transparent-background {
   height: 200px;
   width: 200px;
+  border-radius: 15px;
   background-color: rgba( 0, 0, 0, 0.4);
   position: relative;
   bottom: 20px;
