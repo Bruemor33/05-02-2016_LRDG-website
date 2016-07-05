@@ -31,7 +31,7 @@ var ContactPageComponent = React.createClass({
               </div>
               <div className="company-info">
                 <div className="social-links">
-                  <p>Find us online!</p>
+                  <p className="social-links-caption">Find us online!</p>
                   <ul>
                     <li>
                       <a href="https://www.facebook.com/Land-Resource-Design-Group-872873609490285/?fref=ts">
