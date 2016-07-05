@@ -20,6 +20,7 @@ var Router = Backbone.Router.extend({
     "dwell": "dwell",
     "plazaUniversity": "plazaUniversity",
     "ventanas": "ventanas",
+    "brisas": "brisas",
     "overview": "overview",
     "people": "people",
     "contact": "contact",
@@ -58,6 +59,9 @@ var Router = Backbone.Router.extend({
   },
   ventanas: function(){
     this.current = "ventanas"
+  },
+  brisas: function(){
+    this.current = "brisas"
   },
   overview: function(){
     this.current = "overview"
