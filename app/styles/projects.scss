@@ -21,7 +21,7 @@ body {
 }
 
 .page-background {
-  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('../images/perspective.jpg');
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('../images/perspective.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -61,7 +61,7 @@ Plaza at University
 }
 .plaza-landing p {
   font-family: 'Poppins', serif;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 200;
   padding-left: 10px;
 }
@@ -140,7 +140,7 @@ Nona Park Landing
 }
 .nonapark-landing p {
   font-family: 'Poppins', serif;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 200;
   padding-left: 5px;
   padding-top: -3px;
@@ -192,7 +192,7 @@ Kindred
 }
 .kindred-writeup p {
   font-family: 'Poppins', serif;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 200;
   padding-left: 5px;
 }
@@ -226,7 +226,7 @@ Waterleigh
 }
 .waterleigh-landing p {
   font-family: 'Poppins', serif;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 200;
   padding-left: 5px;
 }
@@ -245,6 +245,7 @@ Sea Isle
   // background-position: 50% 50%;
   // color: #fff;
   // margin-right: 10px;
+  margin-bottom: 40px;
 }
 .seaisle-landing a {
   text-decoration: none;
@@ -259,7 +260,7 @@ Sea Isle
 }
 .seaisle-landing p {
   font-family: 'Poppins', serif;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 200;
   padding-left: 5px;
 }
@@ -277,6 +278,7 @@ Altis at Sandlake
   // background-position: 50% 50%;
   // color: #fff;
   // margin-right: 40px;
+  margin-bottom: 40px;
 }
 .altis-landing a {
   text-decoration: none;
@@ -291,7 +293,7 @@ Altis at Sandlake
 }
 .altis-landing p {
   font-family: 'Poppins', serif;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 200;
   padding-left: 5px;
 }
@@ -309,6 +311,7 @@ Dwell at Nona Place
   // background-position: 50% 50%;
   // color: #fff;
   // margin-right: 40px;
+  margin-bottom: 40px;
 }
 .dwell-landing a {
   text-decoration: none;
@@ -323,7 +326,7 @@ Dwell at Nona Place
 }
 .dwell-landing p {
   font-family: 'Poppins', serif;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 200;
   padding-left: 5px;
 }
@@ -340,7 +343,7 @@ Las Ventanas
 
 
 .ventanas-landing {
-
+  margin-bottom: 40px;
 }
 
 .ventanas-landing a {
@@ -355,6 +358,38 @@ Las Ventanas
   padding-left: 5px;
 }
 .ventanas-landing p {
+  font-family: "Poppins", serif;
+  font-size: 13px;
+  font-weight: 200;
+  padding-left: 5px;
+}
+
+
+
+
+/*************************************************************
+Las Brisas
+*************************************************************/
+
+
+
+
+.brisas-landing {
+  margin-bottom: 100px;
+}
+
+.brisas-landing a {
+  text-decoration: none;
+  color: #FADCAE;
+}
+.brisas-landing h3 {
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  font-weight: 200;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+.brisas-landing p {
   font-family: "Poppins", serif;
   font-size: 13px;
   font-weight: 200;
