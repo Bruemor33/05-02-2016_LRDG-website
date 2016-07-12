@@ -56,10 +56,10 @@ var SandlakeComponent = React.createClass({
             <div className="project-nav">
               <h2 className="altis-title">Altis at Sandlake</h2>
               <ul className="image-links">
-                <li className="altis-list-item"><Link activeClass="active" className="image-two" to="image-two" spy={true} smooth={true} duration={500}></Link></li>
-                <li className="altis-list-item"><Link activeClass="active" className="image-three" to="image-three" spy={true} smooth={true} duration={500}></Link></li>
-                <li className="altis-list-item"><Link activeClass="active" className="image-four" to="image-four" spy={true} smooth={true} duration={500}></Link></li>
-                <li className="altis-list-item"><Link activeClass="active" className="image-one" to="image-one" spy={true} smooth={true} duration={500}></Link></li>
+                <li className="altis-list-item"><Link activeClass="active" className="sandlake-two" to="sandlake-two" spy={true} smooth={true} duration={500}></Link></li>
+                <li className="altis-list-item"><Link activeClass="active" className="sandlake-three" to="sandlake-three" spy={true} smooth={true} duration={500}></Link></li>
+                <li className="altis-list-item"><Link activeClass="active" className="sandlake-four" to="sandlake-four" spy={true} smooth={true} duration={500}></Link></li>
+                <li className="altis-list-item"><Link activeClass="active" className="sandlake-one" to="sandlake-one" spy={true} smooth={true} duration={500}></Link></li>
                 <li><a onClick={() => scroll.scrollTo(100)}></a></li>
                 <li><a onClick={() => scroll.scrollMore(500)}></a></li>
               </ul>
@@ -77,10 +77,10 @@ var SandlakeComponent = React.createClass({
             </div>
           </div>
         </div>
-        <div id="image-one"></div>
-        <div id="image-two"></div>
-        <div id="image-three"></div>
-        <div id="image-four"></div>
+        <div id="sandlake-one"></div>
+        <div id="sandlake-two"></div>
+        <div id="sandlake-three"></div>
+        <div id="sandlake-four"></div>
       </div>
     )
   }
