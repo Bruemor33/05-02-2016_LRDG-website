@@ -26,46 +26,46 @@ Altis at Sandlake page styling
   margin-left: 10px;
   cursor: pointer;
 }
-.image-one {
+.sandlake-one {
   display: inline-block;
   border: 1px solid #E1D6CC;
   height: 20px;
   width: 20px;
 }
-.image-one:hover {
+.sandlake-one:hover {
   height: 20px;
   width: 20px;
   background-color: #FADCAE;
 }
-.image-two {
+.sandlake-two {
   display: inline-block;
   border: 1px solid #E1D6CC;
   height: 20px;
   width: 20px;
 }
-.image-two:hover {
+.sandlake-two:hover {
   height: 20px;
   width: 20px;
   background-color: #AFB38A;
 }
-.image-three {
+.sandlake-three {
   display: inline-block;
   border: 1px solid #E1D6CC;
   height: 20px;
   width: 20px;
 }
-.image-three:hover {
+.sandlake-three:hover {
   height: 20px;
   width: 20px;
   background-color: #E1D6CC;
 }
-.image-four {
+.sandlake-four {
   display: inline-block;
   border: 1px solid #E1D6CC;
   height: 20px;
   width: 20px;
 }
-.image-four:hover {
+.sandlake-four:hover {
   height: 20px;
   width: 20px;
   background-color: #A76459;
@@ -130,6 +130,39 @@ Altis at Sandlake page styling
 }
 .client-type {
   margin-bottom: 15px;
+}
+
+#sandlake-one {
+  background-image: url('../images/1-altis-sandlake.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 630px;
+  width: 100%;
+}
+#sandlake-two {
+  background-image: url('../images/2-altis-sandlake.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 630px;
+  width: 100%;
+}
+#sandlake-three {
+  background-image: url('../images/3-altis-sandlake.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 630px;
+  width: 100%;
+}
+#sandlake-four {
+  background-image: url('../images/4-altis-sandlake.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 630px;
+  width: 100%;
 }
 
 
