@@ -3,7 +3,7 @@
 
 
 /***************************************************************************************
-Altis at Sandlake page styling
+Dwell Nona Place page styling
 ***************************************************************************************/
 
 
@@ -27,29 +27,49 @@ Altis at Sandlake page styling
   display: inline-block;
   margin-left: 10px;
 }
-.image-one {
+.dwell-one {
   display: inline-block;
   border: 1px solid #fff;
   height: 20px;
   width: 20px;
 }
-.image-two {
+.dwell-one:hover {
+  height: 20px;
+  width: 20px;
+  background-color: #FADCAE;
+}
+.dwell-two {
   display: inline-block;
   border: 1px solid #fff;
   height: 20px;
   width: 20px;
 }
-.image-three {
+.dwell-two:hover {
+  height: 20px;
+  width: 20px;
+  background-color: #AFB38A;
+}
+.dwell-three {
   display: inline-block;
   border: 1px solid #fff;
   height: 20px;
   width: 20px;
 }
-.image-four {
+.dwell-three:hover {
+  height: 20px;
+  width: 20px;
+  background-color: #E1D6CC;
+}
+.dwell-four {
   display: inline-block;
   border: 1px solid #fff;
   height: 20px;
   width: 20px;
+}
+.dwell-four:hover {
+  height: 20px;
+  width: 20px;
+  background-color: #A76459;
 }
 .image-nav {
   height: 20px;
@@ -113,6 +133,39 @@ Altis at Sandlake page styling
   margin-bottom: 15px;
 }
 
+
+#dwell-one {
+  background-image: url('../images/1-dwell-nonaplace.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 630px;
+  width: 100%;
+}
+#dwell-two {
+  background-image: url('../images/2-dwell-nonaplace.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 630px;
+  width: 100%;
+}
+#dwell-three {
+  background-image: url('../images/3-dwell-nonaplace.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 630px;
+  width: 100%;
+}
+#dwell-four {
+  background-image: url('../images/4-dwell-nonaplace.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 630px;
+  width: 100%;
+}
 
 
 
