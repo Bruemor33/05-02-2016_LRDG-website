@@ -88,7 +88,7 @@ var ProjectsComponent = React.createClass({
                   <li className="altis-background">
                     <h3 className="zero">Altis at Sandlake</h3>
                     <p className="zero">location here</p>
-                    <p className="zero">Size: values here</p>
+                    <p className="zero">Size: 13.5 Acres, 315 Units</p>
                   </li>
                   <li><img className="top" src="images/emily-concept-3.jpg" /></li>
                 </a>
