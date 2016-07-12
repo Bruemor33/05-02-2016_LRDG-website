@@ -52,7 +52,7 @@ var InterfaceComponent = React.createClass({
     var siteNavigation;
 
     if(this.state.router.current == "index"){
-      navigation = (<LandingNav />)
+      navigation = (<ProjectsNav />)
       body = (<LandingPage/>)
     }
     if(this.state.router.current == "overview"){
