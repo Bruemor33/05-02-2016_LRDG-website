@@ -129,7 +129,7 @@ var ProjectsComponent = React.createClass({
                     <p className="zero">location here</p>
                     <p className="zero">Size: value here</p>
                   </li>
-                  <li><img className="top" src="images/emily-concept-2.jpg" /></li>
+                  <li><img className="top" src="images/tn-las-brisas.jpg" /></li>
                 </a>
               </ul>
             </div>
@@ -137,13 +137,13 @@ var ProjectsComponent = React.createClass({
 
             <div className="brisas-landing col-md-3">
               <ul className="hover-effect-2 effect">
-                <a href="#brisas">
+                <a href="#harmony">
                   <li className="brisas-background">
-                    <h3 className="zero">Las Brisas</h3>
+                    <h3 className="zero">Harmony</h3>
                     <p className="zero">location here</p>
                     <p className="zero">Size: value here</p>
                   </li>
-                  <li><img className="top" src="images/emily-concept-2.jpg" /></li>
+                  <li><img className="top" src="images/tn-harmony.jpg" /></li>
                 </a>
               </ul>
             </div>
@@ -155,7 +155,7 @@ var ProjectsComponent = React.createClass({
                     <p className="zero">location here</p>
                     <p className="zero">Size: value here</p>
                   </li>
-                  <li><img className="top" src="images/emily-concept-2.jpg" /></li>
+                  <li><img className="top" src="images/tn-las-brisas.jpg" /></li>
                 </a>
               </ul>
             </div>
@@ -167,7 +167,7 @@ var ProjectsComponent = React.createClass({
                     <p className="zero">location here</p>
                     <p className="zero">Size: value here</p>
                   </li>
-                  <li><img className="top" src="images/emily-concept-2.jpg" /></li>
+                  <li><img className="top" src="images/tn-las-brisas.jpg" /></li>
                 </a>
               </ul>
             </div>
