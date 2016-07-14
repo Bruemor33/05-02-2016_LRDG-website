@@ -21,7 +21,7 @@ body {
 }
 
 .page-background {
-  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('../images/1-background.jpg');
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('../images/background-bench.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -50,7 +50,7 @@ Plaza at University
 }
 .plaza-landing a {
   text-decoration: none;
-  color: #FADCAE;
+  color: #FFF;
 }
 .plaza-landing h3 {
   font-family: 'Poppins', serif;
@@ -76,7 +76,7 @@ Plaza at University
   background-color: rgba(0, 0, 0, 0.75);
 }
 .hover-effect-2 p, .hover-effect-2 h3 {
-  color: #FADCAE;
+  color: #FFF;
   padding: 2px;
   left: -20px;
   top: 2px;
