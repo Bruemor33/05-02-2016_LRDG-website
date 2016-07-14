@@ -23,6 +23,7 @@ var DwellNonaPlaceComponent = require('./components/projects/dwell-nonaplace.jsx
 var PlazaUniversityComponent = require('./components/projects/plaza-university.jsx').PlazaUniversityComponent;
 var LasVentanasComponent = require('./components/projects/las-ventanas.jsx').LasVentanasComponent;
 var LasBrisasComponent = require('./components/projects/las-brisas.jsx').LasBrisasComponent;
+var HarmonyComponent = require('./components/projects/harmony.jsx').HarmonyComponent;
 var OverviewComponent = require('./components/overview.jsx').OverviewComponent;
 var StudioPageComponent = require('./components/studio.jsx').StudioPageComponent;
 var ContactPageComponent = require('./components/contact-page.jsx').ContactPageComponent;
@@ -98,6 +99,10 @@ var InterfaceComponent = React.createClass({
     if(this.state.router.current == "brisas"){
       siteNavigation = (<ProjectsNav />)
       body = (<LasBrisasComponent />)
+    }
+    if(this.state.router.current == "harmony"){
+      siteNavigation = (<ProjectsNav />)
+      body = (<HarmonyComponent />)
     }
     if(this.state.router.current == "people"){
       navigation = (<LandingNav />)
