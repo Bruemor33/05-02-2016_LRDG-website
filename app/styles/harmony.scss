@@ -10,11 +10,17 @@ Harmony page styling
 
 
 
+.harmony-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
 
 /** Project Title **/
 .harmony-title {
   display: inline-block;
-  margin-right: 194px;
+  margin-right: 200px;
 }
 .project-nav {
   height: 50px;
@@ -88,7 +94,7 @@ Harmony page styling
   padding-right: 15px;
   padding-top: -5px;
   background-color: rgba(0, 0, 0, 0.7);
-  color: #E1D6CC;
+  color: #FFF;
   font-family: 'Poppins', serif;
   font-weight: 300;
 }
@@ -121,7 +127,7 @@ Harmony page styling
   padding-top: 15px;
   padding-bottom: 15px;
   background-color: rgba(0, 0, 0, 0.7);
-  color: #E1D6CC;
+  color: #FFF;
   font-family: 'Poppins', serif;
   font-weight: 300;
   transition: ease-in;
