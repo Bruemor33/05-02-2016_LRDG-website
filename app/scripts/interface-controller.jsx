@@ -105,8 +105,8 @@ var InterfaceComponent = React.createClass({
       body = (<HarmonyComponent />)
     }
     if(this.state.router.current == "people"){
-      navigation = (<LandingNav />)
-      body = (<h1>People</h1>)
+      navigation = (<ProjectsNav />)
+      body = (<StudioPageComponent />)
     }
     if(this.state.router.current == "contact"){
       navigation = (<ProjectsNav />)
