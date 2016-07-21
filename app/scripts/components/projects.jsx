@@ -149,13 +149,13 @@ var ProjectsComponent = React.createClass({
             </div>
             <div className="brisas-landing col-md-3">
               <ul className="hover-effect-2 effect">
-                <a href="#brisas">
+                <a href="#magic">
                   <li className="brisas-background">
-                    <h3 className="zero">Las Brisas</h3>
+                    <h3 className="zero">Magic Village</h3>
                     <p className="zero">location here</p>
                     <p className="zero">Size: value here</p>
                   </li>
-                  <li><img className="top" src="images/tn-las-brisas.jpg" /></li>
+                  <li><img className="top" src="images/5-magic-village.jpg" /></li>
                 </a>
               </ul>
             </div>
