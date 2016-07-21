@@ -24,6 +24,7 @@ var PlazaUniversityComponent = require('./components/projects/plaza-university.j
 var LasVentanasComponent = require('./components/projects/las-ventanas.jsx').LasVentanasComponent;
 var LasBrisasComponent = require('./components/projects/las-brisas.jsx').LasBrisasComponent;
 var HarmonyComponent = require('./components/projects/harmony.jsx').HarmonyComponent;
+var MagicVillageComponent = require('./components/projects/magic-village.jsx').MagicVillageComponent;
 var OverviewComponent = require('./components/overview.jsx').OverviewComponent;
 var StudioPageComponent = require('./components/studio.jsx').StudioPageComponent;
 var ContactPageComponent = require('./components/contact-page.jsx').ContactPageComponent;
@@ -103,6 +104,10 @@ var InterfaceComponent = React.createClass({
     if(this.state.router.current == "harmony"){
       siteNavigation = (<ProjectsNav />)
       body = (<HarmonyComponent />)
+    }
+    if(this.state.router.current == "magic"){
+      siteNavigation = (<ProjectsNav />)
+      body = (<MagicVillageComponent />)
     }
     if(this.state.router.current == "people"){
       navigation = (<ProjectsNav />)
