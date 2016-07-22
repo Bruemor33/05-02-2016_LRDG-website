@@ -69,11 +69,28 @@ var DwellNonaPlaceComponent = React.createClass({
               Project Info<span className="glyphicon glyphicon-chevron-down" />
             </p>
             <div id="dwell-summary" className="dropdown-menu">
-              <div className="project-type"><p><span>Project Type:</span>Multi-Family Community</p><br/></div>
-              <div className="client-type"><p><span>Client:</span>The Klein Company</p><br/></div>
-              <div className="project-summary"><p>
-                Located in SE Orlando on the shores of beautiful Lake Whippoorwill is Dwell at Nona Place, a Florida Green Building Coalition certified, multi-family community with a contemporary landscape design that connects the residents to their community, Lake Whippoorwill, and the nearby Lake Nona District.  Creating spaces with upscale amenities and minimal impact to the lake is the guiding force behind the direction of the design.  This is accomplished with curvilinear hardscape elements whose forms were dictated by lake edge geometry.  The curvilinear, resort-style swimming pool features a beach entry, decorative fountains, fabric cabanas, and hammocks.  In addition to the 274 units, the design program includes a dog park, picnic & grill area, dining area, fountain feature, 200’ boardwalk with lake observation deck, custom columns, decorative paving, and lush landscaping.
-              </p></div>
+              <div className="summary-container">
+                <div className="project-type"><p><span>Project Type:</span>Multi-Family Community</p><br/></div>
+                <div className="client-type"><p><span>Client:</span>The Klein Company</p><br/></div>
+                  <div className="design-team">
+                    <h4 className="design-title">Design Team</h4>
+                    <ul className="team-list">
+                      <li>Land Resource Design Group, Inc.</li>
+                      <li>Kelly, Collins, & Gentry, Inc.</li>
+                      <li>Forum Architecture</li>
+                    </ul>
+                  </div>
+                  <div className="project-services">
+                    <h4 className="services-title">Project Services:</h4>
+                    <ul className="services-list">
+                      <li>Hardscape Design</li>
+                      <li>Landscape Design</li>
+                    </ul>
+                  </div>
+                <div className="project-summary"><p>
+                  Located in the Lake Hart region of SE Orlando and on the shores of beautiful Lake Whippoorwill is Dwell at Nona Place. As a Florida Green Building Coalition certified multi-family community Dwell evokes a contemporary community design that connects the residents to their community, Lake Whippoorwill, and the nearby Lake Nona District.  Creating spaces with upscale amenities and minimal impact to the lake is the guiding force behind the direction of the design.  This is accomplished with curvilinear hardscape elements whose forms were dictated by lake edge geometry.  The curvilinear, resort-style swimming pool features a beach entry, decorative fountains, fabric cabanas, and hammocks.  In addition to the 274 units, the design program includes a dog park, picnic & grill area, dining area, fountain feature, 200’ boardwalk with lake observation deck, custom columns, decorative paving, and lush landscaping.
+                </p></div>
+              </div>
             </div>
           </div>
         </div>
