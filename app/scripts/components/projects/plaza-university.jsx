@@ -69,10 +69,25 @@ var PlazaUniversityComponent = React.createClass({
             </p>
             <div id="plaza-summary" className="dropdown-menu">
               <div className="summary-container">
-                <div className="project-type"><p><span>Project Type:</span>Multi-Family Community</p><br/></div>
-                <div className="client-type"><p><span>Client:</span>Epoch Properties</p><br/></div>
+                <div className="project-type"><p><span>Project Type:</span>Mixed-Use - University Student Housing and Retail</p><br/></div>
+                <div className="client-type"><p><span>Client:</span>American Campus Communities</p><br/></div>
+                <div className="design-team">
+                  <h4 className="design-title">Design Team</h4>
+                  <ul className="team-list">
+                    <li>Land Resource Design Group, Inc.</li>
+                    <li>Kelly, Collins & Gentry, Inc.</li>
+                    <li>Niles Bolton Associates</li>
+                  </ul>
+                </div>
+                <div className="project-services">
+                  <h4 className="services-title">Project Services:</h4>
+                  <ul className="services-list">
+                    <li>Hardscape Design</li>
+                    <li>Landscape Design</li>
+                  </ul>
+                </div>
                 <div className="project-summary"><p>
-                  Located in SE Orlando and surrounded by the elegant settings of the Lake Nona District, Nona Park Village is a multi-family community that exhibits the essence of Florida living.  The contemporary design demonstrates the importance and power of axial relationships as a means to organize program elements to maximize the use of space.  The appropriate use of color and texture with both the landscape and hardscape elements help define the spaces and guide residence along providing a true experiential landscape.  In addition to the 303 units, the design program includes a resort style swimming pool, dog park, outdoor fireplace, grill stations, dining area, beach hammocks, bocce ball courts, community garden, custom columns, trellis structures, decorative paving, and lush landscaping.
+                  Located directly across from the main entrance to the second largest college campus in the country, The Plaza on University serves the housing needs for 1,330 University of Central Florida students and offers many the of area’s retail and eatery options. This mixed-use student community, was developed and is operated by, one of the country’s largest providers of student housing, American Campus Communities. This community environment provides a cutting-edge contemporary life-style that relates to the “apple” generation of tech-savvy collegians. The amenities offer a lifestyle that most college students only dream about with two main courtyards defined by five floors of balcony units overlooking a large resort-style pool, a fitness lap pool, a community spa, several grill stations and an arbor nesting of hanging egg chairs along with a small putt-putt area for social relaxation. The community also offers a “main street” with restaurant access, festive string lighting, an outdoor entertainment “green” and a perimeter courtyard with beach volleyball, picnic areas, bocce ball/corn-hole and beach hammocks.
                 </p></div>
               </div>
             </div>
