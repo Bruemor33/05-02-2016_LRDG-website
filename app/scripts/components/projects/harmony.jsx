@@ -65,16 +65,33 @@ var HarmonyComponent = React.createClass({
                 <li><a onClick={() => scroll.scrollMore(500)}></a></li>
               </ul>
             </div>
-            <p>Bounton Beach, FL</p>
+            <p>Osceola County, FL</p>
             <p id="summary" onClick={this.handleClick} className="harmony-click-event" role="button">
               Project Info<span className="glyphicon glyphicon-chevron-down" />
             </p>
             <div id="harmony-summary" className="dropdown-menu">
-              <div className="project-type"><p><span>Project Type:</span>Mixed Use Development</p><br/></div>
-              <div className="client-type"><p><span>Client:</span>Epoch Residential</p><br/></div>
-              <div className="project-summary"><p>
-                Las Ventanas is a Mediterranean style mix-use development located in Boynton Beach, FL.  It features two five-story towers, each with their own courtyard, a private parking garage, a variety of apartment styles and townhomes, retail shopping, restaurants, and professional offices.  Both courtyard designs were inspired by different interpretations of Las Ventanas, which is Spanish for “The Windows.”  One courtyard has curvilinear geometries implying movement through the window, while the other courtyard is beautifully formal suggesting views from the windows.  The design program included resort style swimming pools, spas, dining areas, lounge areas, outdoor grill areas, outdoor fire pits, vehicular entrance features, decorative paving, and signage.  Landscape, hardscape, lighting, and irrigation systems work in unison with the architecture to accentuate the narrative of the Mediterranean theme.
-              </p></div>
+              <div className="summary-container">
+                <div className="project-type"><p><span>Project Type:</span>Master-Planned Community</p><br/></div>
+                <div className="client-type"><p><span>Client:</span>Harmony Development Company and the Harmony CDD</p><br/></div>
+                <div className="design-team">
+                  <h4 className="design-title">Design Team</h4>
+                  <ul className="team-list">
+                    <li>Land Resource Design Group - formerly provided services as Miller Einhouse Rymer & Boyd</li>
+                  </ul>
+                </div>
+                <div className="project-services">
+                  <h4 className="services-title">Project Services:</h4>
+                  <ul className="services-list">
+                    <li>Neighborhood Planning</li>
+                    <li>Parking Planning and Design</li>
+                    <li>Hardscape Design</li>
+                    <li>Landscape Design</li>
+                  </ul>
+                </div>
+                <div className="project-summary"><p>
+                  From the initial community vision, the development of Harmony set out to create a new town to improve the health and well-being of all by emphasizing relationships between residents, animals and nature.  Located just 7 miles east of St. Cloud, FL, Phase 1 of this 11,000-acre new town offers a Johnny Miller Signature Golf Course, a quaint downtown, eight TND designed neighborhoods, a lakeshore linear park and community parks throughout.  As a result of the planning and design solutions that involved offering pet-friendly environments with dog parks, nature enriched culture with protected wildlife environments and community trail access, a commitment to pristine Buck Lake with a community dock and boating limited to paddle, and electrical and solar-powered motors, along with use of native planting materials and other initiatives, Harmony became the first large-scale master-planned community to be certified by the Florida Green Building Coalition (FBGC).
+                </p></div>
+              </div>
             </div>
           </div>
         </div>
