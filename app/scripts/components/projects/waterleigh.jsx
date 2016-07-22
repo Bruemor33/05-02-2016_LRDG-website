@@ -69,11 +69,33 @@ var WaterleighComponent = React.createClass({
               Project Info<span className="glyphicon glyphicon-chevron-down" />
             </p>
             <div id="waterleigh-summary" className="dropdown-menu">
-              <div className="project-type"><p><span>Project Type:</span>Single-Family Community Development</p><br/></div>
-              <div className="client-type"><p><span>Client:</span>DR Horton, Inc.</p><br/></div>
-              <div className="project-summary"><p>
-                Waterleigh is a single-family community nestled on the banks of scenic Hickorynut Lake in SW Orange County.  The name ‘Waterleigh’, which was born from this intrinsic pairing of water and land, is a combination of the words water and surname, leigh, which means meadow.  The community is centered around a commercial village core and central park system all interconnected with a trail system and multiple lake access points.  In addition to the 110 homes of phase one, the design program includes a Clubhouse amenity with a resort style swimming pool, dog park, community gardens, neighborhood parks, sculpture, streetscapes, tot lots, and multiple picnic areas.
-              </p></div>
+              <div className="summary-container">
+                <div className="project-type"><p><span>Project Type:</span>Single-Family Community Development</p><br/></div>
+                <div className="client-type"><p><span>Client:</span>DR Horton, Inc.</p><br/></div>
+                <div className="design-team">
+                  <h4 className="design-title">Design Team</h4>
+                  <ul className="team-list">
+                    <li>Land Resource Design Group, Inc.</li>
+                    <li>VHB MillerSellen, Inc.</li>
+                    <li>Bio Tech Consulting, Inc.</li>
+                    <li>Allen & Company Inc.</li>
+                    <li>Universal Engineering Sciences</li>
+                  </ul>
+                </div>
+                <div className="project-services">
+                  <h4 className="services-title">Project Services:</h4>
+                  <ul className="services-list">
+                    <li>Community Visioning</li>
+                    <li>Community Naming, Branding, & Programming</li>
+                    <li>Full Landscape Architectural Services</li>
+                  </ul>
+                </div>
+                <div className="project-summary"><p>
+                  Waterleigh is a master-planned community nestled on the banks of scenic Hickorynut Lake in SW Orange County.  The name ‘Waterleigh’, which was born from this intrinsic pairing of water and land, is a combination of the words water and surname, leigh, which means meadow.  The community is centered around a commercial village core and central park system all interconnected with a trail system and multiple lake access points.  In addition to the 110 homes of phase one, the design program includes a Clubhouse amenity with a resort style swimming pool, dog park, community gardens, neighborhood parks, sculpture, streetscapes, tot lots, and multiple picnic areas.
+                </p>
+                <p>Phase 1 of Waterleigh was recently completed and the community is rapidly growing.  Known as “Marina Bay Village,” this phase focuses on celebrating its surroundings through the use of artistic elements and naturally inspired materials.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
