@@ -69,11 +69,30 @@ var SandlakeComponent = React.createClass({
               Project Info<span className="glyphicon glyphicon-chevron-down" />
             </p>
             <div id="altis-summary" className="dropdown-menu">
-              <div className="project-type"><p><span>Project Type:</span>Multi-family Residential</p><br/></div>
-              <div className="client-type"><p><span>Client:</span>Altman Development Corporation</p><br/></div>
-              <div className="project-summary"><p>
-                Located near the Dr. Phillips community of SW Orlando, Altis at Sand Lake is a resort-style multi-family community with a modern/chic landscape design.  Each space takes it shape from the unique and linear layout of the property itself.  Simple and elegant, the linear forms maximize site usage and provide an opportunity to create an upscale experience for the residence.  Because of this relationship to the land, Altis at Sand Lake is the largest apartment community in Orlando to receive the National Green Building Standards Award.  Landscape and carefully selected accents with textures are used to define each space and stimulate the senses.  In addition to the 315 units, the design program includes a resort style swimming pool, dog park, community gardens, courtyard with arbors for outdoor dining, and fountain features for leisure reading while relaxing in adirondack chairs.
-              </p></div>
+              <div className="summary-container">
+                <div className="project-type"><p><span>Project Type:</span>Multi-family Residential</p><br/></div>
+                <div className="client-type"><p><span>Client:</span>Altman Development Corporation</p><br/></div>
+                <div className="design-team">
+                  <h4 className="design-title">Design Team</h4>
+                  <ul className="team-list">
+                    <li>Land Resource Design Group, Inc.</li>
+                    <li>Donald W. McIntosh Associates, Inc.</li>
+                    <li>Forum Architecture</li>
+                  </ul>
+                </div>
+                <div className="project-services">
+                  <h4 className="services-title">Project Services:</h4>
+                  <ul className="services-list">
+                    <li>Community Planning</li>
+                    <li>Hardscape Design</li>
+                    <li>Landscape Design</li>
+                    <li>Lighting Design</li>
+                  </ul>
+                </div>
+                <div className="project-summary"><p>
+                  Located near the Dr. Phillips community of SW Orlando, Altis at Sand Lake is a resort-style multi-family community with a modern/chic landscape design.  Each space takes it shape from the unique and linear layout of the property itself.  Simple and elegant, the linear forms maximize site’s development value and provides an opportunity to create an upscale experience for the residence.  Because of this relationship to the land, Altis at Sand Lake is the largest apartment community in Orlando to receive the National Green Building Standards Award.  Landscape and carefully selected accents with textures are used to define each space and stimulate the senses.  In addition to the 315 units, the design program includes a resort style swimming pool, dog park, community gardens, courtyard with arbors for outdoor dining, and fountain features for leisure reading while relaxing in adirondack chairs.
+                </p></div>
+              </div>
             </div>
           </div>
         </div>
