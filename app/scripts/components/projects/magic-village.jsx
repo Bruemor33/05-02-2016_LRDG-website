@@ -65,16 +65,33 @@ var MagicVillageComponent = React.createClass({
                 <li><a onClick={() => scroll.scrollMore(500)}></a></li>
               </ul>
             </div>
-            <p>Bounton Beach, FL</p>
+            <p>Osceola County, FL</p>
             <p id="summary" onClick={this.handleClick} className="magic-click-event" role="button">
               Project Info<span className="glyphicon glyphicon-chevron-down" />
             </p>
             <div id="magic-summary" className="dropdown-menu">
-              <div className="project-type"><p><span>Project Type:</span>Mixed Use Development</p><br/></div>
-              <div className="client-type"><p><span>Client:</span>Epoch Residential</p><br/></div>
-              <div className="project-summary"><p>
-                Las Ventanas is a Mediterranean style mix-use development located in Boynton Beach, FL.  It features two five-story towers, each with their own courtyard, a private parking garage, a variety of apartment styles and townhomes, retail shopping, restaurants, and professional offices.  Both courtyard designs were inspired by different interpretations of Las Ventanas, which is Spanish for “The Windows.”  One courtyard has curvilinear geometries implying movement through the window, while the other courtyard is beautifully formal suggesting views from the windows.  The design program included resort style swimming pools, spas, dining areas, lounge areas, outdoor grill areas, outdoor fire pits, vehicular entrance features, decorative paving, and signage.  Landscape, hardscape, lighting, and irrigation systems work in unison with the architecture to accentuate the narrative of the Mediterranean theme.
-              </p></div>
+              <div className="summary-container">
+                <div className="project-type"><p><span>Project Type:</span>Multi-Family Residential – Vacation Rental</p><br/></div>
+                <div className="client-type"><p><span>Client:</span>Magic Village</p><br/></div>
+                <div className="design-team">
+                  <h4 className="design-title">Design Team:</h4>
+                  <ul className="team-list">
+                    <li>Land Resource Design Group, Inc.</li>
+                  </ul>
+                </div>
+                <div className="project-services">
+                  <h4 className="services-title">Project Services:</h4>
+                  <ul className="services-list">
+                    <li>Land Planning</li>
+                    <li>Hardscape Design</li>
+                    <li>Landscape Design</li>
+                    <li>Lighting Design</li>
+                  </ul>
+                </div>
+                <div className="project-summary"><p>
+                  Located adjacent to Disney’s Animal Kingdom and Hollywood Studios, Magic Village is a South American inspired oasis consisting of Brazilian forms, textures, colors, and materials that create a rich urban fabric and resort-style experience.  The preservation and maximization of stunning views of Disney’s nightly fireworks was central to the design program.  This idea guided the orientation and adjacent plantings of the picnic, pool, and hammock areas.  LRDG’s role was to design a resort-style beach entry swimming pool, spa, picnic & grill area, lounge areas, decorative paving, and an entrance fountain feature complete with landscape, hardscape, and accent lighting in creating an unforgettable short-term rental experience.
+                </p></div>
+              </div>
             </div>
           </div>
         </div>
