@@ -65,16 +65,32 @@ var LasBrisasComponent = React.createClass({
                 <li><a onClick={() => scroll.scrollMore(500)}></a></li>
               </ul>
             </div>
-            <p>Bounton Beach, FL</p>
+            <p>Round Rock, TX</p>
             <p id="summary" onClick={this.handleClick} className="brisas-click-event" role="button">
               Project Info<span className="glyphicon glyphicon-chevron-down" />
             </p>
             <div id="brisas-summary" className="dropdown-menu">
-              <div className="project-type"><p><span>Project Type:</span>Mixed Use Development</p><br/></div>
-              <div className="client-type"><p><span>Client:</span>Epoch Residential</p><br/></div>
-              <div className="project-summary"><p>
-                Las Ventanas is a Mediterranean style mix-use development located in Boynton Beach, FL.  It features two five-story towers, each with their own courtyard, a private parking garage, a variety of apartment styles and townhomes, retail shopping, restaurants, and professional offices.  Both courtyard designs were inspired by different interpretations of Las Ventanas, which is Spanish for “The Windows.”  One courtyard has curvilinear geometries implying movement through the window, while the other courtyard is beautifully formal suggesting views from the windows.  The design program included resort style swimming pools, spas, dining areas, lounge areas, outdoor grill areas, outdoor fire pits, vehicular entrance features, decorative paving, and signage.  Landscape, hardscape, lighting, and irrigation systems work in unison with the architecture to accentuate the narrative of the Mediterranean theme.
-              </p></div>
+              <div className="summary-container">
+                <div className="project-type"><p><span>Project Type:</span>Multi-Family</p><br/></div>
+                <div className="client-type"><p><span>Client:</span>Epoch Residential</p><br/></div>
+                <div className="design-team">
+                  <h4 className="design-title">Design Team</h4>
+                  <ul className="team-list">
+                    <li>Land Resource Design Group, Inc.</li>
+                  </ul>
+                </div>
+                <div className="project-services">
+                  <h4 className="services-title">Project Services:</h4>
+                  <ul className="services-list">
+                    <li>Site Planning</li>
+                    <li>Hardscape Design</li>
+                    <li>Landscape Design</li>
+                  </ul>
+                </div>
+                <div className="project-summary"><p>
+                  Located in the town of Round Rock, home of Dell Computers, Las Brisas reaches the rental market of this popular tech-cultured community.  With rolling hills as a backdrop, this site features a “Texas” themed development with architectural materials that are indigenous to the area.  It offers a series of three and four story carriage-style residential buildings sensitively positioned with existing rolling terrain to minimize development costs.  The main clubhouse amenity area is highlighted with an organic-shaped, resort-style pool with an interactive fountain spa along with an outdoor kitchen.  The community also offers a smaller pool venue in closer proximity to those who reside higher up on the hill.
+                </p></div>
+              </div>
             </div>
           </div>
         </div>
