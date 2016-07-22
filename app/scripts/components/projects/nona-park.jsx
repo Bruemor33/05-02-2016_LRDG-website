@@ -69,11 +69,29 @@ var NonaParkComponent = React.createClass({
               Project Info<span className="glyphicon glyphicon-chevron-down" />
             </p>
             <div id="nona-park-summary" className="dropdown-menu">
-              <div className="project-type"><p><span>Project Type:</span>Multi-Family Community</p><br/></div>
-              <div className="client-type"><p><span>Client:</span>Epoch Properties</p><br/></div>
-              <div className="project-summary"><p>
-                Located in SE Orlando and surrounded by the elegant settings of the Lake Nona District, Nona Park Village is a multi-family community that exhibits the essence of Florida living.  The contemporary design demonstrates the importance and power of axial relationships as a means to organize program elements to maximize the use of space.  The appropriate use of color and texture with both the landscape and hardscape elements help define the spaces and guide residence along providing a true experiential landscape.  In addition to the 303 units, the design program includes a resort style swimming pool, dog park, outdoor fireplace, grill stations, dining area, beach hammocks, bocce ball courts, community garden, custom columns, trellis structures, decorative paving, and lush landscaping.
-              </p></div>
+              <div className="summary-container">
+                <div className="project-type"><p><span>Project Type:</span>Multi-Family Community</p><br/></div>
+                <div className="client-type"><p><span>Client:</span>Epoch Properties</p><br/></div>
+                <div className="design-team">
+                  <h4 className="design-title">Design Team</h4>
+                  <ul className="team-list">
+                    <li>Land Resource Design Group, Inc.</li>
+                    <li>Dave Schmitt Engineering, Inc.</li>
+                    <li>Charlin, Brock & Associates</li>
+                  </ul>
+                </div>
+                <div className="project-services">
+                  <h4 className="services-title">Project Services:</h4>
+                  <ul className="services-list">
+                    <li>Hardscape Design</li>
+                    <li>Landscape Design</li>
+                    <li>Lighting Design</li>
+                  </ul>
+                </div>
+                <div className="project-summary"><p>
+                  Located in SE Orlando and surrounded by the elegant settings of the Lake Nona District, Nona Park Village is a multi-family community that exhibits the essence of Florida living.  The contemporary design demonstrates the importance and power of axial relationships as a means to organize program elements to maximize the use of space.  The appropriate use of color and texture with both the landscape and hardscape elements help define the spaces and guide residence along providing a true experiential landscape.  In addition to the 303 units, the design program includes a resort style swimming pool, dog park, outdoor fireplace, grill stations, dining area, beach hammocks, bocce ball courts, community garden, custom columns, trellis structures, decorative paving, and lush landscaping.
+                </p></div>
+              </div>
             </div>
           </div>
         </div>
