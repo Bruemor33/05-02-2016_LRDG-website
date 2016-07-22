@@ -69,11 +69,29 @@ var SeaIsleComponent = React.createClass({
               Project Info<span className="glyphicon glyphicon-chevron-down" />
             </p>
             <div id="sea-isle-summary" className="dropdown-menu">
-              <div className="project-type"><p><span>Project Type:</span>Single-Family Community Development</p><br/></div>
-              <div className="client-type"><p><span>Client:</span>DR Horton, Inc.</p><br/></div>
-              <div className="project-summary"><p>
-                Located within the Sea World Orlando Design Corridor, Sea Isle is a coastal inspired, multi-family community with sand, landscape, bold colored accents, and rich textures used to create a unique, resort-style sense of place.  Amenities near the clubhouse were designed on axis with different clubhouse architectural elements to maximize space efficacy, views, and use.  In addition to the 356 units, the design program includes a resort style swimming pool, dog park, outdoor fireplace, grill stations, dining area, gated entrance feature, custom columns, decorative paving, and lush landscaping.
-              </p></div>
+              <div className="summary-container">
+                <div className="project-type"><p><span>Project Type:</span>Multi-Family Residential</p><br/></div>
+                <div className="client-type"><p><span>Client:</span>Epoch Properties</p><br/></div>
+                <div className="design-team">
+                  <h4 className="design-title">Design Team</h4>
+                  <ul className="team-list">
+                    <li>Land Resource Design Group, Inc.</li>
+                    <li>Davidson Design Group, Inc.</li>
+                    <li>Slocum Platts Architects</li>
+                  </ul>
+                </div>
+                <div className="project-services">
+                  <h4 className="services-title">Project Services:</h4>
+                  <ul className="services-list">
+                    <li>Hardscape Design</li>
+                    <li>Landscape Design</li>
+                    <li>Lighting Design</li>
+                  </ul>
+                </div>
+                <div className="project-summary"><p>
+                  Located within the Sea World Orlando Design Corridor, Sea Isle is a coastal inspired, multi-family community with sand, landscape, bold colored accents, and rich textures used to create a unique, resort-style sense of place.  Amenities near the clubhouse were designed on axis with different clubhouse architectural elements to maximize space efficacy, views, and use.  In addition to the 356 units, the design program includes a resort style swimming pool, dog park, outdoor fireplace, grill stations, dining area, gated entrance feature, custom columns, decorative paving, and lush landscaping.
+                </p></div>
+              </div>
             </div>
           </div>
         </div>
