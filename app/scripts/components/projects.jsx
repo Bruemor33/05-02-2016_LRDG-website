@@ -87,7 +87,7 @@ var ProjectsComponent = React.createClass({
                 <a href="#altis">
                   <li className="altis-background">
                     <h3 className="zero">Altis at Sandlake</h3>
-                    <p className="zero">location here</p>
+                    <p className="zero">Orange County, FL</p>
                     <p className="zero">Size: 13.5 Acres, 315 Units</p>
                   </li>
                   <li><img className="top" src="images/emily-concept-3.jpg" /></li>
@@ -140,8 +140,8 @@ var ProjectsComponent = React.createClass({
                 <a href="#harmony">
                   <li className="brisas-background">
                     <h3 className="zero">Harmony</h3>
-                    <p className="zero">location here</p>
-                    <p className="zero">Size: value here</p>
+                    <p className="zero">Osceola County, FL</p>
+                    <p className="zero">Size: Phase 1 - Approximately 1,000 Acres</p>
                   </li>
                   <li><img className="top" src="images/tn-harmony.jpg" /></li>
                 </a>
@@ -152,8 +152,8 @@ var ProjectsComponent = React.createClass({
                 <a href="#magic">
                   <li className="brisas-background">
                     <h3 className="zero">Magic Village</h3>
-                    <p className="zero">location here</p>
-                    <p className="zero">Size: value here</p>
+                    <p className="zero">Osceola County, Fl</p>
+                    <p className="zero">Size: 21 acres, 188 units</p>
                   </li>
                   <li><img className="top" src="images/5-magic-village.jpg" /></li>
                 </a>
