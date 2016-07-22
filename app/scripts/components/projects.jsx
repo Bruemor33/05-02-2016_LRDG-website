@@ -22,8 +22,8 @@ var ProjectsComponent = React.createClass({
                 <a href="#plazaUniversity">
                   <li className="plaza-background">
                     <h3 className="zero">Plaza at University</h3>
-                    <p className="zero">location here</p>
-                    <p className="zero">Size: values here</p>
+                    <p className="zero">Orlando, FL</p>
+                    <p className="zero">Size: 13.1 Acres, 355 Units/1,330 Student Beds, 64,457 s.f. Commercial Retail</p>
                   </li>
                   <li><img className="top" src="images/1-plaza.jpg" /></li>
                 </a>
@@ -35,8 +35,8 @@ var ProjectsComponent = React.createClass({
                 <a href="#nonapark">
                   <li className="nona-background">
                     <h3 className="zero">Nona Park</h3>
-                    <p className="zero">location here</p>
-                    <p className="zero">Size: values here</p>
+                    <p className="zero">Orlando, FL</p>
+                    <p className="zero">Size: 13.8 Acres, 303 Units</p>
                   </li>
                   <li><img className="top" src="images/5-nona-park-village.jpg"/></li>
                 </a>
@@ -48,8 +48,8 @@ var ProjectsComponent = React.createClass({
                 <a href="#seaisle">
                   <li className="seaisle-background">
                     <h3 className="zero">Sea Isle</h3>
-                    <p className="zero">location here</p>
-                    <p className="zero">Size: values here</p>
+                    <p className="zero">Orange County, FL</p>
+                    <p className="zero">Size: 15.7 Acres, 356 Units</p>
                   </li>
                   <li><img className="top" src="images/tn-sea-isle.jpg" /></li>
                 </a>
@@ -74,8 +74,8 @@ var ProjectsComponent = React.createClass({
                 <a href={"#waterleigh"}>
                   <li className="waterleigh-background">
                     <h3 className="zero">Waterleigh</h3>
-                    <p className="zero">location here</p>
-                    <p className="zero">Size: values here</p>
+                    <p className="zero">Orange County, FL</p>
+                    <p className="zero">Size: Approx.1600 Acres, 3,500 units</p>
                   </li>
                   <li><img className="top" src="images/emily-concept-2.jpg" /></li>
                 </a>
@@ -100,8 +100,8 @@ var ProjectsComponent = React.createClass({
                 <a href="#dwell">
                   <li className="dwell-background">
                     <h3 className="zero">Dwell at Nona Place</h3>
-                    <p className="zero">location here</p>
-                    <p className="zero">Size: values here</p>
+                    <p className="zero">Orlando, FL</p>
+                    <p className="zero">Size: 19.2 Acres, 274 Units</p>
                   </li>
                   <li><img className="top" src="images/emily-concept-4.jpg" /></li>
                 </a>
@@ -113,8 +113,8 @@ var ProjectsComponent = React.createClass({
                 <a href="#ventanas">
                   <li className="ventanas-background">
                     <h3 className="zero">Las Ventanas</h3>
-                    <p className="zero">location here</p>
-                    <p className="zero">Size: value here</p>
+                    <p className="zero">Boynton Beach, FL</p>
+                    <p className="zero">Size: 15 acres, 494 units</p>
                   </li>
                   <li><img className="top" src="images/emily-concept-1.jpg" /></li>
                 </a>
@@ -126,8 +126,8 @@ var ProjectsComponent = React.createClass({
                 <a href="#brisas">
                   <li className="brisas-background">
                     <h3 className="zero">Las Brisas</h3>
-                    <p className="zero">location here</p>
-                    <p className="zero">Size: value here</p>
+                    <p className="zero">Round Rock, TX</p>
+                    <p className="zero">Size: 29.9 acres, 414 units</p>
                   </li>
                   <li><img className="top" src="images/tn-las-brisas.jpg" /></li>
                 </a>
