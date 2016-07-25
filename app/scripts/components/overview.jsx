@@ -37,7 +37,7 @@ var OverviewComponent = React.createClass({
                     <a href="#overview/community">Community Planning</a>
                   </li>
                   <li>
-                    <a>Landscape Architecture</a>
+                    <a href="#overview/landscape-architecture">Landscape Architecture</a>
                   </li>
                   <li>
                     <a>Construction Administration</a>
