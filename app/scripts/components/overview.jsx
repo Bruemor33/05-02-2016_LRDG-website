@@ -40,10 +40,10 @@ var OverviewComponent = React.createClass({
                     <a href="#overview/landscape-architecture">Landscape Architecture</a>
                   </li>
                   <li>
-                    <a>Construction Administration</a>
+                    <a href="#overview/construction-administration">Construction Administration</a>
                   </li>
                   <li>
-                    <a>Graphics</a>
+                    <a href="#overview/graphics">Graphics</a>
                   </li>
                 </ul>
               </div>
