@@ -32,6 +32,10 @@ var ConstructionAdministrationComponent = require('./components/construction-adm
 var GraphicsServiceComponent = require('./components/graphics.jsx').GraphicsServiceComponent;
 var StudioPageComponent = require('./components/studio.jsx').StudioPageComponent;
 var ContactPageComponent = require('./components/contact-page.jsx').ContactPageComponent;
+var PracticeNavigation = require('./components/practice-nav.jsx').PracticeNavigation;
+var ProjectPageNavigation = require('./components/project-page-nav.jsx').ProjectPageNavigation;
+var StudioPageNavigation = require('./components/studio-nav.jsx').StudioPageNavigation;
+var ContactPageNavigation = require('./components/contact-nav.jsx').ContactPageNavigation;
 
 
 //kick off controller
@@ -62,7 +66,7 @@ var InterfaceComponent = React.createClass({
       body = (<LandingPage/>)
     }
     if(this.state.router.current == "overview"){
-      siteNavigation = (<ProjectsNav />)
+      siteNavigation = (<PracticeNavigation />)
       body = (<OverviewComponent />)
     }
     if(this.state.router.current == "overview/community"){
@@ -82,7 +86,7 @@ var InterfaceComponent = React.createClass({
       body = (<GraphicsServiceComponent />)
     }
     if(this.state.router.current == "projects"){
-      siteNavigation = (<ProjectsNav />)
+      siteNavigation = (<ProjectPageNavigation />)
       body = (<ProjectsComponent />)
     }
     if(this.state.router.current == "kindred"){
@@ -130,11 +134,11 @@ var InterfaceComponent = React.createClass({
       body = (<MagicVillageComponent />)
     }
     if(this.state.router.current == "people"){
-      navigation = (<ProjectsNav />)
+      navigation = (<StudioPageNavigation />)
       body = (<StudioPageComponent />)
     }
     if(this.state.router.current == "contact"){
-      navigation = (<ProjectsNav />)
+      navigation = (<ContactPageNavigation />)
       body = (<ContactPageComponent />)
     }
 
