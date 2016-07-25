@@ -24,6 +24,7 @@ var Router = Backbone.Router.extend({
     "harmony": "harmony",
     "magic": "magic",
     "overview": "overview",
+    "overview/community": "community",
     "people": "people",
     "contact": "contact",
     "images": "images",
@@ -73,6 +74,9 @@ var Router = Backbone.Router.extend({
   },
   overview: function(){
     this.current = "overview"
+  },
+  community: function(){
+    this.current = "overview/community"
   },
   people: function(){
     this.current = "people"
