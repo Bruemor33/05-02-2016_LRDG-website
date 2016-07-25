@@ -27,6 +27,7 @@ var HarmonyComponent = require('./components/projects/harmony.jsx').HarmonyCompo
 var MagicVillageComponent = require('./components/projects/magic-village.jsx').MagicVillageComponent;
 var OverviewComponent = require('./components/overview.jsx').OverviewComponent;
 var CommunityPlanningComponent = require('./components/community-planning.jsx').CommunityPlanningComponent;
+var LandscapeArchitectureComponent = require('./components/landscape-architecture.jsx').LandscapeArchitectureComponent;
 var StudioPageComponent = require('./components/studio.jsx').StudioPageComponent;
 var ContactPageComponent = require('./components/contact-page.jsx').ContactPageComponent;
 
@@ -65,6 +66,10 @@ var InterfaceComponent = React.createClass({
     if(this.state.router.current == "overview/community"){
       siteNavigation = (<ProjectsNav />)
       body = (<CommunityPlanningComponent />)
+    }
+    if(this.state.router.current == "overview/landscape-architecture"){
+      siteNavigation = (<ProjectsNav />)
+      body = (<LandscapeArchitectureComponent />)
     }
     if(this.state.router.current == "projects"){
       siteNavigation = (<ProjectsNav />)
