@@ -28,6 +28,8 @@ var MagicVillageComponent = require('./components/projects/magic-village.jsx').M
 var OverviewComponent = require('./components/overview.jsx').OverviewComponent;
 var CommunityPlanningComponent = require('./components/community-planning.jsx').CommunityPlanningComponent;
 var LandscapeArchitectureComponent = require('./components/landscape-architecture.jsx').LandscapeArchitectureComponent;
+var ConstructionAdministrationComponent = require('./components/construction-administration.jsx').ConstructionAdministrationComponent;
+var GraphicsServiceComponent = require('./components/graphics.jsx').GraphicsServiceComponent;
 var StudioPageComponent = require('./components/studio.jsx').StudioPageComponent;
 var ContactPageComponent = require('./components/contact-page.jsx').ContactPageComponent;
 
@@ -70,6 +72,14 @@ var InterfaceComponent = React.createClass({
     if(this.state.router.current == "overview/landscape-architecture"){
       siteNavigation = (<ProjectsNav />)
       body = (<LandscapeArchitectureComponent />)
+    }
+    if(this.state.router.current == "overview/construction-administration"){
+      siteNavigation = (<ProjectsNav />)
+      body = (<ConstructionAdministrationComponent />)
+    }
+    if(this.state.router.current == "overview/graphics"){
+      siteNavigation = (<ProjectsNav />)
+      body = (<GraphicsServiceComponent />)
     }
     if(this.state.router.current == "projects"){
       siteNavigation = (<ProjectsNav />)
