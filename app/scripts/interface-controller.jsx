@@ -26,6 +26,7 @@ var LasBrisasComponent = require('./components/projects/las-brisas.jsx').LasBris
 var HarmonyComponent = require('./components/projects/harmony.jsx').HarmonyComponent;
 var MagicVillageComponent = require('./components/projects/magic-village.jsx').MagicVillageComponent;
 var OverviewComponent = require('./components/overview.jsx').OverviewComponent;
+var CommunityPlanningComponent = require('./components/community-planning.jsx').CommunityPlanningComponent;
 var StudioPageComponent = require('./components/studio.jsx').StudioPageComponent;
 var ContactPageComponent = require('./components/contact-page.jsx').ContactPageComponent;
 
@@ -60,6 +61,10 @@ var InterfaceComponent = React.createClass({
     if(this.state.router.current == "overview"){
       siteNavigation = (<ProjectsNav />)
       body = (<OverviewComponent />)
+    }
+    if(this.state.router.current == "overview/community"){
+      siteNavigation = (<ProjectsNav />)
+      body = (<CommunityPlanningComponent />)
     }
     if(this.state.router.current == "projects"){
       siteNavigation = (<ProjectsNav />)
