@@ -1,0 +1,71 @@
+
+
+
+/****************************************************************************************
+Graphics Page
+****************************************************************************************/
+
+
+
+
+
+.graphics-background {
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('../images/overview-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+.graphics-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.graphics-title{
+  position: fixed;
+  top: 20px;
+  width: 500px;
+  height: 70px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: -5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #FFF;
+  font-family: 'Poppins', serif;
+  font-weight: 300;
+  font-size: 44px;
+}
+
+.graphics-statement-container  {
+  // display: none;
+  position: relative;
+  top: 91.5px;
+  width: 500px;
+  height: 330px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #FFF;
+  font-family: 'Poppins', serif;
+  font-weight: 300;
+  // transition: ease-in;
+
+  .graphics-scroller {
+    overflow-y: scroll;
+    height: 380px;
+  }
+}
+
+
+
+
+
+
+/****************************************************************************************
+Graphics Page
+****************************************************************************************/
