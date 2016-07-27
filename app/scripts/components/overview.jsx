@@ -32,7 +32,7 @@ var OverviewComponent = React.createClass({
                 <p>LRDG was formed with the philosophy of viewing land as a valuable resource for man's sustainability through improving our quality of life, environmental stewardship and economic prosperity. LRDG practices this philosophy through the planning, design and implementation of new communities and the enhancement of existing communities.</p>
                 <p>LRDG's professional staff have over 60 years of Central Florida planning and landscape architecture experience in providing services in the following private and public markets.</p>
                 <h4>What We Do</h4>
-                <ul>
+                <ul className="practice-services">
                   <li>
                     <a href="#overview/community">Community Planning</a>
                   </li>
