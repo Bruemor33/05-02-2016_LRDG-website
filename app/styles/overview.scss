@@ -44,7 +44,7 @@ Overview Page
   position: relative;
   top: 91.5px;
   width: 500px;
-  height: 410px;
+  height: 420px;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15px;
@@ -58,6 +58,16 @@ Overview Page
   .scroller {
     overflow-y: scroll;
     height: 400px;
+  }
+
+  .practice-services a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 22px;
+  }
+  .practice-services a:hover {
+    font-size: 18px;
+    color: #AFB38A;
   }
 }
 
