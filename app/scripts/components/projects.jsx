@@ -90,7 +90,7 @@ var ProjectsComponent = React.createClass({
                     <p className="zero">Orange County, FL</p>
                     <p className="zero">Size: 13.5 Acres, 315 Units</p>
                   </li>
-                  <li><img className="top" src="images/emily-concept-3.jpg" /></li>
+                  <li><img className="top" src="images/tn-altis-sandlake.jpg" /></li>
                 </a>
               </ul>
             </div>
@@ -103,7 +103,7 @@ var ProjectsComponent = React.createClass({
                     <p className="zero">Orlando, FL</p>
                     <p className="zero">Size: 19.2 Acres, 274 Units</p>
                   </li>
-                  <li><img className="top" src="images/emily-concept-4.jpg" /></li>
+                  <li><img className="top" src="images/tn-1-dwell-nonaplace.jpg" /></li>
                 </a>
               </ul>
             </div>
@@ -156,18 +156,6 @@ var ProjectsComponent = React.createClass({
                     <p className="zero">Size: 21 acres, 188 units</p>
                   </li>
                   <li><img className="top" src="images/5-magic-village.jpg" /></li>
-                </a>
-              </ul>
-            </div>
-            <div className="brisas-landing col-md-3">
-              <ul className="hover-effect-2 effect">
-                <a href="#brisas">
-                  <li className="brisas-background">
-                    <h3 className="zero">Las Brisas</h3>
-                    <p className="zero">location here</p>
-                    <p className="zero">Size: value here</p>
-                  </li>
-                  <li><img className="top" src="images/tn-las-brisas.jpg" /></li>
                 </a>
               </ul>
             </div>
