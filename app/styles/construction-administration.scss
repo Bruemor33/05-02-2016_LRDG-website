@@ -19,6 +19,10 @@ Construction Administration Page
   position: fixed;
 }
 
+.construction-service-container {
+  margin-left: -30px;
+}
+
 .construction-container {
   padding-left: 0;
   padding-right: 0;
@@ -60,6 +64,51 @@ Construction Administration Page
     height: 380px;
   }
 }
+
+.construction-images-container {
+  margin-top: 20px;
+}
+
+.construction-row-one {
+  margin-bottom: 24px;
+}
+
+.construction-image-one {
+  // height: 200px;
+
+}
+.construction-image-one {
+  background: url('../images/1-construction.jpg');
+  background-position: 50%, 50%;
+  background-size: cover;
+  height: 234px;
+  border: 1px solid #fff;
+}
+
+.construction-image-two {
+  background: url('../images/2-construction.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 234px;
+  border: 1px solid #000;
+}
+
+.construction-image-three {
+  background: url('../images/3-construction.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 234px;
+  border: 1px solid #000;
+}
+
+.construction-image-four {
+  background: url('../images/4-construction.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 234px;
+  border: 1px solid #000;
+}
+
 
 
 
