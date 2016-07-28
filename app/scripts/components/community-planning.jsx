@@ -16,46 +16,70 @@ var CommunityPlanningComponent = React.createClass({
 
     return(
       <div className="container-fluid">
-        <div className="practice-background">
-          <div className="row">
-            <div className="community-container col-md-12">
-              <div className="community-title">
-                <div className="community-logo"></div>
-                <h2>Community Planning</h2>
+        <div className="practice-background col-md-12">
+          <div className="community-writeup-container col-md-5">
+            <div className="row">
+              <div className="community-container col-md-12">
+                <div className="community-title">
+                  <div className="community-logo"></div>
+                  <h2>Community Planning</h2>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="community-statement-container col-md-12">
+                <div className="scroller">
+                  <p>Community planning is the initial and most critical opportunity to create value through resource-based land planning. This allows the establishment of optimal land use classifications, site-specific design criteria, and marketable densities. Combined, these assist in creating an architectural canvas that define successful and viable “outdoor living spaces” throughout the community.</p>
+                  <p>Our community planning develops the value of the land through the skillful execution of the following services:</p>
+                  <ul>
+                    <li>
+                      <p>Projects Programming</p>
+                    </li>
+                    <li>
+                      <p>Site Analysis and Due Diligence Research</p>
+                    </li>
+                    <li>
+                      <p>Land Planning</p>
+                    </li>
+                    <li>
+                      <p>Golf Course Routing</p>
+                    </li>
+                    <li>
+                      <p>Permitting Coordination</p>
+                    </li>
+                    <li>
+                      <p>Consultant Team Leader Coordination</p>
+                    </li>
+                    <li>
+                      <p>Design Process Coordination</p>
+                    </li>
+                    <li>
+                      <p>Rezoning and Comprehensive Plan Amendment Exhibit Preparation</p>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
-          <div className="row">
-            <div className="community-statement-container col-md-12">
-              <div className="scroller">
-                <p>Community planning is the initial and most critical opportunity to create value through resource-based land planning. This allows the establishment of optimal land use classifications, site-specific design criteria, and marketable densities. Combined, these assist in creating an architectural canvas that define successful and viable “outdoor living spaces” throughout the community.</p>
-                <p>Our community planning develops the value of the land through the skillful execution of the following services:</p>
-                <ul>
-                  <li>
-                    <p>Projects Programming</p>
-                  </li>
-                  <li>
-                    <p>Site Analysis and Due Diligence Research</p>
-                  </li>
-                  <li>
-                    <p>Land Planning</p>
-                  </li>
-                  <li>
-                    <p>Golf Course Routing</p>
-                  </li>
-                  <li>
-                    <p>Permitting Coordination</p>
-                  </li>
-                  <li>
-                    <p>Consultant Team Leader Coordination</p>
-                  </li>
-                  <li>
-                    <p>Design Process Coordination</p>
-                  </li>
-                  <li>
-                    <p>Rezoning and Comprehensive Plan Amendment Exhibit Preparation</p>
-                  </li>
-                </ul>
+          <div className="construction-images-container col-md-7">
+            <div className="row">
+              <div className="construction-row-one col-md-12">
+                <div className="col-md-6">
+                  <div className="construction-image-one"></div>
+                </div>
+                <div className="col-md-6">
+                  <div className="construction-image-two"></div>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="construction-row-two col-md-12">
+                <div className="col-md-6">
+                  <div className="construction-image-three"></div>
+                </div>
+                <div className="col-md-6">
+                  <div className="construction-image-four"></div>
+                </div>
               </div>
             </div>
           </div>
