@@ -17,7 +17,7 @@ var StudioPageNavigation = React.createClass({
             <img src="./images/small-lrdg-logo.png" className="landing-logo" />
             <a href="#overview" className="projects-overview">Practice</a>
             <a href="#projects" className="projects-projects">Projects</a>
-            <a href="#people" className="projects-people">Studio</a>
+            <a href="#people" id="studio-active" className="projects-people">Studio</a>
             <a href="#contact" className="projects-contact">Contact</a>
             <a href="#" className="landing-company-name">LRDG: Studio</a>
           </div>

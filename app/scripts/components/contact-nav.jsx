@@ -18,7 +18,7 @@ var ContactPageNavigation = React.createClass({
             <a href="#overview" className="projects-overview">Practice</a>
             <a href="#projects" className="projects-projects">Projects</a>
             <a href="#people" className="projects-people">Studio</a>
-            <a href="#contact" className="projects-contact">Contact</a>
+            <a href="#contact" id="contact-active" className="projects-contact">Contact</a>
             <a href="#" className="landing-company-name">LRDG: Contact</a>
           </div>
         </nav>
