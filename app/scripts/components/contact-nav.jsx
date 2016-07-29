@@ -14,12 +14,14 @@ var ContactPageNavigation = React.createClass({
       <div className="container-fluid">
         <nav id="site-nav" className="row">
           <div className="projects-navigation col-md-12">
-            <img src="./images/small-lrdg-logo.png" className="landing-logo" />
+            <a href="#"><img src="./images/small-lrdg-logo.png" className="landing-logo" /></a>
             <a href="#overview" className="projects-overview">Practice</a>
             <a href="#projects" className="projects-projects">Projects</a>
             <a href="#people" className="projects-people">Studio</a>
             <a href="#contact" id="contact-active" className="projects-contact">Contact</a>
-            <a href="#" className="landing-company-name">LRDG: Contact</a>
+            <a href="#" className="landing-company-name">
+              <i className="fa fa-home fa-2x" aria-hidden="true"></i>
+            </a>
           </div>
         </nav>
       </div>
