@@ -19,7 +19,9 @@ var ProjectPageNavigation = React.createClass({
             <a href="#projects" id="projects-active" className="projects-projects">Projects</a>
             <a href="#people" className="projects-people">Studio</a>
             <a href="#contact" className="projects-contact">Contact</a>
-            <a href="#" className="landing-company-name">LRDG: Projects</a>
+            <a href="#" className="landing-company-name">
+              <i className="fa fa-home fa-2x" aria-hidden="true"></i>
+            </a>
           </div>
         </nav>
       </div>
