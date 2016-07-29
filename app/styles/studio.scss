@@ -30,6 +30,11 @@ General Page styling
   position: fixed;
 }
 
+.studio-content-container {
+  padding-left: 60px;
+  margin-top: 80px;
+}
+
 
 
 
@@ -48,7 +53,29 @@ Barry styling
 
 
 
+.barry {
 
+}
+
+.barry-photo {
+  background: url('../images/1-barry.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 260px;
+  width: 300px;
+}
+
+.toggle-icon {
+  position: absolute;
+  left: 280px;
+  top: 226px;
+  color: #000;
+}
+
+.barry-writeup {
+  width: 300px;
+  display: none;
+}
 
 
 
@@ -68,7 +95,18 @@ Scott styling
 
 
 
+.scott-photo {
+  background: url('../images/2-scott.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 260px;
+  width: 300px;
+}
 
+.scott-writeup {
+  width: 300px;
+  display: none;
+}
 
 
 
@@ -88,7 +126,19 @@ Jim styling
 
 
 
+.jim-photo {
+  background: url('../images/3-jim.jpg');
+  background-position: center;
+  background-size: 145%;
+  background-repeat: no-repeat;
+  height: 260px;
+  width: 300px;
+}
 
+.jim-writeup {
+  width: 300px;
+  display: none;
+}
 
 
 
