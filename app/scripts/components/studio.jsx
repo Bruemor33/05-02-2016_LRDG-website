@@ -3,7 +3,7 @@ var _ = require('underscore');
 var Backbone = require('backbone');
 var React = require('react');
 var ReactDOM = require('react-dom');
-var Modal = require('boron/FlyModal');
+var Modal = require('boron/FadeModal');
 require('Backbone-React-Component');
 
 
