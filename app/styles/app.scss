@@ -27,11 +27,13 @@ $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 @import "landscape-architecture";
 @import "construction-administration";
 @import "graphics";
-@import "./media-queries/projects-media-query";
 @import "practice-nav";
 @import "studio-nav";
 @import "contact-nav";
 @import "project-page-nav";
+@import "./media-queries/projects-media-query";
+@import "./media-queries/projects-nav-mq";
+@import "./media-queries/practice-nav-mq";
 
 
 
@@ -125,7 +127,7 @@ Span Styling
   font-family: 'Poppins', serif;
   font-weight: 300;
   padding: 0;
-  line-height: 400px;
+  /*line-height: 400px;*/
 }
 
 /*Images*/
@@ -172,13 +174,58 @@ Span Styling
   100% { opacity: 0 }
 }
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1640px) and (min-width: 1441px){
+
+/*  .cd-slideshow li div {
+    z-index: 100;
+    position: absolute;
+    bottom: 30px;
+    left: 600px;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    color: #fff;
+    animation: titleAnimation 24s linear infinite 0s;
+  }*/
+
+  .cd-slideshow li div h3 {
+    line-height: 100px;
+  }
+
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1281px){
+
+  .cd-slideshow li div h3 {
+    line-height: 500px;
+  }
+
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1141px) {
+
+  .cd-slideshow li div h3 {
+    line-height: 450px;
+  }
+
+}
+
+@media screen and (max-width: 1140px) and (min-width: 1081px){
   .cd-slideshow li div h3 {
     font-size: 80px;
     position: absolute;
     bottom: 800px;
   }
 }
+
+@media screen and (max-width: 1080px) and (min-width: 601px) {
+
+  .cd-slideshow li div h3 {
+    line-height: 500px;
+  }
+
+}
+
 @media screen and (max-width: 600px) {
   .cd-slideshow li div h3 {
     font-size: 40px;
