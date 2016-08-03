@@ -32,7 +32,7 @@ General Page styling
 
 .studio-content-container {
   padding-left: 60px;
-  margin-top: 80px;
+  margin-top: 180px;
 }
 
 
@@ -53,8 +53,21 @@ Barry styling
 
 
 
-.barry {
+.barry-title {
+  position: absolute;
+  top: 220px;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 40px;
+  width: 300px;
+  color: #FFF;
 
+}
+
+.barry-title h5 {
+  margin-left: 140px;
+  margin-bottom: 15px;
+  font-weight: 200;
+  font-size: 18px;
 }
 
 .barry-photo {
@@ -73,7 +86,25 @@ Barry styling
 }
 
 .barry-writeup {
-  width: 300px;
+  width: 750px;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.modal-picture-barry {
+  background: url('../images/1-barry.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 260px;
+  width: 200px;
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.modal-close {
+  float: right;
+  margin-bottom: 10px;
 }
 
 
@@ -94,6 +125,23 @@ Scott styling
 
 
 
+.scott-title {
+  position: absolute;
+  top: 220px;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 40px;
+  width: 300px;
+  color: #FFF;
+
+}
+
+.scott-title h5 {
+  // margin-left: 140px;
+  margin-bottom: 15px;
+  font-weight: 200;
+  font-size: 14px;
+}
+
 .scott-photo {
   background: url('../images/2-scott.jpg');
   background-position: center;
@@ -102,8 +150,21 @@ Scott styling
   width: 300px;
 }
 
+.modal-picture-scott {
+  background: url('../images/2-scott.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 260px;
+  width: 200px;
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
 .scott-writeup {
-  width: 300px;
+  width: 750px;
+  display: inline-block;
+  margin-top: 15px;
 }
 
 
@@ -124,6 +185,23 @@ Jim styling
 
 
 
+.jim-title {
+  position: absolute;
+  top: 220px;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 40px;
+  width: 300px;
+  color: #FFF;
+
+}
+
+.jim-title h5 {
+  margin-left: 140px;
+  margin-bottom: 15px;
+  font-weight: 200;
+  font-size: 18px;
+}
+
 .jim-photo {
   background: url('../images/3-jim.jpg');
   background-position: center;
@@ -133,8 +211,29 @@ Jim styling
   width: 300px;
 }
 
+.modal-picture-jim {
+  background: url('../images/3-jim.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 260px;
+  width: 200px;
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 35px;
+}
+
 .jim-writeup {
-  width: 300px;
+  width: 750px;
+  display: inline-block;
+  position: relative;
+  bottom: 65px;
+}
+
+.jim-modal-close {
+  float: right;
+  position: relative;
+  top: 35px;
 }
 
 
