@@ -62,12 +62,16 @@ Overview Page
 
   .practice-services a {
     text-decoration: none;
-    color: #fff;
+    color: #FADCAE;
     line-height: 22px;
   }
   .practice-services a:hover {
     font-size: 18px;
     color: #AFB38A;
+  }
+
+  .services-link-container {
+    text-decoration: underline;
   }
 }
 

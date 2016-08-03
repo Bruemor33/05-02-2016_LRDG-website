@@ -33,16 +33,16 @@ var OverviewComponent = React.createClass({
                 <p>LRDG's professional staff have over 60 years of Central Florida planning and landscape architecture experience in providing services in the following private and public markets.</p>
                 <h4>What We Do</h4>
                 <ul className="practice-services">
-                  <li>
+                  <li className="services-link-container">
                     <a href="#overview/community">Community Planning</a>
                   </li>
-                  <li>
+                  <li className="services-link-container">
                     <a href="#overview/landscape-architecture">Landscape Architecture</a>
                   </li>
-                  <li>
+                  <li className="services-link-container">
                     <a href="#overview/construction-administration">Construction Administration</a>
                   </li>
-                  <li>
+                  <li className="services-link-container">
                     <a href="#overview/graphics">Graphics</a>
                   </li>
                 </ul>
