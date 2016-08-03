@@ -67,6 +67,11 @@ Construction Administration Page
 
 .construction-images-container {
   margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 700px;
+  height: 493px;
+  padding-top: 15px;
+  padding-left: 1px;
 }
 
 .construction-row-one {
@@ -77,36 +82,65 @@ Construction Administration Page
   // height: 200px;
 
 }
+
+.image-one-spacing {
+  padding-left: 0px;
+  padding-right: 8px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 .construction-image-one {
   background: url('../images/1-construction.jpg');
   background-position: 50%, 50%;
   background-size: cover;
-  height: 234px;
-  border: 1px solid #fff;
+  border: 1px solid #AFB38A;
+  height: 220px;
+}
+
+.image-two-spacing {
+  padding-left: 8px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .construction-image-two {
   background: url('../images/2-construction.jpg');
   background-position: center;
   background-size: cover;
-  height: 234px;
-  border: 1px solid #000;
+  border: 1px solid #AFB38A;
+  height: 220px;
+}
+
+.image-three-spacing {
+  padding-left: 0px;
+  padding-right: 8px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .construction-image-three {
   background: url('../images/3-construction.jpg');
   background-position: center;
   background-size: cover;
-  height: 234px;
-  border: 1px solid #000;
+  border: 1px solid #AFB38A;
+  height: 220px;
+}
+
+.image-four-spacing {
+  padding-left: 8px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .construction-image-four {
   background: url('../images/4-construction.jpg');
   background-position: center;
   background-size: cover;
-  height: 234px;
-  border: 1px solid #000;
+  border: 1px solid #AFB38A;
+  height: 220px;
 }
 
 

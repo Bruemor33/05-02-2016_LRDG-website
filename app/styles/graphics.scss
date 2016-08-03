@@ -19,6 +19,10 @@ Graphics Page
   position: fixed;
 }
 
+.graphics-writeup-container {
+  margin-left: -30px;
+}
+
 .graphics-container {
   padding-left: 0;
   padding-right: 0;
@@ -59,6 +63,10 @@ Graphics Page
     overflow-y: scroll;
     height: 380px;
   }
+}
+
+.construction-images-container {
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 
