@@ -69,20 +69,20 @@ var ConstructionAdministrationComponent = React.createClass({
           <div className="construction-images-container col-md-7">
             <div className="row">
               <div className="construction-row-one col-md-12">
-                <div className="col-md-6">
+                <div className="image-one-spacing col-md-6">
                   <div className="construction-image-one"></div>
                 </div>
-                <div className="col-md-6">
+                <div className="image-two-spacing col-md-6">
                   <div className="construction-image-two"></div>
                 </div>
               </div>
             </div>
             <div className="row">
               <div className="construction-row-two col-md-12">
-                <div className="col-md-6">
+                <div className="image-three-spacing col-md-6">
                   <div className="construction-image-three"></div>
                 </div>
-                <div className="col-md-6">
+                <div className="image-four-spacing col-md-6">
                   <div className="construction-image-four"></div>
                 </div>
               </div>
