@@ -77,7 +77,7 @@ var ProjectsComponent = React.createClass({
                     <p className="zero">Orange County, FL</p>
                     <p className="zero">Size: Approx.1600 Acres, 3,500 units</p>
                   </li>
-                  <li><img className="top" src="images/emily-concept-2.jpg" /></li>
+                  <li><img className="top" src="images/th-waterleigh.jpg" /></li>
                 </a>
               </ul>
             </div>
@@ -103,7 +103,7 @@ var ProjectsComponent = React.createClass({
                     <p className="zero">Orlando, FL</p>
                     <p className="zero">Size: 19.2 Acres, 274 Units</p>
                   </li>
-                  <li><img className="top" src="images/tn-1-dwell-nonaplace.jpg" /></li>
+                  <li><img className="top" src="images/tn-2-dwell-nonaplace.jpg" /></li>
                 </a>
               </ul>
             </div>
@@ -116,7 +116,7 @@ var ProjectsComponent = React.createClass({
                     <p className="zero">Boynton Beach, FL</p>
                     <p className="zero">Size: 15 acres, 494 units</p>
                   </li>
-                  <li><img className="top" src="images/emily-concept-1.jpg" /></li>
+                  <li><img className="top" src="images/3-las-ventanas.jpg" /></li>
                 </a>
               </ul>
             </div>
@@ -155,7 +155,7 @@ var ProjectsComponent = React.createClass({
                     <p className="zero">Osceola County, Fl</p>
                     <p className="zero">Size: 21 acres, 188 units</p>
                   </li>
-                  <li><img className="top" src="images/5-magic-village.jpg" /></li>
+                  <li><img className="top" src="images/emily-concept-3.jpg" /></li>
                 </a>
               </ul>
             </div>
