@@ -19,7 +19,7 @@ var ContactPageNavigation = React.createClass({
             <a href="#projects" className="projects-projects">Projects</a>
             <a href="#people" className="projects-people">Studio</a>
             <a href="#contact" id="contact-active" className="projects-contact">Contact</a>
-            <a href="#" className="landing-company-name">
+            <a href="#" className="navigation-home">
               <i className="fa fa-home fa-2x" aria-hidden="true"></i>
             </a>
           </div>
