@@ -1,0 +1,275 @@
+
+
+
+
+
+
+/************************************************************************************************
+Main styling for the navbar
+************************************************************************************************/
+
+
+
+
+
+
+@media(max-width: 1640px) and (min-width: 1442px) {
+
+  #site-nav {
+    position: fixed;
+    top: 710px;
+    width: 100%;
+    z-index: 10;
+  }
+
+  .projects-navigation {
+    position: absolute;
+    top: -35px;
+    padding-top: -5px;
+    height: 55px;
+  }
+  .projects-navigation a {
+    font-size: 18px;
+  }
+  .landing-logo {
+    height: 80px;
+    position: relative;
+    top: -6px;
+  }
+  .projects-overview {
+    position: relative;
+    top: -11px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+  .projects-projects {
+    position: relative;
+    top: -11px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+  .projects-people {
+    position: relative;
+    top: -11px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+  .projects-contact {
+    position: relative;
+    top: -11px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+  .landing-company-name {
+    position: relative;
+    top: 15px;
+  }
+
+}
+
+
+@media(max-width: 1440px) and (min-width: 1281px) {
+
+  #site-nav {
+    position: fixed;
+    top: 600px;
+    width: 100%;
+    z-index: 10;
+  }
+
+  .projects-navigation {
+    position: absolute;
+    top: -35px;
+    padding-top: -5px;
+    height: 55px;
+  }
+  .projects-navigation a {
+    font-size: 18px;
+  }
+  .landing-logo {
+    height: 80px;
+    position: relative;
+    top: -13px;
+  }
+  .projects-overview {
+    position: relative;
+    top: -18px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+  .projects-projects {
+    position: relative;
+    top: -18px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+  .projects-people {
+    position: relative;
+    top: -18px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+  .projects-contact {
+    position: relative;
+    top: -18px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+  .landing-company-name {
+    position: relative;
+    top: 9px;
+  }
+
+}
+
+
+@media(max-width: 1280px) and (min-width: 1081px) {
+
+  #site-nav {
+    position: fixed;
+    top: 570px;
+    width: 100%;
+    z-index: 10;
+  }
+
+  .projects-navigation {
+    position: absolute;
+    top: -35px;
+    padding-top: -5px;
+    height: 55px;
+  }
+  .projects-navigation a {
+    font-size: 18px;
+  }
+  .landing-logo {
+    height: 80px;
+    position: relative;
+    top: -13px;
+  }
+  .projects-overview {
+    position: relative;
+    top: -18px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+  .projects-projects {
+    position: relative;
+    top: -18px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+  .projects-people {
+    position: relative;
+    top: -18px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+  .projects-contact {
+    position: relative;
+    top: -18px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+  .landing-company-name {
+    position: relative;
+    top: 9px;
+  }
+
+}
+
+
+@media(max-width: 1080px) and (min-width: 961px) {
+
+  #site-nav {
+    position: fixed;
+    top: 690px;
+    width: 100%;
+    z-index: 10;
+  }
+
+  .projects-navigation {
+    position: absolute;
+    top: -35px;
+    padding-top: -5px;
+    height: 55px;
+  }
+  .projects-navigation a {
+    font-size: 18px;
+  }
+  .landing-logo {
+    height: 80px;
+    position: relative;
+    top: -13px;
+  }
+  .projects-overview {
+    position: relative;
+    top: -18px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+  .projects-projects {
+    position: relative;
+    top: -18px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+  .projects-people {
+    position: relative;
+    top: -18px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+  .projects-contact {
+    position: relative;
+    top: -18px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+  .landing-company-name {
+    position: relative;
+    top: 9px;
+  }
+
+}
+
+
+
+
+
+
+
+/************************************************************************************************
+Main styling for the navbar
+************************************************************************************************/
