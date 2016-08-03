@@ -82,7 +82,7 @@ CONTACT PAGE
   // display: none;
   display: inline-block;
   position: relative;
-  top: 118px;
+  top: 102px;
   width: 500px;
   padding-left: 15px;
   padding-right: 15px;
@@ -94,6 +94,12 @@ CONTACT PAGE
   font-weight: 300;
   overflow-y: scroll;
   height: 380px;
+}
+
+.social-links {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 4px;
 }
 
 .social-links p {
@@ -110,18 +116,58 @@ CONTACT PAGE
   margin-right: 10px;
   color: #fff;
 }
+
+.social-media-links {
+  position: relative;
+  padding-left: 20px;
+  margin-left: 20px;
+  right: 20px;
+  bottom: 5px;
+  border-left: 1px solid #fff;
+}
+
+.facebook-spacing {
+  // margin-left: 120px;
+}
 .social-links li i {
   color: #fff;
 }
 
 .social-links-caption {
-  position: relative;
-  bottom: 5px;
+
+}
+
+.social-media-container{
+  width: 280px;
+}
+
+.info-emial {
+  display: inline-block;
+  margin-left: 10px;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.info-email a {
+  color: #fff;
+}
+
+.info-email:hover {
+  color: #FADCAE;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #FADCAE;
 }
 
 .google-map {
   display: inline-block;
   color: #fff;
+  margin-left: 4px;
   // padding-top: 80px;
   // padding-left: 70px;
 }
