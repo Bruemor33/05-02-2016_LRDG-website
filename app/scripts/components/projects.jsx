@@ -159,6 +159,18 @@ var ProjectsComponent = React.createClass({
                 </a>
               </ul>
             </div>
+            <div className="brisas-landing col-md-3">
+              <ul className="hover-effect-2 effect">
+                <a href="#bella">
+                  <li className="brisas-background">
+                    <h3 className="zero">Bella Tre</h3>
+                    <p className="zero">Orlando, Fl</p>
+                    <p className="zero">Size: here</p>
+                  </li>
+                  <li><img className="top" src="images/tn-bella-trae.jpg" /></li>
+                </a>
+              </ul>
+            </div>
 
           </div>
         </div>
