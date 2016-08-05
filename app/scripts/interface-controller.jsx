@@ -25,6 +25,7 @@ var LasVentanasComponent = require('./components/projects/las-ventanas.jsx').Las
 var LasBrisasComponent = require('./components/projects/las-brisas.jsx').LasBrisasComponent;
 var HarmonyComponent = require('./components/projects/harmony.jsx').HarmonyComponent;
 var MagicVillageComponent = require('./components/projects/magic-village.jsx').MagicVillageComponent;
+var BellaTraeComponent = require('./components/projects/bella-trae.jsx').BellaTraeComponent;
 var OverviewComponent = require('./components/overview.jsx').OverviewComponent;
 var CommunityPlanningComponent = require('./components/community-planning.jsx').CommunityPlanningComponent;
 var LandscapeArchitectureComponent = require('./components/landscape-architecture.jsx').LandscapeArchitectureComponent;
@@ -70,19 +71,19 @@ var InterfaceComponent = React.createClass({
       body = (<OverviewComponent />)
     }
     if(this.state.router.current == "overview/community"){
-      siteNavigation = (<ProjectsNav />)
+      siteNavigation = (<PracticeNavigation />)
       body = (<CommunityPlanningComponent />)
     }
     if(this.state.router.current == "overview/landscape-architecture"){
-      siteNavigation = (<ProjectsNav />)
+      siteNavigation = (<PracticeNavigation />)
       body = (<LandscapeArchitectureComponent />)
     }
     if(this.state.router.current == "overview/construction-administration"){
-      siteNavigation = (<ProjectsNav />)
+      siteNavigation = (<PracticeNavigation />)
       body = (<ConstructionAdministrationComponent />)
     }
     if(this.state.router.current == "overview/graphics"){
-      siteNavigation = (<ProjectsNav />)
+      siteNavigation = (<PracticeNavigation />)
       body = (<GraphicsServiceComponent />)
     }
     if(this.state.router.current == "projects"){
@@ -90,48 +91,52 @@ var InterfaceComponent = React.createClass({
       body = (<ProjectsComponent />)
     }
     if(this.state.router.current == "kindred"){
-      siteNavigation = (<ProjectsNav />)
+      siteNavigation = (<ProjectPageNavigation />)
       body = (<KindredComponent />)
     }
     if(this.state.router.current == "waterleigh"){
-      siteNavigation = (<ProjectsNav />)
+      siteNavigation = (<ProjectPageNavigation />)
       body = (<WaterleighComponent />)
     }
     if(this.state.router.current == "nonapark"){
-      siteNavigation = (<ProjectsNav />)
+      siteNavigation = (<ProjectPageNavigation />)
       body = (<NonaParkComponent />)
     }
     if(this.state.router.current == "seaisle"){
-      siteNavigation = (<ProjectsNav />)
+      siteNavigation = (<ProjectPageNavigation />)
       body = (<SeaIsleComponent />)
     }
     if(this.state.router.current == "altis"){
-      siteNavigation = (<ProjectsNav />)
+      siteNavigation = (<ProjectPageNavigation />)
       body = (<SandlakeComponent />)
     }
     if(this.state.router.current == "dwell"){
-      siteNavigation = (<ProjectsNav />)
+      siteNavigation = (<ProjectPageNavigation />)
       body = (<DwellNonaPlaceComponent />)
     }
     if(this.state.router.current == "plazaUniversity"){
-      siteNavigation = (<ProjectsNav />)
+      siteNavigation = (<ProjectPageNavigation />)
       body = (<PlazaUniversityComponent />)
     }
     if(this.state.router.current == "ventanas"){
-      siteNavigation = (<ProjectsNav />)
+      siteNavigation = (<ProjectPageNavigation />)
       body = (<LasVentanasComponent />)
     }
     if(this.state.router.current == "brisas"){
-      siteNavigation = (<ProjectsNav />)
+      siteNavigation = (<ProjectPageNavigation />)
       body = (<LasBrisasComponent />)
     }
     if(this.state.router.current == "harmony"){
-      siteNavigation = (<ProjectsNav />)
+      siteNavigation = (<ProjectPageNavigation />)
       body = (<HarmonyComponent />)
     }
     if(this.state.router.current == "magic"){
-      siteNavigation = (<ProjectsNav />)
+      siteNavigation = (<ProjectPageNavigation />)
       body = (<MagicVillageComponent />)
+    }
+    if(this.state.router.current == "bella"){
+      siteNavigation = (<ProjectPageNavigation />)
+      body = (<BellaTraeComponent />)
     }
     if(this.state.router.current == "people"){
       navigation = (<StudioPageNavigation />)

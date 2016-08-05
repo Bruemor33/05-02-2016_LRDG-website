@@ -23,6 +23,7 @@ var Router = Backbone.Router.extend({
     "brisas": "brisas",
     "harmony": "harmony",
     "magic": "magic",
+    "bella": "bella",
     "overview": "overview",
     "overview/community": "community",
     "overview/landscape-architecture": "landscape",
@@ -74,6 +75,9 @@ var Router = Backbone.Router.extend({
   },
   magic: function(){
     this.current = "magic"
+  },
+  bella: function(){
+    this.current = "bella"
   },
   overview: function(){
     this.current = "overview"
