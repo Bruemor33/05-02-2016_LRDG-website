@@ -65,14 +65,14 @@ var BellaTraeComponent = React.createClass({
                 <li><a onClick={() => scroll.scrollMore(500)}></a></li>
               </ul>
             </div>
-            <p>Osceola County, FL</p>
+            <p>Champion's Gate, FL</p>
             <p id="summary" onClick={this.handleClick} className="bella-click-event" role="button">
               Project Info<span className="glyphicon glyphicon-chevron-down" />
             </p>
             <div id="bella-summary" className="dropdown-menu">
               <div className="summary-container">
-                <div className="project-type"><p><span>Project Type:</span>Multi-Family Residential – Vacation Rental</p><br/></div>
-                <div className="client-type"><p><span>Client:</span>Magic Village</p><br/></div>
+                <div className="project-type"><p><span>Project Type:</span>Resort Residential</p><br/></div>
+                <div className="client-type"><p><span>Client:</span>Pulte Homes</p><br/></div>
                 <div className="design-team">
                   <h4 className="design-title">Design Team:</h4>
                   <ul className="team-list">
@@ -82,15 +82,20 @@ var BellaTraeComponent = React.createClass({
                 <div className="project-services">
                   <h4 className="services-title">Project Services:</h4>
                   <ul className="services-list">
-                    <li>Land Planning</li>
+                    <li>Community Theming</li>
                     <li>Hardscape Design</li>
                     <li>Landscape Design</li>
-                    <li>Lighting Design</li>
+                    <li>Irrigation Design</li>
                   </ul>
                 </div>
-                <div className="project-summary"><p>
-                  Located adjacent to Disney’s Animal Kingdom and Hollywood Studios, Magic Village is a South American inspired oasis consisting of Brazilian forms, textures, colors, and materials that create a rich urban fabric and resort-style experience.  The preservation and maximization of stunning views of Disney’s nightly fireworks was central to the design program.  This idea guided the orientation and adjacent plantings of the picnic, pool, and hammock areas.  LRDG’s role was to design a resort-style beach entry swimming pool, spa, picnic & grill area, lounge areas, decorative paving, and an entrance fountain feature complete with landscape, hardscape, and accent lighting in creating an unforgettable short-term rental experience.
-                </p></div>
+                <div className="project-summary">
+                  <p>
+                    Bella Trae, a Mediterranean-Style residential development, offers three housing types and provides a Del Webb lifestyle for the residents including the 12,500 sf clubhouse with a zero-entry pool and spa, a putting green, bocce ball courts, and access to numerous golf and tennis amenities.   It is located within the mixed-use resort community of Champions Gate, the home of two Greg Norman Golf courses and the David Ledbetter Golf Academy.
+                  </p>
+                  <p>
+                    As the community name suggests, Italian themes were extracted to create a “beautiful” aesthetic starting with the stately elegance of Italian cypress trees working in concert with the Mediterranean-themed architectural facades of the community buildings. The main community intersection creates a strong sense of place where the four quadrants come together to celebrate the arrival point with Italian cypress trees planted in gravel beds, citrus trees in the median, gated entrances of stucco walls, accent columns with barreled-tiled roof caps to match the guardhouse, prominent signage, and fountains.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
