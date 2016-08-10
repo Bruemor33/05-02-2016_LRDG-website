@@ -75,10 +75,11 @@ var StudioPageComponent = React.createClass({
         <div className="row">
           <div className="studio-content-container col-md-12">
             <div className="barry col-md-4">
+              <div className="barry-photo" role="button" onClick={this.barryModal}></div>
               <div className="barry-title">
-                <h5>Barry Rymer, PLA</h5>
+                <h5 className="title-spacing">Barry Rymer, PLA</h5>
+                <h5>Founder - Managing Principal</h5>
               </div>
-              <div className="barry-photo" onClick={this.barryModal}></div>
               <Modal ref="barry" modalStyle={modalStyle} backdropStyle={backdropStyle} contentStyle={contentStyle}>
                 <div className="modal-picture-barry" onClick={this.hideBarry}></div>
                 <div className="barry-writeup" onClick={this.hideBarry}>
@@ -96,10 +97,11 @@ var StudioPageComponent = React.createClass({
               </Modal>
             </div>
             <div className="scott col-md-4">
+              <div className="scott-photo" role="button" onClick={this.scottModal}></div>
               <div className="scott-title">
-                <h5>Scott Moorman, Sr. Planner/Project Manager</h5>
+                <h5 className="title-spacing">Scott Moorman</h5>
+                <h5>Sr. Planner/Project Manager</h5>
               </div>
-              <div className="scott-photo" onClick={this.scottModal}></div>
               <Modal ref="scott" modalStyle={modalStyle} modalStyle={modalStyle} backdropStyle={backdropStyle} contentStyle={contentStyle}>
                 <div className="modal-picture-scott" onClick={this.hideScott}></div>
                 <div className="scott-writeup" onClick={this.hideScott}>
@@ -119,10 +121,11 @@ var StudioPageComponent = React.createClass({
               </Modal>
             </div>
             <div className="jim col-md-4">
+              <div className="jim-photo" role="button" onClick={this.jimModal}></div>
               <div className="jim-title">
-                <h5>Jim Morgan, PLA</h5>
+                <h5 className="title-spacing">Jim Morgan, PLA</h5>
+                <h5>Sr. Landscape Architect</h5>
               </div>
-              <div className="jim-photo" onClick={this.jimModal}></div>
               <Modal ref="jim" modalStyle={modalStyle} backdropStyle={backdropStyle} contentStyle={contentStyle}>
                 <div className="modal-picture-jim" onClick={this.hideJim}></div>
                 <div className="jim-writeup" onClick={this.hideJim}>
