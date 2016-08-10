@@ -58,20 +58,20 @@ var GraphicsServiceComponent = React.createClass({
             <div className="row">
               <div className="construction-row-one col-md-12">
                 <div className="image-one-spacing col-md-6">
-                  <div className="construction-image-one"></div>
+                  <div className="graphics-image-one"></div>
                 </div>
                 <div className="image-two-spacing col-md-6">
-                  <div className="construction-image-two"></div>
+                  <div className="graphics-image-two"></div>
                 </div>
               </div>
             </div>
             <div className="row">
               <div className="construction-row-two col-md-12">
                 <div className="image-three-spacing col-md-6">
-                  <div className="construction-image-three"></div>
+                  <div className="graphics-image-three"></div>
                 </div>
                 <div className="image-four-spacing col-md-6">
-                  <div className="construction-image-four"></div>
+                  <div className="graphics-image-four"></div>
                 </div>
               </div>
             </div>
