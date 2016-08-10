@@ -32,7 +32,15 @@ General Page styling
 
 .studio-content-container {
   padding-left: 60px;
-  margin-top: 180px;
+  margin-top: 140px;
+}
+
+.title-spacing {
+  padding-top: 10px;
+}
+
+.overview-title {
+  font-weight: 100;
 }
 
 
@@ -54,18 +62,17 @@ Barry styling
 
 
 .barry-title {
-  position: absolute;
-  top: 220px;
   background-color: rgba(0, 0, 0, 0.7);
-  height: 40px;
+  height: 70px;
   width: 300px;
   color: #FFF;
-
+  position: relative;
+  bottom: 10px;
 }
 
 .barry-title h5 {
-  margin-left: 140px;
-  margin-bottom: 15px;
+  margin-left: 10px;
+  margin-bottom: 5px;
   font-weight: 200;
   font-size: 18px;
 }
@@ -126,20 +133,20 @@ Scott styling
 
 
 .scott-title {
-  position: absolute;
-  top: 220px;
+  position: relative;;
+  bottom: 10px;
   background-color: rgba(0, 0, 0, 0.7);
-  height: 40px;
+  height: 70px;
   width: 300px;
   color: #FFF;
 
 }
 
 .scott-title h5 {
-  // margin-left: 140px;
-  margin-bottom: 15px;
+  margin-left: 10px;
+  margin-bottom: 5px;
   font-weight: 200;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .scott-photo {
@@ -186,18 +193,18 @@ Jim styling
 
 
 .jim-title {
-  position: absolute;
-  top: 220px;
+  position: relative;;
+  bottom: 10px;
   background-color: rgba(0, 0, 0, 0.7);
-  height: 40px;
+  height: 70px;
   width: 300px;
   color: #FFF;
 
 }
 
 .jim-title h5 {
-  margin-left: 140px;
-  margin-bottom: 15px;
+  margin-left: 10px;
+  margin-bottom: 5px;
   font-weight: 200;
   font-size: 18px;
 }
