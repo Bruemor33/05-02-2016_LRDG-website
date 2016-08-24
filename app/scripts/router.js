@@ -30,6 +30,7 @@ var Router = Backbone.Router.extend({
     "overview/construction-administration": "construction",
     "overview/graphics": "graphics",
     "people": "people",
+    "clients": "clients",
     "contact": "contact",
     "images": "images",
     "*notfound": "notfound"
@@ -96,6 +97,9 @@ var Router = Backbone.Router.extend({
   },
   people: function(){
     this.current = "people"
+  },
+  clients: function(){
+    this.current = "clients"
   },
   contact: function(){
     this.current = "contact"
