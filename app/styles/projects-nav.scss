@@ -11,20 +11,20 @@
 
 .projects-navigation {
   background-color: rgba(0, 0, 0, 0.7);
-  height: 55px;
+
 
 
   a {
     text-decoration: none;
     color: #FFF;
-    font-size: 25px;
+
     font-family: 'Poppins', serif;
-    font-weight: 300;
+
   }
 }
 
 .projects-overview {
-  margin-left: 60px;
+  margin-left: 40px;
 }
 .projects-overview:hover {
   color: #000;
@@ -58,55 +58,65 @@
   background-color: #FADCAE;
 }
 
-@media(max-width: 1440px){
-  .projects-navigation {
-    position: absolute;
-    top: -35px;
-    padding-top: 7px;
-    height: 55px;
-  }
-  .projects-navigation a {
-    font-size: 18px;
-  }
-  .projects-logo {
-    height: 110px;
-    position: relative;
-    top: -12px;
-  }
-  .projects-overview {
-    position: relative;
-    top: -15px;
-    padding-top: 14px;
-    padding-bottom: 12px;
-    padding-right: 8px;
-    padding-left: 8px;
-  }
-  .projects-projects {
-    position: relative;
-    top: -15px;
-    padding-top: 14px;
-    padding-bottom: 12px;
-    padding-right: 8px;
-    padding-left: 8px;
-  }
-  .projects-people {
-    position: relative;
-    top: -15px;
-    padding-top: 14px;
-    padding-bottom: 12px;
-    padding-right: 8px;
-    padding-left: 8px;
-  }
-  .projects-contact {
-    position: relative;
-    top: -15px;
-    padding-top: 14px;
-    padding-bottom: 12px;
-    padding-right: 8px;
-    padding-left: 8px;
-  }
-  .landing-company-name {
-    position: relative;
-    top: 7px;
-  }
-}
+// @media(max-width: 1440px){
+//   .projects-navigation {
+//     position: absolute;
+//     top: -35px;
+//     padding-top: 7px;
+//     height: 55px;
+//   }
+//   .projects-navigation a {
+//     font-size: 18px;
+//   }
+//   .projects-logo {
+//     height: 110px;
+//     position: relative;
+//     top: -12px;
+//   }
+//   .projects-overview {
+//     position: relative;
+//     top: -15px;
+//     padding-top: 14px;
+//     padding-bottom: 12px;
+//     padding-right: 8px;
+//     padding-left: 8px;
+//   }
+//   .projects-projects {
+//     position: relative;
+//     top: -15px;
+//     padding-top: 14px;
+//     padding-bottom: 12px;
+//     padding-right: 8px;
+//     padding-left: 8px;
+//   }
+//   .projects-people {
+//     position: relative;
+//     top: -15px;
+//     padding-top: 14px;
+//     padding-bottom: 12px;
+//     padding-right: 8px;
+//     padding-left: 8px;
+//   }
+//   .projects-contact {
+//     position: relative;
+//     top: -15px;
+//     padding-top: 14px;
+//     padding-bottom: 12px;
+//     padding-right: 8px;
+//     padding-left: 8px;
+//   }
+//   .landing-company-name {
+//     position: relative;
+//     top: 7px;
+//   }
+// }
+//
+//
+//
+// @media(max-width: 1260px) and (max-height: 800px){
+//
+//   #site-nav {
+//     top: 400px;
+//   }
+//
+// }
