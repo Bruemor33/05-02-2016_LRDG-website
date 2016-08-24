@@ -68,7 +68,7 @@ var StudioPageComponent = React.createClass({
           <div className="practice-container col-md-12">
             <div className="overview-title">
               <div className="overview-logo"></div>
-              <h2>Studio Leads</h2>
+              <h2>Studio Leaders</h2>
             </div>
           </div>
         </div>
