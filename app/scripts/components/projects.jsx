@@ -64,7 +64,7 @@ var ProjectsComponent = React.createClass({
                     <p className="zero">Osceola County, Fl</p>
                     <p className="zero">Size: 1,450 Acres, 3,000 Units</p>
                   </li>
-                  <li><img className="top" src="images/emily-concept-1.jpg" /></li>
+                  <li><img className="top" src="images/5-kindred.jpg" /></li>
                 </a>
               </ul>
             </div>
@@ -163,7 +163,7 @@ var ProjectsComponent = React.createClass({
               <ul className="hover-effect-2 effect">
                 <a href="#bella">
                   <li className="brisas-background">
-                    <h3 className="zero">Bella Tre</h3>
+                    <h3 className="zero">Bella Trea</h3>
                     <p className="zero">Orlando, Fl</p>
                     <p className="zero">Size: here</p>
                   </li>
