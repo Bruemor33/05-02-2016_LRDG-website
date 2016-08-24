@@ -21,7 +21,7 @@ var OverviewComponent = React.createClass({
             <div className="practice-container col-md-12">
               <div className="overview-title">
                 <div className="overview-logo"></div>
-                <h2>Land Resource Design Group</h2>
+                <h2>Overview</h2>
               </div>
             </div>
           </div>
