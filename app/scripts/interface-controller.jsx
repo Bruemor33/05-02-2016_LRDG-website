@@ -37,6 +37,8 @@ var PracticeNavigation = require('./components/practice-nav.jsx').PracticeNaviga
 var ProjectPageNavigation = require('./components/project-page-nav.jsx').ProjectPageNavigation;
 var StudioPageNavigation = require('./components/studio-nav.jsx').StudioPageNavigation;
 var ContactPageNavigation = require('./components/contact-nav.jsx').ContactPageNavigation;
+var ClientsComponent = require('./components/clients.jsx').ClientsComponent;
+var ClientsPageNavigation = require('./components/clients-nav.jsx').ClientsPageNavigation;
 
 
 //kick off controller
@@ -141,6 +143,10 @@ var InterfaceComponent = React.createClass({
     if(this.state.router.current == "people"){
       navigation = (<StudioPageNavigation />)
       body = (<StudioPageComponent />)
+    }
+    if(this.state.router.current == "clients"){
+      navigation = (<ClientsPageNavigation />)
+      body = (<ClientsComponent />)
     }
     if(this.state.router.current == "contact"){
       navigation = (<ContactPageNavigation />)
