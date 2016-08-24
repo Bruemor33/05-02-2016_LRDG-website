@@ -14,7 +14,7 @@ var ProjectsNav = React.createClass({
       <div className="container-fluid">
         <nav id="site-nav" className="row">
           <div className="projects-navigation col-md-12">
-            <a href="#"><img src="./images/small-lrdg-logo.png" className="landing-logo" /></a>
+            <a href="#"><img src="./images/small-lrdg-logo.png" className="projects-logo" /></a>
             <a href="#overview" className="projects-overview">Practice</a>
             <a href="#projects" className="projects-projects">Projects</a>
             <a href="#people" className="projects-people">Studio</a>
