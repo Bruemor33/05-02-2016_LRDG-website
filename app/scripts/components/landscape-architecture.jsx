@@ -100,22 +100,41 @@ var LandscapeArchitectureComponent = React.createClass({
           </div>
           <div className="construction-images-container col-md-7">
             <div className="row">
-              <div className="construction-row-one col-md-12">
-                <div className="image-one-spacing col-md-6">
+              <div className="landscape-row-one col-md-12">
+                <div className="landscape-one-spacing col-md-4">
                   <div className="landscape-image-one"></div>
                 </div>
-                <div className="image-two-spacing col-md-6">
+                <div className="landscape-two-spacing col-md-4">
                   <div className="landscape-image-two"></div>
+                </div>
+                <div className="landscape-three-spacing col-md-4">
+                  <div className="landscape-image-three"></div>
                 </div>
               </div>
             </div>
             <div className="row">
-              <div className="construction-row-two col-md-12">
-                <div className="image-three-spacing col-md-6">
-                  <div className="landscape-image-three"></div>
-                </div>
-                <div className="image-four-spacing col-md-6">
+              <div className="landscape-row-two col-md-12">
+                <div className="landscape-one-spacing col-md-4">
                   <div className="landscape-image-four"></div>
+                </div>
+                <div className="landscape-two-spacing col-md-4">
+                  <div className="landscape-image-five"></div>
+                </div>
+                <div className="landscape-three-spacing col-md-4">
+                  <div className="landscape-image-six"></div>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="landscape-row-three col-md-12">
+                <div className="landscape-one-spacing col-md-4">
+                  <div className="landscape-image-seven"></div>
+                </div>
+                <div className="landscape-two-spacing col-md-4">
+                  <div className="landscape-image-eight"></div>
+                </div>
+                <div className="landscape-three-spacing col-md-4">
+                  <div className="landscape-image-nine"></div>
                 </div>
               </div>
             </div>
