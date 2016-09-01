@@ -12,7 +12,7 @@ var ProjectsComponent = React.createClass({
   render: function(){
 
     return(
-      <div className="container">
+      <div className="container-fluid">
         <div className="page-background"></div>
         <div className="row">
           <div className="project-one-container col-md-12">
@@ -25,7 +25,7 @@ var ProjectsComponent = React.createClass({
                     <p className="zero">Orlando, FL</p>
                     <p className="zero">Size: 13.1 Acres, 355 Units/1,330 Student Beds, 64,457 s.f. Commercial Retail</p>
                   </li>
-                  <li><img className="top" src="images/1-plaza.jpg" /></li>
+                  <li><img className="top" src="images/1-plaza.png" /></li>
                 </a>
               </ul>
             </div>
@@ -64,7 +64,7 @@ var ProjectsComponent = React.createClass({
                     <p className="zero">Osceola County, Fl</p>
                     <p className="zero">Size: 1,450 Acres, 3,000 Units</p>
                   </li>
-                  <li><img className="top" src="images/5-kindred.jpg" /></li>
+                  <li><img className="top" src="images/5-kindred.png" /></li>
                 </a>
               </ul>
             </div>
@@ -77,7 +77,7 @@ var ProjectsComponent = React.createClass({
                     <p className="zero">Orange County, FL</p>
                     <p className="zero">Size: Approx.1600 Acres, 3,500 units</p>
                   </li>
-                  <li><img className="top" src="images/th-waterleigh.jpg" /></li>
+                  <li><img className="top" src="images/tn-waterleigh.png" /></li>
                 </a>
               </ul>
             </div>
@@ -90,7 +90,7 @@ var ProjectsComponent = React.createClass({
                     <p className="zero">Orange County, FL</p>
                     <p className="zero">Size: 13.5 Acres, 315 Units</p>
                   </li>
-                  <li><img className="top" src="images/tn-altis-sandlake.jpg" /></li>
+                  <li><img className="top" src="images/tn-altis-sandlake.png" /></li>
                 </a>
               </ul>
             </div>
@@ -103,7 +103,7 @@ var ProjectsComponent = React.createClass({
                     <p className="zero">Orlando, FL</p>
                     <p className="zero">Size: 19.2 Acres, 274 Units</p>
                   </li>
-                  <li><img className="top" src="images/tn-2-dwell-nonaplace.jpg" /></li>
+                  <li><img className="top" src="images/tn-2-dwell-nonaplace.png" /></li>
                 </a>
               </ul>
             </div>
@@ -116,7 +116,7 @@ var ProjectsComponent = React.createClass({
                     <p className="zero">Boynton Beach, FL</p>
                     <p className="zero">Size: 15 acres, 494 units</p>
                   </li>
-                  <li><img className="top" src="images/3-las-ventanas.jpg" /></li>
+                  <li><img className="top" src="images/3-las-ventanas.png" /></li>
                 </a>
               </ul>
             </div>
@@ -167,7 +167,7 @@ var ProjectsComponent = React.createClass({
                     <p className="zero">Orlando, Fl</p>
                     <p className="zero">Size: here</p>
                   </li>
-                  <li><img className="top" src="images/tn-bella-trae.jpg" /></li>
+                  <li><img className="top" src="images/tn-bella-trae.png" /></li>
                 </a>
               </ul>
             </div>
