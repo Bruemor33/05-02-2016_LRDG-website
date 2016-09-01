@@ -11,11 +11,57 @@ Projects Window
 
 
 
-@media(max-width: 1440px) and (min-width: 1081px){
+@media(max-height: 1080px) and (min-height: 800px) and (max-width: 1920px) and (min-width: 1641px){
 
   .project-one-container {
-    overflow-y: scroll;
-    height: 470px;
+
+    margin-left: 30px;
+
+  }
+
+  .hover-effect-2 {
+    height: 200px;
+    width: 350px;
+  }
+
+  .effect img.top:hover {
+    bottom: -180px;
+    padding-top: 100px;
+  }
+
+}
+
+
+@media(max-height: 1080px) and (min-height: 800px) and (max-width: 1640px) and (min-width: 1441px){
+
+  .project-one-container {
+    // overflow-y: scroll;
+    // height: 470px;
+    margin-left: 8px;
+    margin-top: 20px;
+  }
+
+  .hover-effect-2 {
+    height: 200px;
+    width: 350px;
+  }
+
+  .effect img.top:hover {
+    bottom: -180px;
+    padding-top: 100px;
+  }
+
+}
+
+@media(max-height: 1080px) and (min-height: 800px) and (max-width: 1440px) and (min-width: 1261px) {
+
+  .project-one-container {
+    margin-left: 1px;
+  }
+
+  .hover-effect-2 {
+    height: 190px;
+    width: 330px;
   }
 
 }
