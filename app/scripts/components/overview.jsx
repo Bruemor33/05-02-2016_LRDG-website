@@ -28,9 +28,10 @@ var OverviewComponent = React.createClass({
           <div className="row">
             <div className="statement-container col-md-12">
               <div className="scroller">
-                <p>Land Resource Design Group, aka LRDG, was founded by long time Central Florida landscape architect Barry H. Rymer.  Mr. Rymer has practiced land planning and landscape architecture in the Central Florida and throughout the southeast United States for over 30 years.</p>
-                <p>LRDG was formed with the philosophy of viewing land as a valuable resource for man's sustainability through improving our quality of life, environmental stewardship and economic prosperity. LRDG practices this philosophy through the planning, design and implementation of new communities and the enhancement of existing communities.</p>
+                <p>Land Resource Design Group, aka LRDG, was formed with the philosophy of viewing land as a valuable resource for man's sustainability through improving our quality of life, environmental stewardship and economic prosperity. LRDG practices this philosophy through the planning, design and implementation of new communities and the enhancement of existing communities.</p>
+
                 <p>LRDG's professional staff have over 60 years of Central Florida planning and landscape architecture experience in providing services in the following private and public markets.</p>
+
                 <h4>What We Do</h4>
                 <ul className="practice-services">
                   <li className="services-link-container">
@@ -44,6 +45,13 @@ var OverviewComponent = React.createClass({
                   </li>
                   <li className="services-link-container">
                     <a href="#overview/graphics">Graphics</a>
+                  </li>
+                </ul>
+
+                <h4>Who We Have Worked With</h4>
+                <ul className="practice-services">
+                  <li className="services-link-container">
+                    <a href="#clients">Client Listing</a>
                   </li>
                 </ul>
               </div>
