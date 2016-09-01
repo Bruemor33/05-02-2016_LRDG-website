@@ -98,7 +98,7 @@ var LandscapeArchitectureComponent = React.createClass({
               </div>
             </div>
           </div>
-          <div className="construction-images-container col-md-7">
+          <div className="landscape-images-container col-md-7">
             <div className="row">
               <div className="landscape-row-one col-md-12">
                 <div className="landscape-one-spacing col-md-4">
