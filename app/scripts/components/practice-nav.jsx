@@ -18,7 +18,6 @@ var PracticeNavigation = React.createClass({
             <a href="#overview" id="overview-active" className="projects-overview">Practice</a>
             <a href="#projects" className="projects-projects">Projects</a>
             <a href="#people" className="projects-people">Studio</a>
-            <a href="#clients" className="projects-clients">Clients</a>
             <a href="#contact" className="projects-contact">Contact</a>
             <a href="#" className="navigation-home">
               <i className="fa fa-home fa-2x" aria-hidden="true"></i>
