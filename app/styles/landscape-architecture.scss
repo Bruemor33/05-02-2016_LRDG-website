@@ -61,8 +61,18 @@ Community Planning Page
 
   .landscape-scroller {
     overflow-y: scroll;
-    height: 390px;
+    // height: 390px;
   }
+}
+
+
+.landscape-images-container {
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 700px;
+  height: 493px;
+  padding-top: 15px;
+  padding-left: 1px;
 }
 
 
