@@ -28,7 +28,7 @@ var CommunityPlanningComponent = React.createClass({
             </div>
             <div className="row">
               <div className="community-statement-container col-md-12">
-                <div className="scroller">
+                <div className="community-scroller">
                   <p>Community planning is the initial and most critical opportunity to create value through resource-based land planning. This allows the establishment of optimal land use classifications, site-specific design criteria, and marketable densities. Combined, these assist in creating an architectural canvas that define successful and viable “outdoor living spaces” throughout the community.</p>
                   <p>Our community planning develops the value of the land through the skillful execution of the following services:</p>
                   <ul>
