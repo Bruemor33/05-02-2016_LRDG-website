@@ -145,7 +145,7 @@ var InterfaceComponent = React.createClass({
       body = (<StudioPageComponent />)
     }
     if(this.state.router.current == "clients"){
-      navigation = (<ClientsPageNavigation />)
+      navigation = (<PracticeNavigation />)
       body = (<ClientsComponent />)
     }
     if(this.state.router.current == "contact"){
