@@ -71,8 +71,8 @@ var MagicVillageComponent = React.createClass({
             </p>
             <div id="magic-summary" className="dropdown-menu">
               <div className="summary-container">
-                <div className="project-type"><p><span>Project Type:</span>Multi-Family Residential – Vacation Rental</p><br/></div>
-                <div className="client-type"><p><span>Client:</span>Magic Village</p><br/></div>
+                <div className="project-type"><p>Project Type: Multi-Family Residential – Vacation Rental</p><br/></div>
+                <div className="client-type"><p>Client: Magic Village</p><br/></div>
                 <div className="design-team">
                   <h4 className="design-title">Design Team:</h4>
                   <ul className="team-list">

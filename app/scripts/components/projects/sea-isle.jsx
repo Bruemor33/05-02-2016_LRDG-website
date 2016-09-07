@@ -70,8 +70,8 @@ var SeaIsleComponent = React.createClass({
             </p>
             <div id="sea-isle-summary" className="dropdown-menu">
               <div className="summary-container">
-                <div className="project-type"><p><span>Project Type:</span>Multi-Family Residential</p><br/></div>
-                <div className="client-type"><p><span>Client:</span>Epoch Properties</p><br/></div>
+                <div className="project-type"><p>Project Type: Multi-Family Residential</p><br/></div>
+                <div className="client-type"><p>Client: Epoch Properties</p><br/></div>
                 <div className="design-team">
                   <h4 className="design-title">Design Team</h4>
                   <ul className="team-list">

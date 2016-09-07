@@ -70,8 +70,8 @@ var WaterleighComponent = React.createClass({
             </p>
             <div id="waterleigh-summary" className="dropdown-menu">
               <div className="summary-container">
-                <div className="project-type"><p><span>Project Type:</span>Single-Family Community Development</p><br/></div>
-                <div className="client-type"><p><span>Client:</span>DR Horton, Inc.</p><br/></div>
+                <div className="project-type"><p>Project Type: Single-Family Community Development</p><br/></div>
+                <div className="client-type"><p>Client:DR Horton, Inc.</p><br/></div>
                 <div className="design-team">
                   <h4 className="design-title">Design Team</h4>
                   <ul className="team-list">

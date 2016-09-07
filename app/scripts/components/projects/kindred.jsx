@@ -70,8 +70,8 @@ var KindredComponent = React.createClass({
             </p>
             <div id="kindred-summary" className="dropdown-menu">
               <div className="summary-container">
-                <div className="project-type"><p><span>Project Type:</span>Master-Planned Community Development</p><br/></div>
-                <div className="client-type"><p><span>Client:</span>DR Horton, Inc.</p><br/></div>
+                <div className="project-type"><p>Project Type: Master-Planned Community Development</p><br/></div>
+                <div className="client-type"><p>Client: DR Horton, Inc.</p><br/></div>
                 <div className="design-team">
                   <h4 className="design-title">Design Team</h4>
                   <ul className="team-list">
@@ -89,7 +89,7 @@ var KindredComponent = React.createClass({
                   </ul>
                 </div>
                 <div className="project-summary"><p>
-                  Located in Osceola County, FL, the Town of Kindred is a piece of land rich in local historic significance.  Once the site of the Partin Family Heart Bar Ranch, the Town of Kindred is a place where family, community and the great outdoors are the foundations of the “Kindred” quality of life.  Within Kindred, there’s access to Lake Tohopekaliga and multiple residential villages all integrated with sidewalks, trails, and various parks serving as common meeting places.  Kindred’s aesthetic provides comfortable warmth, stability, a variety of architectural design styles, and an abundance of healthy lifestyle amenities that are interconnected to encourage and celebrate community.
+                  Located in Osceola County, FL, the Town of Kindred is a piece of land rich in local historic significance. Once the site of the Partin Family Heart Bar Ranch, the Town of Kindred is a place where family, community and the great outdoors are the foundations of the “Kindred” quality of life. Within Kindred, there’s access to Lake Tohopekaliga and multiple residential villages all integrated with sidewalks, trails, and various parks serving as common meeting places. Kindred’s aesthetic provides comfortable warmth, stability, a variety of architectural design styles, and an abundance of healthy lifestyle amenities that are interconnected to encourage and celebrate community.
                 </p></div>
               </div>
             </div>

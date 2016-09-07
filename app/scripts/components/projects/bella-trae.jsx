@@ -71,8 +71,8 @@ var BellaTraeComponent = React.createClass({
             </p>
             <div id="bella-summary" className="dropdown-menu">
               <div className="summary-container">
-                <div className="project-type"><p><span>Project Type:</span>Resort Residential</p><br/></div>
-                <div className="client-type"><p><span>Client:</span>Pulte Homes</p><br/></div>
+                <div className="project-type"><p>Project Type: Resort Residential</p><br/></div>
+                <div className="client-type"><p>Client: Pulte Homes</p><br/></div>
                 <div className="design-team">
                   <h4 className="design-title">Design Team:</h4>
                   <ul className="team-list">
@@ -90,7 +90,7 @@ var BellaTraeComponent = React.createClass({
                 </div>
                 <div className="project-summary">
                   <p>
-                    Bella Trae, a Mediterranean-Style residential development, offers three housing types and provides a Del Webb lifestyle for the residents including the 12,500 sf clubhouse with a zero-entry pool and spa, a putting green, bocce ball courts, and access to numerous golf and tennis amenities.   It is located within the mixed-use resort community of Champions Gate, the home of two Greg Norman Golf courses and the David Ledbetter Golf Academy.
+                    Bella Trae, a Mediterranean-Style residential development, offers three housing types and provides a Del Webb lifestyle for the residents including the 12,500 sf clubhouse with a zero-entry pool and spa, a putting green, bocce ball courts, and access to numerous golf and tennis amenities. It is located within the mixed-use resort community of Champions Gate, the home of two Greg Norman Golf courses and the David Ledbetter Golf Academy.
                   </p>
                   <p>
                     As the community name suggests, Italian themes were extracted to create a “beautiful” aesthetic starting with the stately elegance of Italian cypress trees working in concert with the Mediterranean-themed architectural facades of the community buildings. The main community intersection creates a strong sense of place where the four quadrants come together to celebrate the arrival point with Italian cypress trees planted in gravel beds, citrus trees in the median, gated entrances of stucco walls, accent columns with barreled-tiled roof caps to match the guardhouse, prominent signage, and fountains.
