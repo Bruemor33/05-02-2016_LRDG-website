@@ -40,6 +40,15 @@ Construction Administration Media Queries
 
 }
 
+@media(max-height: 800px) and (max-width: 1280px) and (min-width: 1080px) {
+
+  .construction-scroller {
+    overflow-y: scroll;
+    height: 390px;
+  }
+
+}
+
 
 
 /****************************************************************************************
