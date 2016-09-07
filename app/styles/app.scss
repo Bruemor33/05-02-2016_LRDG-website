@@ -195,22 +195,30 @@ Span Styling
   100% { opacity: 0 }
 }
 
-@media screen and (max-width: 1640px) and (min-width: 1441px){
+// @media screen and (max-width: 1640px) and (min-width: 1441px){
+//
+// /*  .cd-slideshow li div {
+//     z-index: 100;
+//     position: absolute;
+//     bottom: 30px;
+//     left: 600px;
+//     width: 100%;
+//     text-align: center;
+//     opacity: 0;
+//     color: #fff;
+//     animation: titleAnimation 24s linear infinite 0s;
+//   }*/
+//
+//   .cd-slideshow li div h3 {
+//     line-height: 100px;
+//   }
+//
+// }
 
-/*  .cd-slideshow li div {
-    z-index: 100;
-    position: absolute;
-    bottom: 30px;
-    left: 600px;
-    width: 100%;
-    text-align: center;
-    opacity: 0;
-    color: #fff;
-    animation: titleAnimation 24s linear infinite 0s;
-  }*/
+@media screen and (max-width: 1920px) and (min-width: 1640px) {
 
   .cd-slideshow li div h3 {
-    line-height: 100px;
+    line-height: 250px;
   }
 
 }
