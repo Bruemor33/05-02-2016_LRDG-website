@@ -46,6 +46,15 @@ Community Planning Media Queries
 
 }
 
+@media(max-height: 800px) and (max-width: 1280px) and (min-width: 1081px) {
+
+  .community-scroller {
+    overflow-y: scroll;
+    height: 390px;
+  }
+
+}
+
 
 
 
