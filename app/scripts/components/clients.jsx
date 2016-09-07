@@ -29,7 +29,7 @@ var ClientsComponent = React.createClass({
             <div className="container-cancel col-md-12">
               <div className="client-statement-container col-md-9">
                 <div className="scroller">
-                  <p>The Following is a sampling of the CLients that LRDG's leadership team has had the privilege to work with during our combined 60+ years of experience in Central Florida</p>
+                  <p>The Following is a sampling of the Clients that LRDG's leadership team has had the privilege to work with during our combined 60+ years of experience in Central Florida</p>
 
                   <ul className="client-listing col-md-12">
                     <div className="block-one col-md-4">
