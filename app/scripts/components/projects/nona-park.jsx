@@ -60,8 +60,8 @@ var NonaParkComponent = React.createClass({
                 <li className="nona-list-item"><Link activeClass="active" className="nona-three" to="nona-three" spy={true} smooth={true} duration={500}></Link></li>
                 <li className="nona-list-item"><Link activeClass="active" className="nona-four" to="nona-four" spy={true} smooth={true} duration={500}></Link></li>
                 <li className="nona-list-item"><Link activeClass="active" className="nona-one" to="nona-one" spy={true} smooth={true} duration={500}></Link></li>
-                <li><a onClick={() => scroll.scrollTo(100)}></a></li>
-                <li><a onClick={() => scroll.scrollMore(500)}></a></li>
+                <li><a onClick={function(){scroll.scrollTo(100)}}></a></li>
+                <li><a onClick={function(){scroll.scrollMore(500)}}></a></li>
               </ul>
             </div>
             <p>Orlando, FL</p>

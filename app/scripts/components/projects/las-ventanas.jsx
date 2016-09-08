@@ -61,8 +61,8 @@ var LasVentanasComponent = React.createClass({
                 <li className="ventanas-list-item"><Link activeClass="active" className="ventanas-three" to="ventanas-three" spy={true} smooth={true} duration={500}></Link></li>
                 <li className="ventanas-list-item"><Link activeClass="active" className="ventanas-four" to="ventanas-four" spy={true} smooth={true} duration={500}></Link></li>
                 <li className="ventanas-list-item"><Link activeClass="active" className="ventanas-one" to="ventanas-one" spy={true} smooth={true} duration={500}></Link></li>
-                <li><a onClick={() => scroll.scrollTo(100)}></a></li>
-                <li><a onClick={() => scroll.scrollMore(500)}></a></li>
+                <li><a onClick={function(){scroll.scrollTo(100)}}></a></li>
+                <li><a onClick={function(){scroll.scrollMore(500)}}></a></li>
               </ul>
             </div>
             <p>Bounton Beach, FL</p>

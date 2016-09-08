@@ -59,8 +59,8 @@ var PlazaUniversityComponent = React.createClass({
                 <li className="plaza-list-item"><Link activeClass="active" className="plaza-three" to="plaza-three" spy={true} smooth={true} duration={500}></Link></li>
                 <li className="plaza-list-item"><Link activeClass="active" className="plaza-four" to="plaza-four" spy={true} smooth={true} duration={500}></Link></li>
                 <li className="plaza-list-item"><Link activeClass="active" className="plaza-one" to="plaza-one" spy={true} smooth={true} duration={500}></Link></li>
-                <li><a onClick={() => scroll.scrollTo(100)}></a></li>
-                <li><a onClick={() => scroll.scrollMore(500)}></a></li>
+                <li><a onClick={function(){scroll.scrollTo(100)}}></a></li>
+                <li><a onClick={function(){scroll.scrollMore(500)}}></a></li>
               </ul>
             </div>
             <p>Orlando, FL</p>

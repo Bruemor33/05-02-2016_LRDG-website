@@ -60,8 +60,8 @@ var SandlakeComponent = React.createClass({
                 <li className="altis-list-item"><Link activeClass="active" className="sandlake-three" to="sandlake-three" spy={true} smooth={true} duration={500}></Link></li>
                 <li className="altis-list-item"><Link activeClass="active" className="sandlake-four" to="sandlake-four" spy={true} smooth={true} duration={500}></Link></li>
                 <li className="altis-list-item"><Link activeClass="active" className="sandlake-one" to="sandlake-one" spy={true} smooth={true} duration={500}></Link></li>
-                <li><a onClick={() => scroll.scrollTo(100)}></a></li>
-                <li><a onClick={() => scroll.scrollMore(500)}></a></li>
+                <li><a onClick={function(){scroll.scrollTo(100)}}></a></li>
+                <li><a onClick={function(){scroll.scrollMore(500)}}></a></li>
               </ul>
             </div>
             <p>Orange County, FL</p>
