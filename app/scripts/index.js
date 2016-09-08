@@ -8,8 +8,8 @@ var ReactDOM = require('react-dom');
 
 
 
-var router = require('./router.js');
-var InterfaceComponent = require('./interface-controller.jsx').InterfaceComponent;
+var router = require('./router-interface/router.js');
+var InterfaceComponent = require('./router-interface/interface-controller.jsx').InterfaceComponent;
 
 
 $(function(){
