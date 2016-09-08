@@ -27,7 +27,7 @@ var ContactPageNavigation = React.createClass({
       </div>
     )
   }
-})
+});
 
 
 //Component Export
