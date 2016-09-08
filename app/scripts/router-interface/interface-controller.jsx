@@ -9,36 +9,36 @@ require('Backbone-React-Component');
 
 
 //Local component imports here
-var LandingNav = require('./components/landingpage-navigation.jsx').LandingNav;
-var ProjectsNav = require('./components/projects-nav.jsx').ProjectsNav;
-var BottomNav = require('./components/top-bottom-navigation.jsx').BottomNav;
-var LandingPage = require('./components/landing-page.jsx').LandingPage;
-var ProjectsComponent = require('./components/projects.jsx').ProjectsComponent;
-var SeaIsleComponent = require('./components/projects/sea-isle.jsx').SeaIsleComponent;
-var KindredComponent = require('./components/projects/kindred.jsx').KindredComponent;
-var WaterleighComponent = require('./components/projects/waterleigh.jsx').WaterleighComponent;
-var SandlakeComponent = require('./components/projects/sandlake.jsx').SandlakeComponent;
-var NonaParkComponent =require('./components/projects/nona-park.jsx').NonaParkComponent;
-var DwellNonaPlaceComponent = require('./components/projects/dwell-nonaplace.jsx').DwellNonaPlaceComponent;
-var PlazaUniversityComponent = require('./components/projects/plaza-university.jsx').PlazaUniversityComponent;
-var LasVentanasComponent = require('./components/projects/las-ventanas.jsx').LasVentanasComponent;
-var LasBrisasComponent = require('./components/projects/las-brisas.jsx').LasBrisasComponent;
-var HarmonyComponent = require('./components/projects/harmony.jsx').HarmonyComponent;
-var MagicVillageComponent = require('./components/projects/magic-village.jsx').MagicVillageComponent;
-var BellaTraeComponent = require('./components/projects/bella-trae.jsx').BellaTraeComponent;
-var OverviewComponent = require('./components/overview.jsx').OverviewComponent;
-var CommunityPlanningComponent = require('./components/community-planning.jsx').CommunityPlanningComponent;
-var LandscapeArchitectureComponent = require('./components/landscape-architecture.jsx').LandscapeArchitectureComponent;
-var ConstructionAdministrationComponent = require('./components/construction-administration.jsx').ConstructionAdministrationComponent;
-var GraphicsServiceComponent = require('./components/graphics.jsx').GraphicsServiceComponent;
-var StudioPageComponent = require('./components/studio.jsx').StudioPageComponent;
-var ContactPageComponent = require('./components/contact-page.jsx').ContactPageComponent;
-var PracticeNavigation = require('./components/practice-nav.jsx').PracticeNavigation;
-var ProjectPageNavigation = require('./components/project-page-nav.jsx').ProjectPageNavigation;
-var StudioPageNavigation = require('./components/studio-nav.jsx').StudioPageNavigation;
-var ContactPageNavigation = require('./components/contact-nav.jsx').ContactPageNavigation;
-var ClientsComponent = require('./components/clients.jsx').ClientsComponent;
-var ClientsPageNavigation = require('./components/clients-nav.jsx').ClientsPageNavigation;
+var LandingNav = require('../components/landingpage-navigation.jsx').LandingNav;
+var ProjectsNav = require('../components/projects-nav.jsx').ProjectsNav;
+var BottomNav = require('../components/top-bottom-navigation.jsx').BottomNav;
+var LandingPage = require('../components/landing-page.jsx').LandingPage;
+var ProjectsComponent = require('../components/projects.jsx').ProjectsComponent;
+var SeaIsleComponent = require('../components/projects/sea-isle.jsx').SeaIsleComponent;
+var KindredComponent = require('../components/projects/kindred.jsx').KindredComponent;
+var WaterleighComponent = require('../components/projects/waterleigh.jsx').WaterleighComponent;
+var SandlakeComponent = require('../components/projects/sandlake.jsx').SandlakeComponent;
+var NonaParkComponent =require('../components/projects/nona-park.jsx').NonaParkComponent;
+var DwellNonaPlaceComponent = require('../components/projects/dwell-nonaplace.jsx').DwellNonaPlaceComponent;
+var PlazaUniversityComponent = require('../components/projects/plaza-university.jsx').PlazaUniversityComponent;
+var LasVentanasComponent = require('../components/projects/las-ventanas.jsx').LasVentanasComponent;
+var LasBrisasComponent = require('../components/projects/las-brisas.jsx').LasBrisasComponent;
+var HarmonyComponent = require('../components/projects/harmony.jsx').HarmonyComponent;
+var MagicVillageComponent = require('../components/projects/magic-village.jsx').MagicVillageComponent;
+var BellaTraeComponent = require('../components/projects/bella-trae.jsx').BellaTraeComponent;
+var OverviewComponent = require('../components/overview.jsx').OverviewComponent;
+var CommunityPlanningComponent = require('../components/community-planning.jsx').CommunityPlanningComponent;
+var LandscapeArchitectureComponent = require('../components/landscape-architecture.jsx').LandscapeArchitectureComponent;
+var ConstructionAdministrationComponent = require('../components/construction-administration.jsx').ConstructionAdministrationComponent;
+var GraphicsServiceComponent = require('../components/graphics.jsx').GraphicsServiceComponent;
+var StudioPageComponent = require('../components/studio.jsx').StudioPageComponent;
+var ContactPageComponent = require('../components/contact-page.jsx').ContactPageComponent;
+var PracticeNavigation = require('../components/practice-nav.jsx').PracticeNavigation;
+var ProjectPageNavigation = require('../components/project-page-nav.jsx').ProjectPageNavigation;
+var StudioPageNavigation = require('../components/studio-nav.jsx').StudioPageNavigation;
+var ContactPageNavigation = require('../components/contact-nav.jsx').ContactPageNavigation;
+var ClientsComponent = require('../components/clients.jsx').ClientsComponent;
+var ClientsPageNavigation = require('../components/clients-nav.jsx').ClientsPageNavigation;
 
 
 //kick off controller
