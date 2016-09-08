@@ -60,8 +60,8 @@ var KindredComponent = React.createClass({
                 <li className="kindred-list-item"><Link activeClass="active" className="kindred-three" to="kindred-three" spy={true} smooth={true} duration={500}></Link></li>
                 <li className="kindred-list-item"><Link activeClass="active" className="kindred-four" to="kindred-four" spy={true} smooth={true} duration={500}></Link></li>
                 <li className="kindred-list-item"><Link activeClass="active" className="kindred-one" to="kindred-one" spy={true} smooth={true} duration={500}></Link></li>
-                <li><a onClick={() => scroll.scrollTo(100)}></a></li>
-                <li><a onClick={() => scroll.scrollMore(500)}></a></li>
+                <li><a onClick={function(){scroll.scrollTo(100)}}></a></li>
+                <li><a onClick={function(){scroll.scrollMore(500)}}></a></li>
               </ul>
             </div>
             <p>Osceola County, FL</p>

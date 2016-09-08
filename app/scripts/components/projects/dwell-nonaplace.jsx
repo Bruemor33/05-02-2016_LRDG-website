@@ -60,8 +60,8 @@ var DwellNonaPlaceComponent = React.createClass({
                 <li className="dwell-list-item"><Link activeClass="active" className="dwell-three" to="dwell-three" spy={true} smooth={true} duration={500}></Link></li>
                 <li className="dwell-list-item"><Link activeClass="active" className="dwell-four" to="dwell-four" spy={true} smooth={true} duration={500}></Link></li>
                 <li className="dwell-list-item"><Link activeClass="active" className="dwell-one" to="dwell-one" spy={true} smooth={true} duration={500}></Link></li>
-                <li><a onClick={() => scroll.scrollTo(100)}></a></li>
-                <li><a onClick={() => scroll.scrollMore(500)}></a></li>
+                <li><a onClick={function(){scroll.scrollTo(100)}}></a></li>
+                <li><a onClick={function(){scroll.scrollMore(500)}}></a></li>
               </ul>
             </div>
             <p>Orlando, FL</p>

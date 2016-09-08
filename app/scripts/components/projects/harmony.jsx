@@ -61,8 +61,8 @@ var HarmonyComponent = React.createClass({
                 <li className="harmony-list-item"><Link activeClass="active" className="harmony-three" to="harmony-three" spy={true} smooth={true} duration={500}></Link></li>
                 <li className="harmony-list-item"><Link activeClass="active" className="harmony-four" to="harmony-four" spy={true} smooth={true} duration={500}></Link></li>
                 <li className="harmony-list-item"><Link activeClass="active" className="harmony-one" to="harmony-one" spy={true} smooth={true} duration={500}></Link></li>
-                <li><a onClick={() => scroll.scrollTo(100)}></a></li>
-                <li><a onClick={() => scroll.scrollMore(500)}></a></li>
+                <li><a onClick={function(){scroll.scrollTo(100)}}></a></li>
+                <li><a onClick={function(){scroll.scrollMore(500)}}></a></li>
               </ul>
             </div>
             <p>Osceola County, FL</p>
