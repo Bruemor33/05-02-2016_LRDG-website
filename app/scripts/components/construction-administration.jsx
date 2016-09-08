@@ -92,7 +92,7 @@ var ConstructionAdministrationComponent = React.createClass({
       </div>
     )
   }
-})
+});
 
 
 

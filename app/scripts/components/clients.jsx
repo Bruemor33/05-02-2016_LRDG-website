@@ -117,7 +117,7 @@ var ClientsComponent = React.createClass({
       </div>
     )
   }
-})
+});
 
 
 

@@ -87,7 +87,7 @@ var CommunityPlanningComponent = React.createClass({
       </div>
     )
   }
-})
+});
 
 
 
