@@ -164,8 +164,8 @@ var ProjectsComponent = React.createClass({
                 <a href="#bella">
                   <li className="brisas-background">
                     <h3 className="zero">Bella Trea</h3>
-                    <p className="zero">Orlando, Fl</p>
-                    <p className="zero">Size: here</p>
+                    <p className="zero">Champion’s Gate, FL</p>
+                    <p className="zero">Size: 94 acres, 710 units</p>
                   </li>
                   <li><img className="top" src="images/tn-bella-trae.png" /></li>
                 </a>
