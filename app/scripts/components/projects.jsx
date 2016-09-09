@@ -25,7 +25,7 @@ var ProjectsComponent = React.createClass({
                     <p className="zero">Orlando, FL</p>
                     <p className="zero">Size: 13.1 Acres, 355 Units/1,330 Student Beds, 64,457 s.f. Commercial Retail</p>
                   </li>
-                  <li><img className="top" src="images/1-plaza.png" /></li>
+                  <li><img className="top" src="images/tn-plaza.png" /></li>
                 </a>
               </ul>
             </div>
@@ -64,7 +64,7 @@ var ProjectsComponent = React.createClass({
                     <p className="zero">Osceola County, Fl</p>
                     <p className="zero">Size: 1,450 Acres, 3,000 Units</p>
                   </li>
-                  <li><img className="top" src="images/5-kindred.png" /></li>
+                  <li><img className="top" src="images/tn-kindred.png" /></li>
                 </a>
               </ul>
             </div>
@@ -116,7 +116,7 @@ var ProjectsComponent = React.createClass({
                     <p className="zero">Boynton Beach, FL</p>
                     <p className="zero">Size: 15 acres, 494 units</p>
                   </li>
-                  <li><img className="top" src="images/3-las-ventanas.png" /></li>
+                  <li><img className="top" src="images/tn-las-ventanas.png" /></li>
                 </a>
               </ul>
             </div>
@@ -143,7 +143,7 @@ var ProjectsComponent = React.createClass({
                     <p className="zero">Osceola County, FL</p>
                     <p className="zero">Size: Phase 1 - Approximately 1,000 Acres</p>
                   </li>
-                  <li><img className="top" src="images/tn-harmony.jpg" /></li>
+                  <li><img className="top" src="images/tn-harmony.png" /></li>
                 </a>
               </ul>
             </div>
@@ -155,7 +155,7 @@ var ProjectsComponent = React.createClass({
                     <p className="zero">Osceola County, Fl</p>
                     <p className="zero">Size: 21 acres, 188 units</p>
                   </li>
-                  <li><img className="top" src="images/emily-concept-3.jpg" /></li>
+                  <li><img className="top" src="images/tn-magic-village.png" /></li>
                 </a>
               </ul>
             </div>
