@@ -38,12 +38,16 @@ Construction Administration Media Queries
     height: 320px;
   }
 
+  .construction-scroller {
+    overflow-y: hidden;
+  }
+
 }
 
 @media(max-height: 800px) and (max-width: 1280px) and (min-width: 1080px) {
 
   .construction-scroller {
-    overflow-y: scroll;
+    overflow-y: auto;
     height: 390px;
   }
 

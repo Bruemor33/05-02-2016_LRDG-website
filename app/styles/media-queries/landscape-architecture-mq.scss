@@ -66,12 +66,16 @@ Landscape Architecture Media Queries
     height: 238px;
   }
 
+  .landscape-scroller {
+    overflow-y: hidden;
+  }
+
 }
 
 @media(max-height: 800px) and (max-width: 1280px) and (min-width: 1080px) {
 
   .landscape-scroller {
-    overflow-y: scroll;
+    overflow-y: auto;
     height: 390px;
   }
 
