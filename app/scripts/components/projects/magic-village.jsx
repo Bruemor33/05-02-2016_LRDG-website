@@ -67,7 +67,7 @@ var MagicVillageComponent = React.createClass({
             </div>
             <p>Osceola County, FL</p>
             <p id="summary" onClick={this.handleClick} className="magic-click-event" role="button">
-              Project Info<span className="glyphicon glyphicon-chevron-down" />
+              Project Info<span className="arrow"><i className="fa fa-sort-desc fa-2x" aria-hidden="true"></i></span>
             </p>
             <div id="magic-summary" className="dropdown-menu">
               <div className="summary-container">

@@ -66,7 +66,7 @@ var SeaIsleComponent = React.createClass({
             </div>
             <p>Orange County, FL</p>
             <p id="summary" onClick={this.handleClick} className="info-click-event" role="button">
-              Project Info<span className="glyphicon glyphicon-chevron-down" />
+              Project Info<span className="arrow"><i className="fa fa-sort-desc fa-2x" aria-hidden="true"></i></span>
             </p>
             <div id="sea-isle-summary" className="dropdown-menu">
               <div className="summary-container">

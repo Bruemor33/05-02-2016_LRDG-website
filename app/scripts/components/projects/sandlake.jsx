@@ -66,7 +66,7 @@ var SandlakeComponent = React.createClass({
             </div>
             <p>Orange County, FL</p>
             <p id="summary" onClick={this.handleClick} className="altis-click-event" role="button">
-              Project Info<span className="glyphicon glyphicon-chevron-down" />
+              Project Info<span className="arrow"><i className="fa fa-sort-desc fa-2x" aria-hidden="true"></i></span>
             </p>
             <div id="altis-summary" className="dropdown-menu">
               <div className="summary-container">

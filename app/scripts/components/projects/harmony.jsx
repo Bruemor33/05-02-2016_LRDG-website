@@ -67,7 +67,7 @@ var HarmonyComponent = React.createClass({
             </div>
             <p>Osceola County, FL</p>
             <p id="summary" onClick={this.handleClick} className="harmony-click-event" role="button">
-              Project Info<span className="glyphicon glyphicon-chevron-down" />
+              Project Info<span className="arrow"><i className="fa fa-sort-desc fa-2x" aria-hidden="true"></i></span>
             </p>
             <div id="harmony-summary" className="dropdown-menu">
               <div className="summary-container">

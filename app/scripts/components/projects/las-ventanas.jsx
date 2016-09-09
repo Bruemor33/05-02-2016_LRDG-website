@@ -67,7 +67,7 @@ var LasVentanasComponent = React.createClass({
             </div>
             <p>Bounton Beach, FL</p>
             <p id="summary" onClick={this.handleClick} className="ventanas-click-event" role="button">
-              Project Info<span className="glyphicon glyphicon-chevron-down" />
+              Project Info<span className="arrow"><i className="fa fa-sort-desc fa-2x" aria-hidden="true"></i></span>
             </p>
             <div id="ventanas-summary" className="dropdown-menu">
               <div className="summary-container">
