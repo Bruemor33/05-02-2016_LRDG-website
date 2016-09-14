@@ -57,12 +57,35 @@ var MagicVillageComponent = React.createClass({
             <div className="project-nav">
               <h2 className="magic-title">Magic Village</h2>
               <ul className="image-links">
-                <li className="magic-list-item"><Link activeClass="active" className="magic-two" to="magic-two" spy={true} smooth={true} duration={500}></Link></li>
-                <li className="magic-list-item"><Link activeClass="active" className="magic-three" to="magic-three" spy={true} smooth={true} duration={500}></Link></li>
-                <li className="magic-list-item"><Link activeClass="active" className="magic-four" to="magic-four" spy={true} smooth={true} duration={500}></Link></li>
-                <li className="magic-list-item"><Link activeClass="active" className="magic-one" to="magic-one" spy={true} smooth={true} duration={500}></Link></li>
+
+                <li className="magic-list-item" role="button">
+                  <Link activeClass="active" className="magic-two" to="magic-two" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li className="magic-list-item" role="button">
+                  <Link activeClass="active" className="magic-three" to="magic-three" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li className="magic-list-item" role="button">
+                  <Link activeClass="active" className="magic-four" to="magic-four" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li className="magic-list-item" role="button">
+                  <Link activeClass="active" className="magic-one" to="magic-one" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
                 <li><a onClick={function(){scroll.scrollTo(100)}}></a></li>
+
                 <li><a onClick={function(){scroll.scrollMore(500)}}></a></li>
+
               </ul>
             </div>
             <p>Osceola County, FL</p>

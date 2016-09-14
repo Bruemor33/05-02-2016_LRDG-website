@@ -56,12 +56,35 @@ var KindredComponent = React.createClass({
             <div className="project-nav">
               <h2 className="kindred-title">Kindred</h2>
               <ul className="image-links">
-                <li className="kindred-list-item"><Link activeClass="active" className="kindred-two" to="kindred-two" spy={true} smooth={true} duration={500}></Link></li>
-                <li className="kindred-list-item"><Link activeClass="active" className="kindred-three" to="kindred-three" spy={true} smooth={true} duration={500}></Link></li>
-                <li className="kindred-list-item"><Link activeClass="active" className="kindred-four" to="kindred-four" spy={true} smooth={true} duration={500}></Link></li>
-                <li className="kindred-list-item"><Link activeClass="active" className="kindred-one" to="kindred-one" spy={true} smooth={true} duration={500}></Link></li>
+
+                <li className="kindred-list-item" role="button">
+                  <Link activeClass="active" className="kindred-two" to="kindred-two" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li className="kindred-list-item" role="button">
+                  <Link activeClass="active" className="kindred-three" to="kindred-three" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li className="kindred-list-item" role="button">
+                  <Link activeClass="active" className="kindred-four" to="kindred-four" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li className="kindred-list-item" role="button">
+                  <Link activeClass="active" className="kindred-one" to="kindred-one" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
                 <li><a onClick={function(){scroll.scrollTo(100)}}></a></li>
+
                 <li><a onClick={function(){scroll.scrollMore(500)}}></a></li>
+
               </ul>
             </div>
             <p>Osceola County, FL</p>

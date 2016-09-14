@@ -55,12 +55,35 @@ var PlazaUniversityComponent = React.createClass({
             <div className="project-nav">
               <h2 className="plaza-title">Plaza at University</h2>
               <ul className="image-links">
-                <li className="plaza-list-item"><Link activeClass="active" className="plaza-two" to="plaza-two" spy={true} smooth={true} duration={500}></Link></li>
-                <li className="plaza-list-item"><Link activeClass="active" className="plaza-three" to="plaza-three" spy={true} smooth={true} duration={500}></Link></li>
-                <li className="plaza-list-item"><Link activeClass="active" className="plaza-four" to="plaza-four" spy={true} smooth={true} duration={500}></Link></li>
-                <li className="plaza-list-item"><Link activeClass="active" className="plaza-one" to="plaza-one" spy={true} smooth={true} duration={500}></Link></li>
+
+                <li className="plaza-list-item" role="button">
+                  <Link activeClass="active" className="plaza-two" to="plaza-two" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li className="plaza-list-item" role="button">
+                  <Link activeClass="active" className="plaza-three" to="plaza-three" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li className="plaza-list-item" role="button">
+                  <Link activeClass="active" className="plaza-four" to="plaza-four" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li className="plaza-list-item" role="button">
+                  <Link activeClass="active" className="plaza-one" to="plaza-one" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
                 <li><a onClick={function(){scroll.scrollTo(100)}}></a></li>
+
                 <li><a onClick={function(){scroll.scrollMore(500)}}></a></li>
+
               </ul>
             </div>
             <p>Orlando, FL</p>

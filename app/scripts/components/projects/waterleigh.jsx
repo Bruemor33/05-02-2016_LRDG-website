@@ -56,12 +56,35 @@ var WaterleighComponent = React.createClass({
             <div className="project-nav">
               <h2 className="waterleigh-title">Waterleigh</h2>
               <ul className="image-links">
-                <li className="waterleigh-list-item"><Link activeClass="active" className="waterleigh-two" to="waterleigh-two" spy={true} smooth={true} duration={500}></Link></li>
-                <li className="waterleigh-list-item"><Link activeClass="active" className="waterleigh-three" to="waterleigh-three" spy={true} smooth={true} duration={500}></Link></li>
-                <li className="waterleigh-list-item"><Link activeClass="active" className="waterleigh-four" to="waterleigh-four" spy={true} smooth={true} duration={500}></Link></li>
-                <li className="waterleigh-list-item"><Link activeClass="active" className="waterleigh-one" to="waterleigh-one" spy={true} smooth={true} duration={500}></Link></li>
+
+                <li className="waterleigh-list-item" role="button">
+                  <Link activeClass="active" className="waterleigh-two" to="waterleigh-two" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li className="waterleigh-list-item" role="button">
+                  <Link activeClass="active" className="waterleigh-three" to="waterleigh-three" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li className="waterleigh-list-item" role="button">
+                  <Link activeClass="active" className="waterleigh-four" to="waterleigh-four" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li className="waterleigh-list-item" role="button">
+                  <Link activeClass="active" className="waterleigh-one" to="waterleigh-one" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
                 <li><a onClick={function(){scroll.scrollTo(100)}}></a></li>
+
                 <li><a onClick={function(){scroll.scrollMore(500)}}></a></li>
+
               </ul>
             </div>
             <p>Orange County, FL</p>

@@ -57,15 +57,38 @@ var LasVentanasComponent = React.createClass({
             <div className="project-nav">
               <h2 className="ventanas-title">Las Ventanas</h2>
               <ul className="image-links">
-                <li className="ventanas-list-item"><Link activeClass="active" className="ventanas-two" to="ventanas-two" spy={true} smooth={true} duration={500}></Link></li>
-                <li className="ventanas-list-item"><Link activeClass="active" className="ventanas-three" to="ventanas-three" spy={true} smooth={true} duration={500}></Link></li>
-                <li className="ventanas-list-item"><Link activeClass="active" className="ventanas-four" to="ventanas-four" spy={true} smooth={true} duration={500}></Link></li>
-                <li className="ventanas-list-item"><Link activeClass="active" className="ventanas-one" to="ventanas-one" spy={true} smooth={true} duration={500}></Link></li>
+
+                <li className="ventanas-list-item" role="button">
+                  <Link activeClass="active" className="ventanas-two" to="ventanas-two" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li className="ventanas-list-item" role="button">
+                  <Link activeClass="active" className="ventanas-three" to="ventanas-three" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li className="ventanas-list-item" role="button">
+                  <Link activeClass="active" className="ventanas-four" to="ventanas-four" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
+                <li className="ventanas-list-item" role="button">
+                  <Link activeClass="active" className="ventanas-one" to="ventanas-one" spy={true} smooth={true} duration={500}>
+
+                  </Link>
+                </li>
+
                 <li><a onClick={function(){scroll.scrollTo(100)}}></a></li>
+
                 <li><a onClick={function(){scroll.scrollMore(500)}}></a></li>
+
               </ul>
             </div>
-            <p>Bounton Beach, FL</p>
+            <p>Boynton Beach, FL</p>
             <p id="summary" onClick={this.handleClick} className="ventanas-click-event" role="button">
               Project Info<span className="arrow"><i className="fa fa-sort-desc fa-2x" aria-hidden="true"></i></span>
             </p>
