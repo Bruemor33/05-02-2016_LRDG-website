@@ -129,7 +129,7 @@ var ProjectsComponent = React.createClass({
                     <p className="zero">Round Rock, TX</p>
                     <p className="zero">Size: 29.9 acres, 414 units</p>
                   </li>
-                  <li><img className="top" src="images/tn-las-brisas.jpg" /></li>
+                  <li><img className="top" src="images/tn-las-brisas.png" /></li>
                 </a>
               </ul>
             </div>
