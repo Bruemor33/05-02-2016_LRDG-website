@@ -55,6 +55,37 @@ Construction Administration Media Queries
 
 
 
+/*****************************************************************************
+Tablet
+*****************************************************************************/
+
+
+
+@media(max-height: 768px) and (max-width: 1024px) {
+
+  .construction-title {
+    width: 420px;
+
+    h2 {
+      font-size: 26px;
+      padding-top: 4px;
+    }
+  }
+
+  .construction-statement-container {
+    width: 420px;
+    height: 500px;
+  }
+
+  .construction-scroller {
+    overflow-y: scroll;
+    height: 480px;
+  }
+
+}
+
+
+
 /****************************************************************************************
 Construction Administration Media Queries
 ****************************************************************************************/

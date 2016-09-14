@@ -60,6 +60,33 @@ Community Planning Media Queries
 
 }
 
+/*****************************************************************************
+Tablet
+*****************************************************************************/
+
+
+
+@media(max-height: 768px) and (max-width: 1024px) {
+
+  .community-title {
+    width: 420px;
+  }
+
+  .community-statement-container {
+    width: 420px;
+    height: 460px;
+  }
+
+  .community-scroller {
+    height: 415px;
+    overflow-y: none;
+  }
+
+  .construction-images-container {
+    width: 570px;
+  }
+
+}
 
 
 

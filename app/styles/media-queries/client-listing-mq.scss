@@ -95,18 +95,29 @@ Construction Administration Media Queries
 
 }
 
-@media(max-height: 800px) and (min-height: 650px) and (max-width: 1080px) and (min-width: 765px) {
+
+
+/*****************************************************************************
+Tablet
+*****************************************************************************/
+
+
+
+
+
+
+@media(max-height: 768px) and (max-width: 1024px) {
 
   .client-statement-container {
-
+    width: 920px;
+    height: 400px;
   }
 
   .clients-image {
-
+    display: none;
   }
 
 }
-
 
 
 

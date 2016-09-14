@@ -34,8 +34,41 @@ Plaza at University Media Queries
   }
 
   .summary-container {
-    overflow-y: hidden;
-    height: 600px;
+    overflow-y: none;
+    height: 620px;
+  }
+
+}
+
+
+
+/*****************************************************************************
+Tablet
+*****************************************************************************/
+
+
+
+
+@media(max-height: 768px) and (max-width: 1024px) {
+
+  #plaza-one {
+    height: 768px;
+  }
+
+  #plaza-two {
+    height: 768px;
+  }
+
+  #plaza-three {
+    height: 768px;
+  }
+
+  #plaza-four {
+    height: 768px;
+  }
+
+  #plaza-summary {
+    height: 520px;
   }
 
 }

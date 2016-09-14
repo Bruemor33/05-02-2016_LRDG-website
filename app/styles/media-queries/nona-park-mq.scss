@@ -43,6 +43,44 @@ Nona Park Village Media Queries
 
 
 
+/*****************************************************************************
+Tablet
+*****************************************************************************/
+
+
+
+
+
+@media(max-height: 768px) and (max-width: 1024px) {
+
+  #nona-one {
+    height: 768px;
+  }
+
+  #nona-two {
+    height: 768px;
+  }
+
+  #nona-three {
+    height: 768px;
+  }
+
+  #nona-four {
+    height: 768px;
+  }
+
+  #nona-park-summary {
+    height: 540px;
+  }
+
+  .summary-container {
+    overflow-y: hidden;
+  }
+
+}
+
+
+
 
 
 /******************************************************************************************

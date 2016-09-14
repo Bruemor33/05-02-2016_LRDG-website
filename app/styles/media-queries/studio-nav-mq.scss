@@ -3,7 +3,7 @@
 
 
 
-@media(max-width: 1920px) and (min-width: 1641px) and (max-height: 1080px) {
+@media(max-height: 1080px) and (max-width: 1920px) and (min-width: 1641px) {
 
   #site-nav {
     position: fixed;
@@ -92,7 +92,7 @@
 
 
 
-@media(max-height: 1080px) and (min-height: 800px) and (max-width: 1640px) and (min-width: 1440px) {
+@media(max-height: 1080px) and (min-height: 900px) and (max-width: 1640px) and (min-width: 1441px) {
 
   #site-nav {
     position: fixed;
@@ -179,7 +179,7 @@
 
 }
 
-@media(max-height: 1080px) and (min-height: 800px) and (max-width: 1440px) and (min-width: 1281px) {
+@media(max-height: 900px) and (min-height: 750px) and (max-width: 1440px) and (min-width: 1281px) {
 
   #site-nav {
     position: fixed;
@@ -273,6 +273,96 @@
   #site-nav {
     position: fixed;
     top: 570px;
+    width: 100%;
+    z-index: 10;
+  }
+
+  .projects-navigation {
+    position: absolute;
+    top: -35px;
+    padding-top: -5px;
+    height: 55px;
+  }
+
+  .projects-navigation a {
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 1px;
+  }
+
+  .projects-logo {
+    height: 110px;
+    position: relative;
+    bottom: 18px;
+    margin-left: 50px;
+  }
+
+  .projects-overview {
+    position: relative;
+    bottom: 26px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+
+  .projects-projects {
+    position: relative;
+    bottom: 26px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+
+  .projects-people {
+    position: relative;
+    bottom: 26px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+
+  .projects-clients {
+    position: relative;
+    bottom: 26px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+
+  .projects-contact {
+    position: relative;
+    bottom: 26px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+
+  .navigation-home {
+    float: right;
+    margin-right: 120px;
+    margin-top: 9px;
+    font-size: 18px;
+  }
+
+  .landing-company-name {
+    margin-top: 8px;
+  }
+
+}
+
+
+/*****************Tablet*********************/
+
+@media(max-height: 768px) and (max-width: 1024px) {
+
+  #site-nav {
+    position: fixed;
+    top: 690px;
     width: 100%;
     z-index: 10;
   }
