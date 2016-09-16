@@ -1,0 +1,30 @@
+{
+  "name": "bower.json",
+  "description": "json file to save the html5shiv to.",
+  "main": "bower_components",
+  "authors": [
+    "Bruemor <arymer1@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "none"
+  ],
+  "homepage": "https://github.com/Bruemor33/05-02-2016_LRDG-website",
+  "moduleType": [
+    "es6"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "html5shiv": "^3.7.3"
+  },
+  "devDependencies": {
+    "html5shiv": "^3.7.3"
+  }
+}
