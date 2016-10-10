@@ -39,6 +39,7 @@ var StudioPageNavigation = require('../components/studio-nav.jsx').StudioPageNav
 var ContactPageNavigation = require('../components/contact-nav.jsx').ContactPageNavigation;
 var ClientsComponent = require('../components/clients.jsx').ClientsComponent;
 var ClientsPageNavigation = require('../components/clients-nav.jsx').ClientsPageNavigation;
+var MobileNavigation = require('../components/mobile-nav.jsx').MobileNavigation;
 
 
 //kick off controller
@@ -65,89 +66,236 @@ var InterfaceComponent = React.createClass({
     var siteNavigation;
 
     if(this.state.router.current == "index"){
-      navigation = (<ProjectsNav />)
-      body = (<LandingPage/>)
+
+      if(screen.width <= 420) {
+        navigation = (<MobileNavigation />)
+        body = (<LandingPage/>)
+      }else{
+        navigation = (<ProjectsNav />)
+        body = (<LandingPage/>)
+      }
+
     }
+
     if(this.state.router.current == "overview"){
-      siteNavigation = (<PracticeNavigation />)
-      body = (<OverviewComponent />)
+
+      if(screen.width <= 420) {
+        siteNavigation = (<MobileNavigation />)
+        body = (<OverviewComponent/>)
+      }else{
+        siteNavigation = (<PracticeNavigation />)
+        body = (<OverviewComponent />)
+      }
+
     }
+
     if(this.state.router.current == "overview/community"){
-      siteNavigation = (<PracticeNavigation />)
-      body = (<CommunityPlanningComponent />)
+
+      if(screen.width <= 420) {
+        siteNavigation = (<MobileNavigation />)
+        body = (<CommunityPlanningComponent/>)
+      }else{
+        siteNavigation = (<PracticeNavigation />)
+        body = (<CommunityPlanningComponent />)
+      }
+
     }
+
     if(this.state.router.current == "overview/landscape-architecture"){
-      siteNavigation = (<PracticeNavigation />)
-      body = (<LandscapeArchitectureComponent />)
+
+      if(screen.width <= 420) {
+        sitenavigation = (<MobileNavigation />)
+        body = (<LandscapeArchitectureComponent/>)
+      }else{
+        siteNavigation = (<PracticeNavigation />)
+        body = (<LandscapeArchitectureComponent />)
+      }
+
     }
+
     if(this.state.router.current == "overview/construction-administration"){
-      siteNavigation = (<PracticeNavigation />)
-      body = (<ConstructionAdministrationComponent />)
+
+      if(screen.width <= 420) {
+        siteNavigation = (<MobileNavigation />)
+        body = (<ConstructionAdministrationComponent />)
+      }else{
+        siteNavigation = (<PracticeNavigation />)
+        body = (<ConstructionAdministrationComponent />)
+      }
+
     }
+
     if(this.state.router.current == "overview/graphics"){
-      siteNavigation = (<PracticeNavigation />)
-      body = (<GraphicsServiceComponent />)
+
+      if(screen.width <= 420) {
+        siteNavigation = (<MobileNavigation />)
+        body = (<GraphicsServiceComponent />)
+      }else{
+        siteNavigation = (<PracticeNavigation />)
+        body = (<GraphicsServiceComponent />)
+      }
+
     }
+
     if(this.state.router.current == "projects"){
-      siteNavigation = (<ProjectPageNavigation />)
-      body = (<ProjectsComponent />)
+
+      if(screen.width <= 420) {
+        siteNavigation = (<MobileNavigation />)
+        body = (<ProjectsComponent />)
+      }else{
+        siteNavigation = (<ProjectPageNavigation />)
+        body = (<ProjectsComponent />)
+      }
+
     }
+
     if(this.state.router.current == "kindred"){
-      siteNavigation = (<ProjectPageNavigation />)
-      body = (<KindredComponent />)
+
+      if(screen.width <= 420) {
+        siteNavigation = (<MobileNavigation />)
+        body = (<KindredComponent />)
+      }else{
+        siteNavigation = (<ProjectPageNavigation />)
+        body = (<KindredComponent />)
+      }
+
     }
+
     if(this.state.router.current == "waterleigh"){
-      siteNavigation = (<ProjectPageNavigation />)
-      body = (<WaterleighComponent />)
+
+      if(screen.width <= 420) {
+        siteNavigation = (<MobileNavigation />)
+        body = (<WaterleighComponent />)
+      }else{
+        siteNavigation = (<ProjectPageNavigation />)
+        body = (<WaterleighComponent />)
+      }
+
     }
+
     if(this.state.router.current == "nonapark"){
-      siteNavigation = (<ProjectPageNavigation />)
-      body = (<NonaParkComponent />)
+
+      if(screen.width <= 420) {
+        siteNavigation = (<MobileNavigation />)
+        body = (<NonaParkComponent />)
+      }else{
+        siteNavigation = (<ProjectPageNavigation />)
+        body = (<NonaParkComponent />)
+      }
+
     }
+
     if(this.state.router.current == "seaisle"){
-      siteNavigation = (<ProjectPageNavigation />)
-      body = (<SeaIsleComponent />)
+
+      if(screen.width <= 420) {
+        siteNavigation = (<MobileNavigation />)
+        body = (<SeaIsleComponent />)
+      }else{
+        siteNavigation = (<ProjectPageNavigation />)
+        body = (<SeaIsleComponent />)
+      }
+
     }
+
     if(this.state.router.current == "altis"){
-      siteNavigation = (<ProjectPageNavigation />)
-      body = (<SandlakeComponent />)
+
+      if(screen.width <= 420) {
+        siteNavigation = (<MobileNavigation />)
+        body = (<SandlakeComponent />)
+      }else{
+        siteNavigation = (<ProjectPageNavigation />)
+        body = (<SandlakeComponent />)
+      }
+
     }
+
     if(this.state.router.current == "dwell"){
-      siteNavigation = (<ProjectPageNavigation />)
-      body = (<DwellNonaPlaceComponent />)
+
+      if(screen.width <= 420) {
+        siteNavigation = (<MobileNavigation />)
+        body = (<DwellNonaPlaceComponent />)
+      }else{
+        siteNavigation = (<ProjectPageNavigation />)
+        body = (<DwellNonaPlaceComponent />)
+      }
+
     }
+
     if(this.state.router.current == "plazaUniversity"){
-      siteNavigation = (<ProjectPageNavigation />)
-      body = (<PlazaUniversityComponent />)
+
+      if(screen.width <= 420) {
+        siteNavigation = (<MobileNavigation />)
+        body = (<PlazaUniversityComponent />)
+      }else{
+        siteNavigation = (<ProjectPageNavigation />)
+        body = (<PlazaUniversityComponent />)
+      }
+
     }
+
     if(this.state.router.current == "ventanas"){
-      siteNavigation = (<ProjectPageNavigation />)
-      body = (<LasVentanasComponent />)
+
+      if(screen.width <= 420) {
+        siteNavigation = (<MobileNavigation />)
+        body = (<LasVentanasComponent />)
+      }else{
+        siteNavigation = (<ProjectPageNavigation />)
+        body = (<LasVentanasComponent />)
+      }
+
     }
+
     if(this.state.router.current == "brisas"){
-      siteNavigation = (<ProjectPageNavigation />)
-      body = (<LasBrisasComponent />)
+
+      if(screen.width <= 420) {
+        siteNavigation = (<MobileNavigation />)
+        body = (<LasBrisasComponent />)
+      }else{
+        siteNavigation = (<ProjectPageNavigation />)
+        body = (<LasBrisasComponent />)
+      }
+
     }
+
     if(this.state.router.current == "harmony"){
-      siteNavigation = (<ProjectPageNavigation />)
-      body = (<HarmonyComponent />)
+
+      if(screen.width <= 420) {
+        siteNavigation = (<MobileNavigation />)
+        body = (<HarmonyComponent />)
+      }else{
+        siteNavigation = (<ProjectPageNavigation />)
+        body = (<HarmonyComponent />)
+      }
+
     }
+
     if(this.state.router.current == "magic"){
-      siteNavigation = (<ProjectPageNavigation />)
-      body = (<MagicVillageComponent />)
+
+      if(screen.width <= 420) {
+        siteNavigation = (<MobileNavigation />)
+        body = (<MagicVillageComponent />)
+      }else{
+        siteNavigation = (<ProjectPageNavigation />)
+        body = (<MagicVillageComponent />)
+      }
+
     }
+
     if(this.state.router.current == "bella"){
       siteNavigation = (<ProjectPageNavigation />)
       body = (<BellaTraeComponent />)
     }
+
     if(this.state.router.current == "people"){
       navigation = (<StudioPageNavigation />)
       body = (<StudioPageComponent />)
     }
+
     if(this.state.router.current == "clients"){
       navigation = (<PracticeNavigation />)
       body = (<ClientsComponent />)
     }
+
     if(this.state.router.current == "contact"){
       navigation = (<ContactPageNavigation />)
       body = (<ContactPageComponent />)
