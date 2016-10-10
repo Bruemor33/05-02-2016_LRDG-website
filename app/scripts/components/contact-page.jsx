@@ -40,7 +40,11 @@ var ContactPageComponent = React.createClass({
                           <i className="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
                         </a>
                       </li>
-                      <li><i className="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></li>
+                      <li>
+                        <a href="https://www.linkedin.com/company/15090896?trk=tyah&trkInfo=clickedVertical%3Acompany%2CentityType%3AentityHistoryName%2CclickedEntityId%3Acompany_15090896%2Cidx%3A2">
+                          <i className="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+                        </a>
+                      </li>
                     </ul>
                   </div>
                   <div className="google-map">
