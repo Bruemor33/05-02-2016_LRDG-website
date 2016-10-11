@@ -11,6 +11,12 @@ require('Backbone-React-Component');
 
 var MobileNavigation = React.createClass({
 
+  handleClick: function() {
+
+    $('.mobile-nav-items').toggle('slow');
+
+  },
+
 
   render: function(){
 
@@ -18,6 +24,8 @@ var MobileNavigation = React.createClass({
       <div className="container-fluid">
         <div id="mobile-nav">
           <div className="mobile-nav-toggle">
+            <i onClick={this.handleClick} className="fa fa-bars fa-2x" aria-hidden="true"></i>
+          </div>
             <ul className="mobile-nav-items">
               <li className="mobile-nav-links">
                 <a href="#overview" className="mobile-practice">Practice</a>
@@ -32,7 +40,6 @@ var MobileNavigation = React.createClass({
                 <a href="#contact" className="mobile-contact">Contact</a>
               </li>
             </ul>
-          </div>
         </div>
       </div>
     )
