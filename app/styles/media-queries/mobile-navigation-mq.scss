@@ -1,0 +1,71 @@
+
+
+
+
+
+@media(max-height: 1080px) and (max-width: 1920px) and (min-width: 426px) {
+
+  #mobile-nav {
+    display: none;
+  }
+
+}
+
+@media(max-height: 628) and (max-width: 426px) and (min-width: 319px) {
+
+  .projects-navigation {
+    display: none;
+  }
+
+}
+
+
+/**************************************************************************************
+Mobile Range
+**************************************************************************************/
+
+
+
+#mobile-nav {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  background-color: #464A4F;
+  z-index: 20;
+}
+
+.mobile-nav-toggle {
+  padding: 10px;
+  display: inline-block;
+}
+
+.fa-bars {
+  width: 100%;
+  color: #FFF;
+}
+
+.mobile-nav-items {
+  width: 100%;
+  //margin-top: 50px;
+  padding: 0;
+  background-color: #222;
+  display: none;
+}
+
+.mobile-nav-links a {
+  padding: 10;
+  color: #FFF;
+  text-decoration: none;
+  background-color: #222;
+}
+
+
+
+
+
+
+
+
+/**************************************************************************************
+Mobile Range
+**************************************************************************************/
