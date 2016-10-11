@@ -64,240 +64,137 @@ var InterfaceComponent = React.createClass({
     var body;
     var navigation;
     var siteNavigation;
+    var mobileNav;
 
     if(this.state.router.current == "index"){
-
-      if(screen.width <= 420) {
-        navigation = (<MobileNavigation />)
-        body = (<LandingPage/>)
-      }else{
-        navigation = (<ProjectsNav />)
-        body = (<LandingPage/>)
-      }
-
+      navigation = (<ProjectsNav />)
+      mobileNav = (<MobileNavigation />)
+      body = (<LandingPage/>)
     }
 
     if(this.state.router.current == "overview"){
-
-      if(screen.width <= 420) {
-        siteNavigation = (<MobileNavigation />)
-        body = (<OverviewComponent/>)
-      }else{
-        siteNavigation = (<PracticeNavigation />)
-        body = (<OverviewComponent />)
-      }
-
+      siteNavigation = (<PracticeNavigation />)
+      mobileNav = (<MobileNavigation />)
+      body = (<OverviewComponent />)
     }
 
     if(this.state.router.current == "overview/community"){
-
-      if(screen.width <= 420) {
-        siteNavigation = (<MobileNavigation />)
-        body = (<CommunityPlanningComponent/>)
-      }else{
-        siteNavigation = (<PracticeNavigation />)
-        body = (<CommunityPlanningComponent />)
-      }
-
+      siteNavigation = (<PracticeNavigation />)
+      mobileNav = (<MobileNavigation />)
+      body = (<CommunityPlanningComponent />)
     }
 
     if(this.state.router.current == "overview/landscape-architecture"){
-
-      if(screen.width <= 420) {
-        sitenavigation = (<MobileNavigation />)
-        body = (<LandscapeArchitectureComponent/>)
-      }else{
-        siteNavigation = (<PracticeNavigation />)
-        body = (<LandscapeArchitectureComponent />)
-      }
-
+      siteNavigation = (<PracticeNavigation />)
+      mobileNav = (<MobileNavigation />)
+      body = (<LandscapeArchitectureComponent />)
     }
 
     if(this.state.router.current == "overview/construction-administration"){
-
-      if(screen.width <= 420) {
-        siteNavigation = (<MobileNavigation />)
-        body = (<ConstructionAdministrationComponent />)
-      }else{
-        siteNavigation = (<PracticeNavigation />)
-        body = (<ConstructionAdministrationComponent />)
-      }
-
+      siteNavigation = (<PracticeNavigation />)
+      mobileNav = (<MobileNavigation />)
+      body = (<ConstructionAdministrationComponent />)
     }
 
     if(this.state.router.current == "overview/graphics"){
-
-      if(screen.width <= 420) {
-        siteNavigation = (<MobileNavigation />)
-        body = (<GraphicsServiceComponent />)
-      }else{
-        siteNavigation = (<PracticeNavigation />)
-        body = (<GraphicsServiceComponent />)
-      }
-
+      siteNavigation = (<PracticeNavigation />)
+      mobileNav = (<MobileNavigation />)
+      body = (<GraphicsServiceComponent />)
     }
 
     if(this.state.router.current == "projects"){
-
-      if(screen.width <= 420) {
-        siteNavigation = (<MobileNavigation />)
-        body = (<ProjectsComponent />)
-      }else{
-        siteNavigation = (<ProjectPageNavigation />)
-        body = (<ProjectsComponent />)
-      }
-
+      siteNavigation = (<ProjectPageNavigation />)
+      mobileNav = (<MobileNavigation />)
+      body = (<ProjectsComponent />)
     }
 
     if(this.state.router.current == "kindred"){
-
-      if(screen.width <= 420) {
-        siteNavigation = (<MobileNavigation />)
-        body = (<KindredComponent />)
-      }else{
-        siteNavigation = (<ProjectPageNavigation />)
-        body = (<KindredComponent />)
-      }
-
+      siteNavigation = (<ProjectPageNavigation />)
+      mobileNav = (<MobileNavigation />)
+      body = (<KindredComponent />)
     }
 
     if(this.state.router.current == "waterleigh"){
-
-      if(screen.width <= 420) {
-        siteNavigation = (<MobileNavigation />)
-        body = (<WaterleighComponent />)
-      }else{
-        siteNavigation = (<ProjectPageNavigation />)
-        body = (<WaterleighComponent />)
-      }
-
+      siteNavigation = (<ProjectPageNavigation />)
+      mobileNav = (<MobileNavigation />)
+      body = (<WaterleighComponent />)
     }
 
     if(this.state.router.current == "nonapark"){
-
-      if(screen.width <= 420) {
-        siteNavigation = (<MobileNavigation />)
-        body = (<NonaParkComponent />)
-      }else{
-        siteNavigation = (<ProjectPageNavigation />)
-        body = (<NonaParkComponent />)
-      }
-
+      siteNavigation = (<ProjectPageNavigation />)
+      mobileNav = (<MobileNavigation />)
+      body = (<NonaParkComponent />)
     }
 
     if(this.state.router.current == "seaisle"){
-
-      if(screen.width <= 420) {
-        siteNavigation = (<MobileNavigation />)
-        body = (<SeaIsleComponent />)
-      }else{
-        siteNavigation = (<ProjectPageNavigation />)
-        body = (<SeaIsleComponent />)
-      }
-
+      siteNavigation = (<ProjectPageNavigation />)
+      mobileNav = (<MobileNavigation />)
+      body = (<SeaIsleComponent />)
     }
 
     if(this.state.router.current == "altis"){
-
-      if(screen.width <= 420) {
-        siteNavigation = (<MobileNavigation />)
-        body = (<SandlakeComponent />)
-      }else{
-        siteNavigation = (<ProjectPageNavigation />)
-        body = (<SandlakeComponent />)
-      }
-
+      siteNavigation = (<ProjectPageNavigation />)
+      mobileNav = (<MobileNavigation />)
+      body = (<SandlakeComponent />)
     }
 
     if(this.state.router.current == "dwell"){
-
-      if(screen.width <= 420) {
-        siteNavigation = (<MobileNavigation />)
-        body = (<DwellNonaPlaceComponent />)
-      }else{
-        siteNavigation = (<ProjectPageNavigation />)
-        body = (<DwellNonaPlaceComponent />)
-      }
-
+      siteNavigation = (<ProjectPageNavigation />)
+      mobileNav = (<MobileNavigation />)
+      body = (<DwellNonaPlaceComponent />)
     }
 
     if(this.state.router.current == "plazaUniversity"){
-
-      if(screen.width <= 420) {
-        siteNavigation = (<MobileNavigation />)
-        body = (<PlazaUniversityComponent />)
-      }else{
-        siteNavigation = (<ProjectPageNavigation />)
-        body = (<PlazaUniversityComponent />)
-      }
-
+      siteNavigation = (<ProjectPageNavigation />)
+      mobileNav = (<MobileNavigation />)
+      body = (<PlazaUniversityComponent />)
     }
 
     if(this.state.router.current == "ventanas"){
-
-      if(screen.width <= 420) {
-        siteNavigation = (<MobileNavigation />)
-        body = (<LasVentanasComponent />)
-      }else{
-        siteNavigation = (<ProjectPageNavigation />)
-        body = (<LasVentanasComponent />)
-      }
-
+      siteNavigation = (<ProjectPageNavigation />)
+      mobileNav = (<MobileNavigation />)
+      body = (<LasVentanasComponent />)
     }
 
     if(this.state.router.current == "brisas"){
-
-      if(screen.width <= 420) {
-        siteNavigation = (<MobileNavigation />)
-        body = (<LasBrisasComponent />)
-      }else{
-        siteNavigation = (<ProjectPageNavigation />)
-        body = (<LasBrisasComponent />)
-      }
-
+      siteNavigation = (<ProjectPageNavigation />)
+      mobileNav = (<MobileNavigation />)
+      body = (<LasBrisasComponent />)
     }
 
     if(this.state.router.current == "harmony"){
-
-      if(screen.width <= 420) {
-        siteNavigation = (<MobileNavigation />)
-        body = (<HarmonyComponent />)
-      }else{
-        siteNavigation = (<ProjectPageNavigation />)
-        body = (<HarmonyComponent />)
-      }
-
+      siteNavigation = (<ProjectPageNavigation />)
+      mobileNav = (<MobileNavigation />)
+      body = (<HarmonyComponent />)
     }
 
     if(this.state.router.current == "magic"){
-
-      if(screen.width <= 420) {
-        siteNavigation = (<MobileNavigation />)
-        body = (<MagicVillageComponent />)
-      }else{
-        siteNavigation = (<ProjectPageNavigation />)
-        body = (<MagicVillageComponent />)
-      }
-
+      siteNavigation = (<ProjectPageNavigation />)
+      mobileNav = (<MobileNavigation />)
+      body = (<MagicVillageComponent />)
     }
 
     if(this.state.router.current == "bella"){
       siteNavigation = (<ProjectPageNavigation />)
+      mobileNav = (<MobileNavigation />)
       body = (<BellaTraeComponent />)
     }
 
     if(this.state.router.current == "people"){
       navigation = (<StudioPageNavigation />)
+      mobileNav = (<MobileNavigation />)
       body = (<StudioPageComponent />)
     }
 
     if(this.state.router.current == "clients"){
       navigation = (<PracticeNavigation />)
+      mobileNav = (<MobileNavigation />)
       body = (<ClientsComponent />)
     }
 
     if(this.state.router.current == "contact"){
       navigation = (<ContactPageNavigation />)
+      mobileNav = (<MobileNavigation />)
       body = (<ContactPageComponent />)
     }
 
@@ -305,6 +202,7 @@ var InterfaceComponent = React.createClass({
       <div>
         {siteNavigation}
         {body}
+        {mobileNav}
         {navigation}
       </div>
     )
