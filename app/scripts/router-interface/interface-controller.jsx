@@ -201,9 +201,9 @@ var InterfaceComponent = React.createClass({
     return(
       <div>
         {siteNavigation}
-        {body}
         {mobileNav}
         {navigation}
+        {body}
       </div>
     )
   }
