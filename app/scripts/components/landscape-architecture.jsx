@@ -16,7 +16,7 @@ var LandscapeArchitectureComponent = React.createClass({
 
     return(
       <div className="container-fluid">
-        <div className="practice-background col-md-12">
+        <div className="landscape-background col-md-12">
           <div className="landscape-service-container col-md-5">
             <div className="row">
               <div className="landscape-architecture-container col-md-12">
