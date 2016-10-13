@@ -16,7 +16,7 @@ var OverviewComponent = React.createClass({
 
     return(
       <div className="container-fluid">
-        <div className="practice-background">
+        <div className="overview-background">
           <div className="row">
             <div className="practice-container col-md-12">
               <div className="overview-title">
