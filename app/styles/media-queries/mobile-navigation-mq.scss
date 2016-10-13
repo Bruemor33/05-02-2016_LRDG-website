@@ -11,11 +11,8 @@
 
 }
 
-@media(max-height: 628) and (max-width: 426px) and (min-width: 319px) {
+@media(max-height: 738px) and (min-height: 479px) and (max-width: 426px) and (min-width: 319px) {
 
-  .projects-navigation {
-    display: none;
-  }
 
   #site-nav {
     display: none;
