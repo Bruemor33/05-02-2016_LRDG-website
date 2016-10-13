@@ -15,6 +15,10 @@ Community Planning Media Queries
     position: fixed;
   }
 
+  .community-title {
+    position: fixed;
+  }
+
   .community-writeup-container {
     width: 500px;
   }
@@ -76,9 +80,7 @@ Tablet
 
 @media(max-height: 768px) and (min-height: 700px) and (max-width: 1024px) {
 
-  .community-background {
-    position: fixed;
-  }
+
 
   .community-title {
     width: 420px;
@@ -109,7 +111,7 @@ Mobile
 
 
 
-@media(max-width: 426px) and (min-width: 320px) and (max-height: 625px) and (min-height: 372px) {
+@media(max-width: 415px) and (min-width: 376px) and (max-height: 737px) and (min-height: 735px) {
 
   .community-background {
     height: 1680px;
@@ -118,40 +120,221 @@ Mobile
 
   .community-title {
     top: 60px;
-    width: 425px;
-    overflow-x: hidden;
     position: absolute;
+    width: 414px;
   }
 
   .community-statement-container {
     top: 140px;
     width: 340px;
     height: 540px;
-    margin-left: 43px;
+    margin-left: 38px;
     margin-right: 0px;
   }
 
   .construction-images-container {
     width: 340px;
-    height: 990px;
-    left: 8px;
-    top: 120px;
+    height: 955px;
+    left: 3px;
+    top: 130px;
   }
 
   .community-image-one {
-    height: 220px;
+    width: 300px;
+    margin-left: 4px;
+    margin-bottom: 14px;
   }
 
   .community-image-two {
-    height: 220px;
+    width: 300px;
+    margin-left: -3px;
   }
 
   .community-image-three {
-    height: 220px;
+    width: 300px;
+    margin-left: 5px;
+    margin-top: -10px;
+    margin-bottom: 14px;
   }
 
   .community-image-four {
-    height: 220px;
+    width: 300px;
+    margin-left: -2px;
+  }
+
+}
+
+
+
+@media(max-width: 375px) and (min-width: 370px) and (max-height: 668px) and (min-height: 666px) {
+
+  .community-background {
+    height: 1700px;
+    width: auto;
+  }
+
+  .community-title {
+    top: 60px;
+    position: absolute;
+    width: 375px;
+  }
+
+  .community-statement-container {
+    top: 140px;
+    width: 320px;
+    height: 575px;
+    margin-left: 28px;
+    margin-right: 0px;
+  }
+
+  .construction-images-container {
+    width: 320px;
+    height: 955px;
+    margin-left: 28px;
+    top: 130px;
+    padding-bottom: 20px;
+  }
+
+  .community-image-one {
+    width: 280px;
+    margin-left: 4px;
+    margin-bottom: 14px;
+  }
+
+  .community-image-two {
+    width: 280px;
+    margin-left: -3px;
+  }
+
+  .community-image-three {
+    width: 280px;
+    margin-left: 5px;
+    margin-top: -10px;
+    margin-bottom: 14px;
+  }
+
+  .community-image-four {
+    width: 280px;
+    margin-left: -2px;
+  }
+
+}
+
+
+
+@media(max-width: 361px) and (min-width: 359px) and (max-height: 641px) and (min-height: 639px) {
+
+  .community-background {
+    height: 1700px;
+    width: auto;
+  }
+
+  .community-title {
+    top: 60px;
+    position: absolute;
+    width: 375px;
+  }
+
+  .community-statement-container {
+    top: 140px;
+    width: 320px;
+    height: 575px;
+    margin-left: 20px;
+    margin-right: 0px;
+  }
+
+  .construction-images-container {
+    width: 320px;
+    height: 955px;
+    margin-left: 20px;
+    top: 130px;
+    padding-bottom: 20px;
+  }
+
+  .community-image-one {
+    width: 280px;
+    margin-left: 4px;
+    margin-bottom: 14px;
+  }
+
+  .community-image-two {
+    width: 280px;
+    margin-left: -3px;
+  }
+
+  .community-image-three {
+    width: 280px;
+    margin-left: 5px;
+    margin-top: -10px;
+    margin-bottom: 14px;
+  }
+
+  .community-image-four {
+    width: 280px;
+    margin-left: -2px;
+  }
+
+}
+
+@media(max-height: 569px) and (min-height: 479px) and (max-width: 321px) and (min-width: 319px) {
+
+  .community-background {
+    height: 1700px;
+    width: auto;
+  }
+
+  .community-title {
+    top: 60px;
+    position: absolute;
+    width: 320px;
+
+    h2 {
+      font-size: 25px;
+      padding-top: 2px;
+    }
+  }
+
+  .community-statement-container {
+    top: 140px;
+    width: 300px;
+    height: 610px;
+    margin-left: 10px;
+    margin-right: 0px;
+  }
+
+  .construction-images-container {
+    width: 300px;
+    height: 874px;
+    margin-left: 10px;
+    top: 130px;
+    padding-bottom: 20px;
+  }
+
+  .community-image-one {
+    width: 280px;
+    height: 200px;
+    margin-left: -6px;
+    margin-bottom: 14px;
+  }
+
+  .community-image-two {
+    width: 280px;
+    height: 200px;
+    margin-left: -14px;
+  }
+
+  .community-image-three {
+    width: 280px;
+    height: 200px;
+    margin-left: -6px;
+    margin-top: -10px;
+    margin-bottom: 14px;
+  }
+
+  .community-image-four {
+    width: 280px;
+    height: 200px;
+    margin-left: -14px;
   }
 
 }
