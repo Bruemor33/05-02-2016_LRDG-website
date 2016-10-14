@@ -11,6 +11,10 @@ Landscape Architecture Media Queries
 
 @media(max-height: 1080px) and (max-width: 1920px) and (min-width: 1440px) {
 
+  .landscape-background {
+    position: fixed;
+  }
+
   .landscape-service-container {
     width: 500px;
     margin-right: 30px;
@@ -108,6 +112,220 @@ Tablet
   }
 
 }
+
+
+
+
+/***********************************************************************************************
+Mobile
+***********************************************************************************************/
+
+
+
+@media(max-width: 415px) and (min-width: 376px) and (max-height: 737px) and (min-height: 735px) {
+
+  .landscape-background {
+    height: 2900px;
+    width: auto;
+  }
+
+  .landscape-scroller {
+    overflow-y: hidden;
+  }
+
+  .landscape-architecture-title {
+    top: 60px;
+    position: absolute;
+    width: 414px;
+  }
+
+  .landscape-architecture-statement-container {
+    top: 140px;
+    width: 340px;
+    height: 540px;
+    margin-left: 38px;
+    margin-right: 0px;
+  }
+
+  .landscape-images-container {
+    width: 340px;
+    height: 2130px;
+    margin-left: 23px;
+    top: 130px;
+  }
+
+  .landscape-image-one {
+    width: 300px;
+    height: 220px;
+    margin-left: 3px;
+    margin-bottom: 14px;
+  }
+
+  .landscape-image-two {
+    width: 300px;
+    height: 220px;
+    margin-left: -4px;
+  }
+
+  .landscape-image-three {
+    width: 300px;
+    height: 220px;
+    margin-left: -4px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+  }
+
+  .landscape-image-four {
+    width: 300px;
+    height: 220px;
+    margin-left: 4px;
+    margin-bottom: 14px;
+  }
+
+  .landscape-image-five {
+    width: 300px;
+    height: 220px;
+    margin-left: -4px;
+    margin-bottom: 14px;
+  }
+
+  .landscape-image-six {
+    width: 300px;
+    height: 220px;
+    margin-left: -4px;
+    margin-bottom: 14px;
+  }
+
+  .landscape-image-seven {
+    width: 300px;
+    height: 220px;
+    margin-left: 4px;
+    margin-bottom: 14px;
+  }
+
+  .landscape-image-eight {
+    width: 300px;
+    height: 220px;
+    margin-left: -3px;
+    margin-bottom: 14px;
+  }
+
+  .landscape-image-nine {
+    width: 300px;
+    height: 220px;
+    margin-left: -3px;
+  }
+
+}
+
+
+
+@media(max-width: 375px) and (min-width: 370px) and (max-height: 668px) and (min-height: 666px) {
+
+  .landscape-background {
+    height: 2900px;
+    width: auto;
+  }
+
+  .landscape-scroller {
+    overflow-y: hidden;
+  }
+
+  .landscape-architecture-title {
+    top: 60px;
+    position: absolute;
+    width: 375px;
+
+    h2 {
+      font-size: 25px;
+      padding-top: 3px;
+    }
+  }
+
+  .landscape-architecture-statement-container {
+    top: 140px;
+    width: 340px;
+    height: 540px;
+    margin-left: 18px;
+    margin-right: 0px;
+  }
+
+  .landscape-images-container {
+    width: 340px;
+    height: 2130px;
+    margin-left: 15px;
+    top: 130px;
+  }
+
+  .landscape-image-one {
+    width: 300px;
+    height: 220px;
+    margin-left: 3px;
+    margin-bottom: 14px;
+  }
+
+  .landscape-image-two {
+    width: 300px;
+    height: 220px;
+    margin-left: -4px;
+  }
+
+  .landscape-image-three {
+    width: 300px;
+    height: 220px;
+    margin-left: -4px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+  }
+
+  .landscape-image-four {
+    width: 300px;
+    height: 220px;
+    margin-left: 4px;
+    margin-bottom: 14px;
+  }
+
+  .landscape-image-five {
+    width: 300px;
+    height: 220px;
+    margin-left: -4px;
+    margin-bottom: 14px;
+  }
+
+  .landscape-image-six {
+    width: 300px;
+    height: 220px;
+    margin-left: -4px;
+    margin-bottom: 14px;
+  }
+
+  .landscape-image-seven {
+    width: 300px;
+    height: 220px;
+    margin-left: 4px;
+    margin-bottom: 14px;
+  }
+
+  .landscape-image-eight {
+    width: 300px;
+    height: 220px;
+    margin-left: -3px;
+    margin-bottom: 14px;
+  }
+
+  .landscape-image-nine {
+    width: 300px;
+    height: 220px;
+    margin-left: -3px;
+  }
+
+}
+
+
+
+/***********************************************************************************************
+Mobile
+***********************************************************************************************/
 
 
 
