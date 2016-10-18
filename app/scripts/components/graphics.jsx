@@ -16,7 +16,7 @@ var GraphicsServiceComponent = React.createClass({
 
     return(
       <div className="container-fluid">
-        <div className="practice-background col-md-12">
+        <div className="graphics-background col-md-12">
           <div className="graphics-writeup-container col-md-5">
             <div className="row">
               <div className="graphics-container col-md-12">
