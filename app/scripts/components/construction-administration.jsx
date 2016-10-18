@@ -16,7 +16,7 @@ var ConstructionAdministrationComponent = React.createClass({
 
     return(
       <div className="container-fluid">
-        <div className="practice-background col-md-12">
+        <div className="construction-background col-md-12">
           <div className="construction-service-container col-md-5">
             <div className="row">
               <div className="construction-container col-md-12">
