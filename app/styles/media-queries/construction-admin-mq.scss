@@ -10,6 +10,10 @@ Construction Administration Media Queries
 
 @media(max-height: 1080px) and (max-width: 1920px) and (min-width: 1440px) {
 
+  .construction-background {
+    position: fixed;
+  }
+
   .construction-service-container {
     width: 500px;
   }
@@ -83,6 +87,276 @@ Tablet
   }
 
 }
+
+
+
+
+
+/****************************************************************************************
+Mobile
+****************************************************************************************/
+
+
+
+@media(max-width: 415px) and (min-width: 376px) and (max-height: 737px) and (min-height: 735px) {
+
+  .construction-background {
+    height: 1700px;
+    width: auto;
+  }
+
+  .construction-scroller {
+    overflow-y: hidden;
+    height: 540px;
+  }
+
+  .construction-title {
+    top: 60px;
+    position: absolute;
+    width: 414px;
+  }
+
+  .construction-statement-container {
+    top: 140px;
+    width: 340px;
+    height: 580px;
+    margin-left: 38px;
+    margin-right: 0px;
+  }
+
+  .construction-images-container {
+    width: 340px;
+    height: 955px;
+    margin-left: 20px;
+    top: 130px;
+  }
+
+  .construction-image-one {
+    width: 300px;
+    margin-left: 4px;
+    margin-bottom: 14px;
+  }
+
+  .construction-image-two {
+    width: 300px;
+    margin-left: -3px;
+  }
+
+  .construction-image-three {
+    width: 300px;
+    margin-left: 5px;
+    margin-top: -10px;
+    margin-bottom: 14px;
+  }
+
+  .construction-image-four {
+    width: 300px;
+    margin-left: -2px;
+  }
+
+}
+
+
+
+@media(max-width: 375px) and (min-width: 370px) and (max-height: 668px) and (min-height: 666px) {
+
+  .construction-background {
+    height: 1700px;
+    width: auto;
+  }
+
+  .construction-scroller {
+    overflow-y: hidden;
+    height: 540px;
+  }
+
+  .construction-title {
+    top: 60px;
+    position: absolute;
+    width: 375px;
+
+    h2 {
+      font-size: 22px;
+    }
+  }
+
+  .construction-statement-container {
+    top: 140px;
+    width: 340px;
+    height: 580px;
+    margin-left: 18px;
+    margin-right: 0px;
+  }
+
+  .construction-images-container {
+    width: 340px;
+    height: 955px;
+    margin-left: 3px;
+    top: 130px;
+  }
+
+  .construction-image-one {
+    width: 300px;
+    margin-left: 4px;
+    margin-bottom: 14px;
+  }
+
+  .construction-image-two {
+    width: 300px;
+    margin-left: -3px;
+  }
+
+  .construction-image-three {
+    width: 300px;
+    margin-left: 5px;
+    margin-top: -10px;
+    margin-bottom: 14px;
+  }
+
+  .construction-image-four {
+    width: 300px;
+    margin-left: -2px;
+  }
+
+}
+
+
+
+@media(max-width: 361px) and (min-width: 359px) and (max-height: 641px) and (min-height: 639px) {
+
+  .construction-background {
+    height: 1700px;
+    width: auto;
+  }
+
+  .construction-scroller {
+    overflow-y: hidden;
+    height: 540px;
+  }
+
+  .construction-title {
+    top: 60px;
+    position: absolute;
+    width: 360px;
+
+    h2 {
+      font-size: 22px;
+    }
+  }
+
+  .construction-statement-container {
+    top: 140px;
+    width: 320px;
+    height: 580px;
+    margin-left: 20px;
+    margin-right: 0px;
+  }
+
+  .construction-images-container {
+    width: 320px;
+    height: 955px;
+    margin-left: 5px;
+    top: 130px;
+  }
+
+  .construction-image-one {
+    width: 300px;
+    margin-left: -6px;
+    margin-bottom: 14px;
+  }
+
+  .construction-image-two {
+    width: 300px;
+    margin-left: -14px;
+  }
+
+  .construction-image-three {
+    width: 300px;
+    margin-left: -5px;
+    margin-top: -10px;
+    margin-bottom: 14px;
+  }
+
+  .construction-image-four {
+    width: 300px;
+    margin-left: -13px;
+  }
+
+}
+
+
+
+@media(max-height: 569px) and (min-height: 479px) and (max-width: 321px) and (min-width: 319px) {
+
+  .construction-background {
+    height: 1800px;
+    width: auto;
+  }
+
+  .construction-scroller {
+    overflow-y: hidden;
+    height: 740px;
+  }
+
+  .construction-title {
+    top: 60px;
+    position: absolute;
+    width: 320px;
+
+    h2 {
+      font-size: 20px;
+    }
+  }
+
+  .construction-statement-container {
+    top: 140px;
+    width: 280px;
+    height: 730px;
+    margin-left: 20px;
+    margin-right: 0px;
+  }
+
+  .construction-images-container {
+    width: 280px;
+    height: 840px;
+    margin-left: 5px;
+    top: 130px;
+  }
+
+  .construction-image-one {
+    width: 250px;
+    height: 190px;
+    margin-left: -1px;
+    margin-bottom: 14px;
+  }
+
+  .construction-image-two {
+    width: 250px;
+    height: 190px;
+    margin-left: -9px;
+  }
+
+  .construction-image-three {
+    width: 250px;
+    height: 190px;
+    margin-left: 0px;
+    margin-top: -10px;
+    margin-bottom: 14px;
+  }
+
+  .construction-image-four {
+    width: 250px;
+    height: 190px;
+    margin-left: -6px;
+  }
+
+}
+
+
+
+/****************************************************************************************
+Mobile
+****************************************************************************************/
 
 
 
