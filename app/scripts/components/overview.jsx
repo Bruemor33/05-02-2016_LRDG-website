@@ -25,7 +25,7 @@ var OverviewComponent = React.createClass({
               </div>
             </div>
           </div>
-          <div className="row">
+          <div className="row row-contain">
             <div className="statement-container col-md-12">
               <div className="scroller">
                 <p>Land Resource Design Group, aka LRDG, was formed with the philosophy of viewing land as a valuable resource for man's sustainability through improving our quality of life, environmental stewardship and economic prosperity. LRDG practices this philosophy through the planning, design and implementation of new communities and the enhancement of existing communities.</p>
