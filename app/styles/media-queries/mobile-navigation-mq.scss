@@ -35,6 +35,13 @@ Mobile Range
   z-index: 20;
 }
 
+Modal {
+  width: 100%;
+  left: 10%;
+  margin-left: 15px;
+  padding: 0;
+}
+
 .mobile-nav-toggle {
   padding: 10px;
   display: inline-block;
@@ -45,19 +52,21 @@ Mobile Range
   color: #FFF;
 }
 
-.mobile-nav-items {
+.navigation-modal {
   width: 100%;
+}
+
+.mobile-nav-items {
   //margin-top: 50px;
   padding: 0;
   background-color: #222;
-  display: none;
 }
 
 .mobile-nav-links a {
   padding: 10;
   color: #FFF;
+  margin: 0;
   text-decoration: none;
-  background-color: #222;
 }
 
 
