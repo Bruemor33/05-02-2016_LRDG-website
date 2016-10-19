@@ -253,7 +253,7 @@ Mobile
   .landscape-images-container {
     width: 340px;
     height: 2130px;
-    margin-left: 15px;
+    margin-left: 3px;
     top: 130px;
   }
 
@@ -268,6 +268,109 @@ Mobile
     width: 300px;
     height: 220px;
     margin-left: -4px;
+  }
+
+  .landscape-image-three {
+    width: 300px;
+    height: 220px;
+    margin-left: -4px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+  }
+
+  .landscape-image-four {
+    width: 300px;
+    height: 220px;
+    margin-left: 4px;
+    margin-bottom: 14px;
+  }
+
+  .landscape-image-five {
+    width: 300px;
+    height: 220px;
+    margin-left: -4px;
+    margin-bottom: 14px;
+  }
+
+  .landscape-image-six {
+    width: 300px;
+    height: 220px;
+    margin-left: -4px;
+    margin-bottom: 14px;
+  }
+
+  .landscape-image-seven {
+    width: 300px;
+    height: 220px;
+    margin-left: 4px;
+    margin-bottom: 14px;
+  }
+
+  .landscape-image-eight {
+    width: 300px;
+    height: 220px;
+    margin-left: -3px;
+    margin-bottom: 14px;
+  }
+
+  .landscape-image-nine {
+    width: 300px;
+    height: 220px;
+    margin-left: -3px;
+  }
+
+}
+
+
+
+@media(max-width: 361px) and (min-width: 359px) and (max-height: 641px) and (min-height: 639px) {
+
+  .landscape-background {
+    height: 2900px;
+    width: auto;
+  }
+
+  .landscape-scroller {
+    overflow-y: hidden;
+  }
+
+  .landscape-architecture-title {
+    top: 60px;
+    position: absolute;
+    width: 360px;
+
+    h2 {
+      font-size: 25px;
+      padding-top: 3px;
+    }
+  }
+
+  .landscape-architecture-statement-container {
+    top: 140px;
+    width: 320px;
+    height: 540px;
+    margin-left: 20px;
+    margin-right: 0px;
+  }
+
+  .landscape-images-container {
+    width: 320px;
+    height: 2130px;
+    margin-left: 5px;
+    top: 130px;
+  }
+
+  .landscape-image-one {
+    width: 300px;
+    height: 220px;
+    margin-left: -6px;
+    margin-bottom: 14px;
+  }
+
+  .landscape-image-two {
+    width: 300px;
+    height: 220px;
+    margin-left: -10px;
   }
 
   .landscape-image-three {
