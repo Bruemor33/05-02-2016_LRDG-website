@@ -92,6 +92,94 @@ Tablet
 
 
 
+/***********************************************************************************************
+Mobile
+***********************************************************************************************/
+
+
+
+
+@media(max-width: 426px) and (min-width: 400px) and (max-height: 737px) and (min-height: 735px) {
+
+
+
+}
+
+
+@media(max-width: 375px) and (min-width: 370px) and (max-height: 668px) and (min-height: 666px) {
+
+
+
+}
+
+
+@media(max-width: 361px) and (min-width: 359px) and (max-height: 641px) and (min-height: 639px) {
+
+
+
+}
+
+
+@media(max-height: 569px) and (min-height: 479px) and (max-width: 321px) and (min-width: 319px) {
+
+  .project-one-container {
+    margin-left: 10px;
+    top: 30px;
+  }
+
+  .plaza-background {
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 20;
+  }
+
+  .plaza-landing h3 {
+    z-index: 20;
+
+  }
+
+  .nonapark-landing h3 {
+    z-index: 20;
+  }
+
+  .seaisle-landing h3 {
+    z-index: 20;
+  }
+
+  .kindred-writeup h3 {
+    z-index: 20;
+  }
+
+  .waterleigh-landing h3 {
+    z-index: 20;
+  }
+
+  .altis-landing h3 {
+    z-index: 20;
+  }
+
+  .dwell-landing h3 {
+    z-index: 20;
+  }
+
+  .ventanas-landing h3 {
+    z-index: 20;
+  }
+
+  .brisas-landing h3 {
+    z-index: 20;
+  }
+
+}
+
+
+
+
+/***********************************************************************************************
+Mobile
+***********************************************************************************************/
+
+
+
 /******************************************************************************************
 Projects Window
 ******************************************************************************************/
