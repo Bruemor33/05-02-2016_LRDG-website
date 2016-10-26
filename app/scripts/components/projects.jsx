@@ -21,7 +21,7 @@ var ProjectsComponent = React.createClass({
               <ul className="hover-effect-2 effect">
                 <a href="#plazaUniversity">
                   <li className="plaza-background">
-                    <h3 className="zero">Plaza at University</h3>
+                    <h3 className="zero project-title">Plaza at University</h3>
                     <p className="zero">Orlando, FL</p>
                     <p className="zero">Size: 13.1 Acres, 355 Units/1,330 Student Beds, 64,457 s.f. Commercial Retail</p>
                   </li>

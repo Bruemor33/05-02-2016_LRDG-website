@@ -40,6 +40,16 @@ var ContactPageNavigation = require('../components/contact-nav.jsx').ContactPage
 var ClientsComponent = require('../components/clients.jsx').ClientsComponent;
 var ClientsPageNavigation = require('../components/clients-nav.jsx').ClientsPageNavigation;
 var MobileNavigation = require('../components/mobile-nav.jsx').MobileNavigation;
+var MobilePlazaAtUniversity = require('../components/projects/mobile-plaza-university.jsx').MobilePlazaAtUniversity;
+var MobileNonaPark = require('../components/projects/mobile-nona-park.jsx').MobileNonaPark;
+var MobileSeaIsle = require('../components/projects/mobile-sea-isle.jsx').MobileSeaIsle;
+var MobileKindred = require('../components/projects/mobile-kindred.jsx').MobileKindred;
+var MobileWaterleigh = require('../components/projects/mobile-waterleigh.jsx').MobileWaterleigh;
+var MobileAltisSandlake = require('../components/projects/mobile-altis-sandlake.jsx').MobileAltisSandlake;
+var MobileDwellNonaPlace = require('../components/projects/mobile-dwell-nonaplace.jsx').MobileDwellNonaPlace;
+var MobileLasVentanas = require('../components/projects/mobile-las-ventanas.jsx').MobileLasVentanas;
+var MobileLasBrisas = require('../components/projects/mobile-las-brisas.jsx').MobileLasBrisas;
+var MobileHarmony = require('../components/projects/mobile-harmony.jsx').MobileHarmony;
 
 
 //kick off controller
@@ -62,6 +72,7 @@ var InterfaceComponent = React.createClass({
   },
   render: function(){
     var body;
+    var mobileBody;
     var navigation;
     var siteNavigation;
     var mobileNav;
@@ -111,72 +122,84 @@ var InterfaceComponent = React.createClass({
     if(this.state.router.current == "kindred"){
       siteNavigation = (<ProjectPageNavigation />)
       mobileNav = (<MobileNavigation />)
+      mobileBody = (<MobileKindred />)
       body = (<KindredComponent />)
     }
 
     if(this.state.router.current == "waterleigh"){
       siteNavigation = (<ProjectPageNavigation />)
       mobileNav = (<MobileNavigation />)
+      mobileBody = (<MobileWaterleigh />)
       body = (<WaterleighComponent />)
     }
 
     if(this.state.router.current == "nonapark"){
       siteNavigation = (<ProjectPageNavigation />)
       mobileNav = (<MobileNavigation />)
+      mobileBody = (<MobileNonaPark />)
       body = (<NonaParkComponent />)
     }
 
     if(this.state.router.current == "seaisle"){
       siteNavigation = (<ProjectPageNavigation />)
       mobileNav = (<MobileNavigation />)
+      mobileBody = (<MobileSeaIsle />)
       body = (<SeaIsleComponent />)
     }
 
     if(this.state.router.current == "altis"){
       siteNavigation = (<ProjectPageNavigation />)
       mobileNav = (<MobileNavigation />)
+      mobileBody = (<MobileAltisSandlake />)
       body = (<SandlakeComponent />)
     }
 
     if(this.state.router.current == "dwell"){
       siteNavigation = (<ProjectPageNavigation />)
       mobileNav = (<MobileNavigation />)
+      mobileBody = (<MobileDwellNonaPlace />)
       body = (<DwellNonaPlaceComponent />)
     }
 
     if(this.state.router.current == "plazaUniversity"){
       siteNavigation = (<ProjectPageNavigation />)
       mobileNav = (<MobileNavigation />)
+      mobileBody = (<MobilePlazaAtUniversity />)
       body = (<PlazaUniversityComponent />)
     }
 
     if(this.state.router.current == "ventanas"){
       siteNavigation = (<ProjectPageNavigation />)
       mobileNav = (<MobileNavigation />)
+      mobileBody = (<MobileLasVentanas />)
       body = (<LasVentanasComponent />)
     }
 
     if(this.state.router.current == "brisas"){
       siteNavigation = (<ProjectPageNavigation />)
       mobileNav = (<MobileNavigation />)
+      mobileBody = (<MobileLasBrisas />)
       body = (<LasBrisasComponent />)
     }
 
     if(this.state.router.current == "harmony"){
       siteNavigation = (<ProjectPageNavigation />)
       mobileNav = (<MobileNavigation />)
+      mobileBody = (<MobileHarmony />)
       body = (<HarmonyComponent />)
     }
 
     if(this.state.router.current == "magic"){
       siteNavigation = (<ProjectPageNavigation />)
       mobileNav = (<MobileNavigation />)
+      mobileBody = (<MobilePlazaAtUniversity />)
       body = (<MagicVillageComponent />)
     }
 
     if(this.state.router.current == "bella"){
       siteNavigation = (<ProjectPageNavigation />)
       mobileNav = (<MobileNavigation />)
+      mobileBody = (<MobilePlazaAtUniversity />)
       body = (<BellaTraeComponent />)
     }
 
@@ -203,6 +226,7 @@ var InterfaceComponent = React.createClass({
         {siteNavigation}
         {mobileNav}
         {navigation}
+        {mobileBody}
         {body}
       </div>
     )
