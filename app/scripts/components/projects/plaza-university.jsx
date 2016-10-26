@@ -51,7 +51,7 @@ var PlazaUniversityComponent = React.createClass({
     return(
       <div id="sea-isle-background" className="container-fluid">
         <div className="plaza-university-container col-md-12">
-          <div id="main-nav" className="writeup">
+          <div id="main-nav" className="plaza-writeup">
             <div className="project-nav">
               <h2 className="plaza-title">Plaza at University</h2>
               <ul className="image-links">
