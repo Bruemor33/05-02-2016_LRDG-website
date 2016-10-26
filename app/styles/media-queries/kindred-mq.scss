@@ -66,6 +66,155 @@ Tablet
 
 
 
+
+/***********************************************************************************************
+Mobile
+***********************************************************************************************/
+
+
+
+
+@media(max-width: 426px) and (max-height: 737px) {
+
+  #sea-isle-background {
+    display: none
+  }
+
+
+
+}
+
+
+
+
+@media(max-width: 426px) and (min-width: 400px) and (max-height: 737px) and (min-height: 735px) {
+
+
+
+}
+
+
+@media(max-width: 375px) and (min-width: 370px) and (max-height: 668px) and (min-height: 666px) {
+
+
+
+}
+
+
+@media(max-width: 361px) and (min-width: 359px) and (max-height: 641px) and (min-height: 639px) {
+
+
+
+}
+
+
+@media(max-height: 569px) and (min-height: 479px) and (max-width: 321px) and (min-width: 319px) {
+
+  #mobile-kindred {
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('../images/studio-background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 1790px;
+  }
+
+  .mobile-kindred-writeup-container {
+    margin-left: -30px;
+  }
+
+  .mobile-kindred-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .mobile-kindred-title {
+    width: 320px;
+    height: 55px;
+    position: relative;
+    top: 40px;
+    padding-top: -10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #FFF;
+  }
+
+  .mobile-kindred-statement-container {
+    position: relative;
+    top: 50px;
+    width: 280px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #FFF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 20px;
+  }
+
+  .mobile-kindred-images-container {
+    width: 280px;
+    height: 840px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-left: 5px;
+    position: relative;
+    top: 65px;
+  }
+
+  .mobile-kindred-image-one {
+    background: url('../images/6-kindred-rendering.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    border: 1px solid #000;
+    width: 250px;
+    height: 190px;
+    margin-left: -30px;
+    margin-top: 15px;
+    margin-bottom: 14px;
+  }
+
+  .mobile-kindred-image-two {
+    background: url('../images/7-kindred.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    border: 1px solid #000;
+    width: 250px;
+    height: 190px;
+    margin-left: -30px;
+    margin-bottom: 14px;
+  }
+
+  .mobile-kindred-image-three {
+    background: url('../images/4-kindred.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    border: 1px solid #000;
+    width: 250px;
+    height: 190px;
+    margin-left: -30px;
+    margin-bottom: 14px;
+  }
+
+  .mobile-kindred-image-four {
+    background: url('../images/5-kindred.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    border: 1px solid #000;
+    width: 250px;
+    height: 190px;
+    margin-left: -30px;
+    margin-bottom: 10px;
+  }
+
+}
+
+
+
+
+/***********************************************************************************************
+Mobile
+***********************************************************************************************/
+
+
+
+
 /******************************************************************************************
 Kindred Media Queries
 ******************************************************************************************/
