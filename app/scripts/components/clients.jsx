@@ -16,7 +16,7 @@ var ClientsComponent = React.createClass({
 
     return(
       <div className="container-fluid">
-        <div className="practice-background">
+        <div className="clients-background">
           <div className="row">
             <div className="clients-container col-md-12">
               <div className="clients-title">
