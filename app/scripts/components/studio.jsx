@@ -66,13 +66,13 @@ var StudioPageComponent = React.createClass({
         <div className="studio-background"></div>
         <div className="row">
           <div className="practice-container col-md-12">
-            <div className="overview-title">
+            <div className="studio-title">
               <div className="overview-logo"></div>
               <h2>Studio Leaders</h2>
             </div>
           </div>
         </div>
-        <div className="row">
+        <div className="content-row row">
           <div className="studio-content-container col-md-12">
             <div className="barry col-md-4">
               <div className="barry-photo" role="button" onClick={this.barryModal}></div>
