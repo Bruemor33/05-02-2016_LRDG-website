@@ -50,6 +50,9 @@ var MobileDwellNonaPlace = require('../components/projects/mobile-dwell-nonaplac
 var MobileLasVentanas = require('../components/projects/mobile-las-ventanas.jsx').MobileLasVentanas;
 var MobileLasBrisas = require('../components/projects/mobile-las-brisas.jsx').MobileLasBrisas;
 var MobileHarmony = require('../components/projects/mobile-harmony.jsx').MobileHarmony;
+var MobileMagicVillage = require('../components/projects/mobile-magic-village.jsx').MobileMagicVillage;
+var MobileMagicVillage = require('../components/projects/mobile-bella-trae.jsx').MobileMagicVillage;
+var MobileStudioComponent = require('../components/mobile-studio.jsx').MobileStudioComponent;
 
 
 //kick off controller
@@ -192,20 +195,21 @@ var InterfaceComponent = React.createClass({
     if(this.state.router.current == "magic"){
       siteNavigation = (<ProjectPageNavigation />)
       mobileNav = (<MobileNavigation />)
-      mobileBody = (<MobilePlazaAtUniversity />)
+      mobileBody = (<MobileMagicVillage />)
       body = (<MagicVillageComponent />)
     }
 
     if(this.state.router.current == "bella"){
       siteNavigation = (<ProjectPageNavigation />)
       mobileNav = (<MobileNavigation />)
-      mobileBody = (<MobilePlazaAtUniversity />)
+      mobileBody = (<MobileMagicVillage />)
       body = (<BellaTraeComponent />)
     }
 
     if(this.state.router.current == "people"){
       navigation = (<StudioPageNavigation />)
       mobileNav = (<MobileNavigation />)
+      mobileBody = (<MobileStudioComponent />)
       body = (<StudioPageComponent />)
     }
 
