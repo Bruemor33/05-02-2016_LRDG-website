@@ -32,30 +32,34 @@ var MobileHarmony = React.createClass({
                 <p>Osceola County, FL</p>
                 <p>Size: Phase 1 - Approximately 1,000 Acres</p>
 
-                <p>Located in the town of Round Rock, home of Dell Computers, Las Brisas reaches the rental market of this popular tech-cultured community.  With rolling hills as a backdrop, this site features a “Texas” themed development with architectural materials that are indigenous to the area.  It offers a series of three and four story carriage-style residential buildings sensitively positioned with existing rolling terrain to minimize development costs.  The main clubhouse amenity area is highlighted with an organic-shaped, resort-style pool with an interactive fountain spa along with an outdoor kitchen.  The community also offers a smaller pool venue in closer proximity to those who reside higher up on the hill.</p>
+                <p>From the initial community vision, the development of Harmony set out to create a new town to improve the health and well-being of all by emphasizing relationships between residents, animals and nature.  Located just 7 miles east of St. Cloud, FL, Phase 1 of this 11,000-acre new town offers a Johnny Miller Signature Golf Course, a quaint downtown, eight TND designed neighborhoods, a lakeshore linear park and community parks throughout.  As a result of the planning and design solutions that involved offering pet-friendly environments with dog parks, nature enriched culture with protected wildlife environments and community trail access, a commitment to pristine Buck Lake with a community dock and boating limited to paddle, and electrical and solar-powered motors, along with use of native planting materials and other initiatives, Harmony became the first large-scale master-planned community to be certified by the Florida Green Building Coalition.</p>
 
-                <p>Project Type: Multi-Family</p>
-                <p>Client: Epoch Residential</p>
+                <p>Project Type: Master-Planned Community</p>
+                <p>Client: Harmony Development Company and the Harmony CDD</p>
 
                 <ul>
                   <p>Design Team:</p>
                   <li>
-                    <p>Land Resource Design Group, Inc.</p>
+                    <p>Land Resource Design Group - formerly provided services as Miller Einhouse Rymer & Boyd</p>
                   </li>
                 </ul>
 
                 <ul>
                   <p>Project Services:</p>
                   <li>
+                    <p>Neighborhood Planning</p>
+                  </li>
+
+                  <li>
+                    <p>Parking Planning and Design</p>
+                  </li>
+
+                  <li>
                     <p>Hardscape Design</p>
                   </li>
 
                   <li>
                     <p>Landscape Design</p>
-                  </li>
-
-                  <li>
-                    <p>Site Planning</p>
                   </li>
                 </ul>
 
