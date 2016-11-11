@@ -10,6 +10,10 @@ Bella Trae Media Queries
 
 @media(max-height: 1080px) and (max-width: 1920px) and (min-width: 1440px) {
 
+  #mobile-bella {
+    display: none;
+  }
+
   #bella-one {
     height: 1080px;
   }
@@ -34,6 +38,472 @@ Bella Trae Media Queries
   }
 
 }
+
+@media(max-height: 1080px) and (max-width: 1440px) and (min-width: 1261px) {
+
+  #mobile-bella {
+    display: none;
+  }
+
+  #bella-one {
+    height: 1000px;
+  }
+
+  #bella-two {
+    height: 1000px;
+  }
+
+  #bella-three {
+    height: 1000px;
+  }
+
+  #bella-four {
+    height: 1000px;
+  }
+
+}
+
+
+
+
+
+/***********************************************************************************************
+Mobile
+***********************************************************************************************/
+
+
+
+
+@media(max-width: 426px) and (max-height: 737px) {
+
+  #sea-isle-background {
+    display: none
+  }
+
+
+
+}
+
+
+
+
+@media(max-width: 426px) and (min-width: 400px) and (max-height: 737px) and (min-height: 735px) {
+
+    #mobile-bella {
+      background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('../images/studio-background.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 1980px;
+    }
+
+    .mobile-bella-writeup-container {
+      margin-left: -30px;
+    }
+
+    .mobile-bella-container {
+      padding-left: 0;
+      padding-right: 0;
+      width: 414px;
+      height: 55px;
+      position: relative;
+      top: 60px;
+    }
+
+    .mobile-bella-title {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: #FFF;
+    }
+
+    .mobile-bella-title h2 {
+      margin: 0;
+    }
+
+    .mobile-bella-statement-container {
+      position: relative;
+      top: 70px;
+      width: 340px;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: #FFF;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      margin-left: 36px;
+    }
+
+    .mobile-bella-images-container {
+      width: 340px;
+      height: 840px;
+      background-color: rgba(0, 0, 0, 0.7);
+      margin-left: 21px;
+      position: relative;
+      top: 85px;
+    }
+
+    .mobile-bella-image-one {
+      background: url('../images/1-bella-trae.png');
+      background-position: 50% 50%;
+      background-size: cover;
+      border: 1px solid #000;
+      width: 309px;
+      height: 190px;
+      margin-left: -30px;
+      margin-top: 15px;
+      margin-bottom: 14px;
+    }
+
+    .mobile-bella-image-two {
+      background: url('../images/2-bella-trae.png');
+      background-position: 50% 50%;
+      background-size: cover;
+      border: 1px solid #000;
+      width: 309px;
+      height: 190px;
+      margin-left: -30px;
+      margin-bottom: 14px;
+    }
+
+    .mobile-bella-image-three {
+      background: url('../images/3-bella-trae.png');
+      background-position: 50% 50%;
+      background-size: cover;
+      border: 1px solid #000;
+      width: 309px;
+      height: 190px;
+      margin-left: -30px;
+      margin-bottom: 14px;
+    }
+
+    .mobile-bella-image-four {
+      background: url('../images/4-bella-trae.png');
+      background-position: 50% 50%;
+      background-size: cover;
+      border: 1px solid #000;
+      width: 309px;
+      height: 190px;
+      margin-left: -30px;
+      margin-bottom: 10px;
+    }
+
+}
+
+
+@media(max-width: 375px) and (min-width: 370px) and (max-height: 668px) and (min-height: 666px) {
+
+    #mobile-bella {
+      background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('../images/studio-background.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 1980px;
+    }
+
+    .mobile-bella-writeup-container {
+      margin-left: -30px;
+    }
+
+    .mobile-bella-container {
+      padding-left: 0;
+      padding-right: 0;
+      width: 375px;
+      height: 55px;
+      position: relative;
+      top: 60px;
+    }
+
+    .mobile-bella-title {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: #FFF;
+    }
+
+    .mobile-bella-title h2 {
+      margin: 0;
+    }
+
+    .mobile-bella-statement-container {
+      position: relative;
+      top: 70px;
+      width: 300px;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: #FFF;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      margin-left: 36px;
+    }
+
+    .mobile-bella-images-container {
+      width: 300px;
+      height: 840px;
+      background-color: rgba(0, 0, 0, 0.7);
+      margin-left: 21px;
+      position: relative;
+      top: 85px;
+    }
+
+    .mobile-bella-image-one {
+      background: url('../images/1-bella-trae.png');
+      background-position: 50% 50%;
+      background-size: cover;
+      border: 1px solid #000;
+      width: 270px;
+      height: 190px;
+      margin-left: -30px;
+      margin-top: 15px;
+      margin-bottom: 14px;
+    }
+
+    .mobile-bella-image-two {
+      background: url('../images/2-bella-trae.png');
+      background-position: 50% 50%;
+      background-size: cover;
+      border: 1px solid #000;
+      width: 270px;
+      height: 190px;
+      margin-left: -30px;
+      margin-bottom: 14px;
+    }
+
+    .mobile-bella-image-three {
+      background: url('../images/3-bella-trae.png');
+      background-position: 50% 50%;
+      background-size: cover;
+      border: 1px solid #000;
+      width: 270px;
+      height: 190px;
+      margin-left: -30px;
+      margin-bottom: 14px;
+    }
+
+    .mobile-bella-image-four {
+      background: url('../images/4-bella-trae.png');
+      background-position: 50% 50%;
+      background-size: cover;
+      border: 1px solid #000;
+      width: 270px;
+      height: 190px;
+      margin-left: -30px;
+      margin-bottom: 10px;
+    }
+
+}
+
+
+@media(max-width: 361px) and (min-width: 359px) and (max-height: 641px) and (min-height: 639px) {
+
+    #mobile-bella {
+      background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('../images/studio-background.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 1980px;
+    }
+
+    .mobile-bella-writeup-container {
+      margin-left: -30px;
+    }
+
+    .mobile-bella-container {
+      padding-left: 0;
+      padding-right: 0;
+      width: 360px;
+      height: 55px;
+      position: relative;
+      top: 60px;
+    }
+
+    .mobile-bella-title {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: #FFF;
+    }
+
+    .mobile-bella-title h2 {
+      margin: 0;
+    }
+
+    .mobile-bella-statement-container {
+      position: relative;
+      top: 70px;
+      width: 300px;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: #FFF;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      margin-left: 30px;
+    }
+
+    .mobile-bella-images-container {
+      width: 300px;
+      height: 840px;
+      background-color: rgba(0, 0, 0, 0.7);
+      margin-left: 15px;
+      position: relative;
+      top: 85px;
+    }
+
+    .mobile-bella-image-one {
+      background: url('../images/1-bella-trae.png');
+      background-position: 50% 50%;
+      background-size: cover;
+      border: 1px solid #000;
+      width: 270px;
+      height: 190px;
+      margin-left: -30px;
+      margin-top: 15px;
+      margin-bottom: 14px;
+    }
+
+    .mobile-bella-image-two {
+      background: url('../images/2-bella-trae.png');
+      background-position: 50% 50%;
+      background-size: cover;
+      border: 1px solid #000;
+      width: 270px;
+      height: 190px;
+      margin-left: -30px;
+      margin-bottom: 14px;
+    }
+
+    .mobile-bella-image-three {
+      background: url('../images/3-bella-trae.png');
+      background-position: 50% 50%;
+      background-size: cover;
+      border: 1px solid #000;
+      width: 270px;
+      height: 190px;
+      margin-left: -30px;
+      margin-bottom: 14px;
+    }
+
+    .mobile-bella-image-four {
+      background: url('../images/4-bella-trae.png');
+      background-position: 50% 50%;
+      background-size: cover;
+      border: 1px solid #000;
+      width: 270px;
+      height: 190px;
+      margin-left: -30px;
+      margin-bottom: 10px;
+    }
+
+
+}
+
+
+@media(max-height: 569px) and (min-height: 479px) and (max-width: 321px) and (min-width: 319px) {
+
+  #mobile-bella {
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('../images/studio-background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 1980px;
+  }
+
+  .mobile-bella-writeup-container {
+    margin-left: -30px;
+  }
+
+  .mobile-bella-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .mobile-bella-title {
+    width: 320px;
+    height: 55px;
+    position: relative;
+    top: 40px;
+    padding-top: -10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #FFF;
+  }
+
+  .mobile-bella-statement-container {
+    position: relative;
+    top: 50px;
+    width: 280px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #FFF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 20px;
+  }
+
+  .mobile-bella-images-container {
+    width: 280px;
+    height: 840px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-left: 5px;
+    position: relative;
+    top: 65px;
+  }
+
+  .mobile-bella-image-one {
+    background: url('../images/1-bella-trae.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    border: 1px solid #000;
+    width: 250px;
+    height: 190px;
+    margin-left: -30px;
+    margin-top: 15px;
+    margin-bottom: 14px;
+  }
+
+  .mobile-bella-image-two {
+    background: url('../images/2-bella-trae.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    border: 1px solid #000;
+    width: 250px;
+    height: 190px;
+    margin-left: -30px;
+    margin-bottom: 14px;
+  }
+
+  .mobile-bella-image-three {
+    background: url('../images/3-bella-trae.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    border: 1px solid #000;
+    width: 250px;
+    height: 190px;
+    margin-left: -30px;
+    margin-bottom: 14px;
+  }
+
+  .mobile-bella-image-four {
+    background: url('../images/4-bella-trae.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    border: 1px solid #000;
+    width: 250px;
+    height: 190px;
+    margin-left: -30px;
+    margin-bottom: 10px;
+  }
+
+}
+
+
+
+
+/***********************************************************************************************
+Mobile
+***********************************************************************************************/
+
 
 
 
