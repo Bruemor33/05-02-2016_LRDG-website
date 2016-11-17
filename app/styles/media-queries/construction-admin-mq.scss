@@ -48,6 +48,19 @@ Construction Administration Media Queries
 
 }
 
+@media(max-height: 1080px) and (max-width: 1440px) and (min-width: 1261px) {
+
+  .construction-background {
+    height: 1000px;
+    position: fixed;
+  }
+
+  .construction-statement-container {
+    height: 500px;
+  }
+
+}
+
 @media(max-height: 800px) and (max-width: 1280px) and (min-width: 1080px) {
 
   .construction-scroller {

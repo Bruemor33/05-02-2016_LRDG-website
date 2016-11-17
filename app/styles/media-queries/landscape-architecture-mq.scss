@@ -9,7 +9,7 @@ Landscape Architecture Media Queries
 
 
 
-@media(max-height: 1080px) and (max-width: 1920px) and (min-width: 1440px) {
+@media(max-height: 1080px) and (max-width: 1920px) and (min-width: 1441px) {
 
   .landscape-background {
     position: fixed;
@@ -68,6 +68,28 @@ Landscape Architecture Media Queries
 
   .landscape-image-nine {
     height: 238px;
+  }
+
+}
+
+@media(max-height: 1080px) and (max-width: 1440px) and (min-width: 1261px) {
+
+  .landscape-background {
+    position: fixed;
+    height: 1000px;
+  }
+
+  .landscape-architecture-statement-container {
+    height: 600px;
+  }
+
+  .landscape-scroller {
+    height: 560px;
+    overflow-y: scroll;
+  }
+
+  .landscape-images-container {
+    margin-left: 30px;
   }
 
 }
