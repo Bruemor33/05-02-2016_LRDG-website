@@ -37,7 +37,7 @@
     "scss": "sass --style compressed --update app/styles:dist/css",
     "autoprefixer": "postcss -u autoprefixer -r dist/css/*.css",
     "lint": "eslint app/scripts",
-    "browserify": "browserify app/scripts/index.js | uglifyjs -c > dist/js/bundle.js",
+    "browserify": "NODE_ENV=production browserify app/scripts/index.js | uglifyjs -c > dist/js/bundle.js",
     "imagemin": "imagemin app/images dist/images -p",
     "favicon": "cp app/favicon.ico dist/",
     "build:css": "npm run scss && npm run autoprefixer",
@@ -51,11 +51,13 @@
     "watch:html": "npm run html && onchange 'app/**/*.html' -- npm run html",
     "watch:images": "npm run build:images && onchange 'app/images/*' -- npm run build:images",
     "server": "live-server --open='dist'",
+    "start": "NODE_ENV=production",
     "watch": "parallelshell 'npm run watch:html' 'npm run watch:scss' 'npm run watch:images' 'npm run watch:js' 'npm run server'"
   },
   "browserify": {
     "transform": [
       "browserify-shim",
+      "envify",
       "hbsfy",
       "reactify",
       "strictify"
