@@ -8,8 +8,10 @@ require('Backbone-React-Component');
 
 
 
+
+
 var modalStyle = {
-  width: '370px'
+  width: '315px'
 }
 
 var backdropStyle = {
