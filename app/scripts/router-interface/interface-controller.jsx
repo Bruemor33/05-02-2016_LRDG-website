@@ -54,6 +54,8 @@ var MobileMagicVillage = require('../components/projects/mobile-magic-village.js
 var MobileMagicVillage = require('../components/projects/mobile-bella-trae.jsx').MobileMagicVillage;
 var MobileStudioComponent = require('../components/mobile-studio.jsx').MobileStudioComponent;
 
+process.env.NODE_ENV === 'production';
+
 
 //kick off controller
 var InterfaceComponent = React.createClass({
