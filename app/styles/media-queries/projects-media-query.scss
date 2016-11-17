@@ -57,12 +57,12 @@ Projects Window
 @media(max-height: 1080px) and (min-height: 800px) and (max-width: 1440px) and (min-width: 1261px) {
 
   .project-one-container {
-    margin-left: 1px;
+    margin-left: -3px;
   }
 
   .hover-effect-2 {
     height: 190px;
-    width: 330px;
+    width: 300px;
   }
 
 }
@@ -101,21 +101,156 @@ Mobile
 
 @media(max-width: 426px) and (min-width: 400px) and (max-height: 737px) and (min-height: 735px) {
 
+  .project-one-container {
+    margin-left: 60px;
+    top: 30px;
+  }
 
+  .plaza-background {
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 20;
+  }
+
+  .plaza-landing h3 {
+    z-index: 20;
+
+  }
+
+  .nonapark-landing h3 {
+    z-index: 20;
+  }
+
+  .seaisle-landing h3 {
+    z-index: 20;
+  }
+
+  .kindred-writeup h3 {
+    z-index: 20;
+  }
+
+  .waterleigh-landing h3 {
+    z-index: 20;
+  }
+
+  .altis-landing h3 {
+    z-index: 20;
+  }
+
+  .dwell-landing h3 {
+    z-index: 20;
+  }
+
+  .ventanas-landing h3 {
+    z-index: 20;
+  }
+
+  .brisas-landing h3 {
+    z-index: 20;
+  }
 
 }
 
 
 @media(max-width: 375px) and (min-width: 370px) and (max-height: 668px) and (min-height: 666px) {
 
+  .project-one-container {
+    margin-left: 36px;
+    top: 30px;
+  }
 
+  .plaza-background {
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 20;
+  }
+
+  .plaza-landing h3 {
+    z-index: 20;
+
+  }
+
+  .nonapark-landing h3 {
+    z-index: 20;
+  }
+
+  .seaisle-landing h3 {
+    z-index: 20;
+  }
+
+  .kindred-writeup h3 {
+    z-index: 20;
+  }
+
+  .waterleigh-landing h3 {
+    z-index: 20;
+  }
+
+  .altis-landing h3 {
+    z-index: 20;
+  }
+
+  .dwell-landing h3 {
+    z-index: 20;
+  }
+
+  .ventanas-landing h3 {
+    z-index: 20;
+  }
+
+  .brisas-landing h3 {
+    z-index: 20;
+  }
 
 }
 
 
 @media(max-width: 361px) and (min-width: 359px) and (max-height: 641px) and (min-height: 639px) {
 
+  .project-one-container {
+    margin-left: 30px;
+    top: 30px;
+  }
 
+  .plaza-background {
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 20;
+  }
+
+  .plaza-landing h3 {
+    z-index: 20;
+
+  }
+
+  .nonapark-landing h3 {
+    z-index: 20;
+  }
+
+  .seaisle-landing h3 {
+    z-index: 20;
+  }
+
+  .kindred-writeup h3 {
+    z-index: 20;
+  }
+
+  .waterleigh-landing h3 {
+    z-index: 20;
+  }
+
+  .altis-landing h3 {
+    z-index: 20;
+  }
+
+  .dwell-landing h3 {
+    z-index: 20;
+  }
+
+  .ventanas-landing h3 {
+    z-index: 20;
+  }
+
+  .brisas-landing h3 {
+    z-index: 20;
+  }
 
 }
 

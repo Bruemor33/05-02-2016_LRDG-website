@@ -40,6 +40,7 @@ Modal {
   left: 10%;
   margin-left: 15px;
   padding: 0;
+  position: absolute;
 }
 
 .mobile-nav-toggle {
@@ -60,12 +61,20 @@ Modal {
   //margin-top: 50px;
   padding: 0;
   background-color: #222;
+  text-align: center;
+}
+
+.mobile-nav-links {
+  height: 40px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .mobile-nav-links a {
-  padding: 10;
   color: #FFF;
   margin: 0;
+  height: 40px;
   text-decoration: none;
 }
 
