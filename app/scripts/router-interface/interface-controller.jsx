@@ -53,6 +53,7 @@ var MobileHarmony = require('../components/projects/mobile-harmony.jsx').MobileH
 var MobileMagicVillage = require('../components/projects/mobile-magic-village.jsx').MobileMagicVillage;
 var MobileMagicVillage = require('../components/projects/mobile-bella-trae.jsx').MobileMagicVillage;
 var MobileStudioComponent = require('../components/mobile-studio.jsx').MobileStudioComponent;
+var MobileClientsComponent = require('../components/mobile-clients.jsx').MobileClientsComponent;
 
 process.env.NODE_ENV === 'production';
 
@@ -218,6 +219,7 @@ var InterfaceComponent = React.createClass({
     if(this.state.router.current == "clients"){
       navigation = (<PracticeNavigation />)
       mobileNav = (<MobileNavigation />)
+      mobileBody = (<MobileClientsComponent />)
       body = (<ClientsComponent />)
     }
 
