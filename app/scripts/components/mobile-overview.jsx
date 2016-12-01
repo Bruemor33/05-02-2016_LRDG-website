@@ -15,7 +15,7 @@ var MobileOverviewComponent = React.createClass({
   render: function(){
 
     return(
-      <div className="container-fluid">
+      <div className="mobile container-fluid">
         <div className="mobile-overview-background">
           <div className="row">
             <div className="mobile-practice-container col-md-12">
