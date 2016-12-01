@@ -40,6 +40,7 @@ var ContactPageNavigation = require('../components/contact-nav.jsx').ContactPage
 var ClientsComponent = require('../components/clients.jsx').ClientsComponent;
 var ClientsPageNavigation = require('../components/clients-nav.jsx').ClientsPageNavigation;
 var MobileNavigation = require('../components/mobile-nav.jsx').MobileNavigation;
+var MobileOverviewComponent = require('../components/mobile-overview.jsx').MobileOverviewComponent;
 var MobilePlazaAtUniversity = require('../components/projects/mobile-plaza-university.jsx').MobilePlazaAtUniversity;
 var MobileNonaPark = require('../components/projects/mobile-nona-park.jsx').MobileNonaPark;
 var MobileSeaIsle = require('../components/projects/mobile-sea-isle.jsx').MobileSeaIsle;
@@ -92,6 +93,7 @@ var InterfaceComponent = React.createClass({
     if(this.state.router.current == "overview"){
       siteNavigation = (<PracticeNavigation />)
       mobileNav = (<MobileNavigation />)
+      mobileBody = (<MobileOverviewComponent />)
       body = (<OverviewComponent />)
     }
 
